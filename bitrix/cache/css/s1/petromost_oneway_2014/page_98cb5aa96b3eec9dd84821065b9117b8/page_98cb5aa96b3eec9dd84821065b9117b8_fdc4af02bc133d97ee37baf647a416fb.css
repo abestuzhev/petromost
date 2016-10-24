@@ -1,0 +1,14 @@
+
+
+
+/* Start:/bitrix/templates/petromost_oneway_2014/components/bitrix/catalog.section/virtual_section/style.css*/
+.catalog-price {
+	 color:red;
+}
+div.catalog-section table td {
+	padding-right:10px;
+	padding-top:10px;
+}
+
+/* End */
+/* /bitrix/templates/petromost_oneway_2014/components/bitrix/catalog.section/virtual_section/style.css */

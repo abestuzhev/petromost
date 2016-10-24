@@ -1,0 +1,4820 @@
+﻿
+
+
+/* Start:/bitrix/templates/petromost_oneway_2014/petromost_template_styles.css*/
+/*old*/* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+html {
+    height: 100%;
+}
+body {
+    font: 12px/18px Tahoma, Arial, Verdana, Tahoma, sans-serif;
+    height: 100%;
+}
+/*Fix IE Bug Main Page*/
+.over {
+    overflow: hidden;
+}
+/*Fix IE Bug*/
+a {
+    color: #666666;
+    outline: none;
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+p {
+    margin: 0 0 18px
+}
+img {
+    border: none;
+}
+input {
+    vertical-align: middle;
+}
+#wrapper {
+    width: 1149px;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto;
+}
+input[type=submit]{cursor: pointer !important;}
+ul.thumbNav li {
+    margin: 0 !important;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+    height: 134px;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/header_bg.png');
+    position: relative;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.logo{
+    text-decoration: none;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/logo.png');
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 309px;
+    height: 57px;
+    text-decoration: none;
+}
+.top_menu{
+    list-style: none;  
+    left: 0;  
+    bottom: 0;
+    position: absolute;
+}
+.top_menu li{
+    display: inline-block;
+    padding: 20px 17px 8px 10px;
+}
+.top_menu li a{
+    color: #333333;
+    font: 16px Tahoma;
+    text-decoration: none;
+
+}
+.phone{
+    float:right;
+    width: 245px;
+    margin-right: 106px;
+}
+.phone span{
+    font: 13px Tahoma;
+    display: block;
+    margin: 0 0 15px 5px;
+}
+
+.dostavka{
+    float: right;
+    overflow: hidden;
+    margin: 15px 1px 5px 0;
+}
+.dostavka span{
+    font: 13px Tahoma;
+    margin-left: 10px;    
+}
+
+.time{
+    text-align: left;
+    margin-top: 5px;
+}
+
+.time td{
+    padding: 5px 0 3px 10px;
+    vertical-align: top;
+    width: 90px;
+}
+.bg_td{
+    background-color: #f5f5f5;
+}
+.time a{
+    display: block;
+    text-decoration: none;
+    color: #cccccc;
+}
+.first_td{
+    background: none !important;    
+}
+.first_td a{
+    color:black;
+    text-decoration: none;
+    border-bottom: 1px #daac5c dotted  !important;
+    display: inline-block !important;
+}
+.select{
+    color:#daac5c !important;
+    background: none repeat scroll 0 0 #F5F5F5 !important;
+}
+.bg_td2{display: none;}
+.bl{
+    margin-top: -5px !important;
+    padding:0 0 4px 10px;
+}
+.unselect{
+    background: none;
+    padding: 0 0 3px 10px;
+}
+.forma{
+    position: absolute;
+    bottom: 4px;
+    right: 2px;
+    background: url('../../../../../templates/petromost_oneway_2014/images/form.png');
+    background-repeat: no-repeat;
+    width: 392px;
+    height: 21px;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+
+.forma span{
+    background: none;
+    color: #999999;
+    font: 13px Tahoma;
+}
+.forma select{
+    display:inline-block;
+    border: none;
+    background: none;
+}
+.forma input[type=text]{
+    border: none;
+    background: none;
+    width: 353px;
+    padding: 5px;
+    float: left;
+}
+.forma input[type=submit]{
+    border: none;
+    background: none;
+    width: 10px;
+    display: block;
+    width: 27px;
+    height: 25px;
+    margin-bottom: -5px;
+    cursor: pointer;
+    float: left;
+}
+
+.forma2{
+    background: url('../../../../../templates/petromost_oneway_2014/images/form.png');
+    background-repeat: no-repeat;
+    width: 392px;
+    height: 21px;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+.search_form_div {
+ position: absolute;
+    bottom: 4px;
+    right: 2px;
+}
+
+.forma2 span{
+    background: none;
+    color: #999999;
+    font: 13px Tahoma;
+}
+.forma2 select{
+    display:inline-block;
+    border: none;
+    background: none;
+}
+.forma2 input[type=text]{
+    border: none;
+    background: none;
+    width: 353px;
+    padding: 5px;
+    float: left;
+}
+.forma2 input[type=submit]{
+    border: none;
+    background: none;
+    width: 10px;
+    display: block;
+    width: 27px;
+    height: 25px;
+    margin-bottom: -5px;
+    cursor: pointer;
+    float: left;
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+    width: 100%;
+    position: relative;
+
+}
+
+#container {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    z-index: 5; 
+}
+#content {
+    padding: 10px 286px 233px 243px;
+    overflow: hidden;
+margin-bottom:20px;
+}
+
+.sp{
+    font: 25px  Tahoma;
+    background-color: white;
+    margin: -11px 0 0 0;
+    padding: 0 10px 0 1px;
+    display: inline-block;
+}
+
+.cl{
+    background-color: #f8f8f8;
+    overflow: visible;
+    margin-top: 21px;
+    margin-bottom: 15px;
+}
+.container{
+    overflow: hidden;
+    padding: 25px 0 0 0;
+    margin: 0 0 0 0;
+}   
+.container a{
+    display: inline-block;
+    margin-bottom: 5px;
+} 
+.products {
+    width: 175px;
+    margin: 0 13px 40px 13px;
+    font: 13px Tahoma;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+.l{
+    margin-right: 0 !important;
+}
+.class a{
+    color: #999999;
+
+}
+.name a{
+    color: #d2972f;
+}
+.name a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.pic{
+    height: 129px;
+    width: 170px;
+    margin: 10px 0 0 0;
+    display: block;
+    position: relative;
+}
+.pic img{
+
+}
+.products input[type=text]{
+    width: 30px;
+    height: 25px;
+    display:inline-block;
+    float: left;
+    border: none;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/f.png');
+    text-align: center;
+}
+
+.cena{
+    font:13px Tahoma;
+    color: #666666;
+    margin: 5px 0 10px 0;
+}
+.cost{
+    font: bold 20px Tahoma;
+    color: black;
+    padding-right: 5px;
+}
+
+.zacherknuto{
+    text-decoration: line-through;
+    padding-left: 27px;
+}
+.last_sp{
+    display: inline-block;
+}
+.kol{
+    overflow: hidden;
+    display: inline-block;
+}
+.minus{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/minus.png');
+    background-repeat: no-repeat;
+    float: left;
+    margin-top: 3px;
+    text-decoration: none;
+}
+.plus{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/plus.png');
+    background-repeat: no-repeat;
+    float:left;
+    margin-top: 3px;
+    text-decoration: none;
+}
+.in_cart{
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/cart.png');
+    height: 20px;
+    width: 91px;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+
+}
+/* Sidebar Left
+-----------------------------------------------------------------------------*/
+.sideLeft {
+    width: 210px;
+    position: relative;
+    background-color: #f8f8f8;
+    float: left;
+    margin-left: -243px;
+
+}
+.sideLeft span{
+    font: bold 15px Tahoma;
+    margin: 3px 0 1px 12px;
+    display: block;
+}
+.sideLeft span img{
+    margin: 1px 0 1px 5px;}
+
+.sideLeft ul{
+    overflow: hidden;
+    list-style: none;
+}
+.sideLeft li{
+    display: block;
+    margin: 0 !important;    
+}
+.sideLeft ul li a{
+    text-decoration: none;
+    display:block;
+    font:13px Tahoma;
+    color: #666666;
+    text-decoration: underline;
+    padding: 6px 15px 6px 10px;
+}
+.sideLeft ul li a:hover,.sideLeft ul li a.selected{
+    color: #d53b3b !important;
+    background: #F0F0F0;
+}
+.sideLeft ul li img{
+    margin: 2px 7px 7px 0;
+    float: left;
+    display: block;
+}
+.sidebar{
+    border-bottom:  1px solid #cccccc;
+}    
+.sidebar2{
+    padding: 5px 0;
+}
+.list{
+    border-top: 1px solid #cccccc;
+}
+.list li{
+    display: block;
+    border-top: 1px solid white;
+    border-bottom:1px solid #cccccc;
+    padding: 5px 0 0 15px;
+    margin: 0 !important;
+    padding: 3px 0 5px 15px;
+}
+.list a{
+    display: inline-block !important;
+    font: 16px Tahoma !important;
+    color: black !important; 
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/arrow2.png');
+    background-position:right;
+    background-repeat: no-repeat;
+    text-decoration: none !important;
+    padding-right: 15px;
+}
+.list a:hover{
+    color: red !important; 
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/arrow3.png') !important; 
+    background-repeat: no-repeat !important;
+    background-position:right !important;
+    padding-right: 15px !important;
+}
+.list li:hover{
+    background-color: #f0f0f0;
+}
+.book{
+    padding: 45px 0 20px 10px;
+    background-color: white !important;
+
+}
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+.sideRight {
+    width: 250px;
+    float: right;
+    overflow: hidden;
+    margin-right: -286px;
+}
+.enter{
+    display: inline-block;
+    color:#cc0000;
+    border-bottom: 1px red dotted;
+    text-decoration: none;
+    font: 16px Tahoma;
+}
+.cart{
+    margin: 15px 0 0 0;
+    border: none;
+    border-bottom: 2px #cccccc solid;
+    border-top: 2px #cccccc solid;
+    padding: 2px 0;
+}
+.cart_a{
+    overflow: hidden;
+    background-color:#f8f8f8;
+    margin-top: 12px;
+} 
+.cart a{
+    text-decoration: none;
+    overflow: hidden;
+}
+.cart span{
+    font: 25px Tahoma;
+    display: inline-block;
+}
+.b{
+    margin-top: 10px !important;
+}
+.cart_a span{
+    display: inline-block;
+}
+.small{
+    font: 12px Tahoma !important;
+    /*margin-left:10px;*/
+}
+.Large{
+    font:bold 18px Tahoma !important;
+    margin-left:10px;
+    margin-bottom: 5px;
+}
+
+.oformit{
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/cart1.png');
+    width: 91px;
+    height: 17px;
+    margin: 0 32px 0 0px ;
+    display: inline-block;
+    background-repeat: no-repeat;
+    text-decoration: none!important;
+    float: right;
+    border: none;
+}
+.sideRight img{
+    margin: 25px 0;
+
+}
+.rightblock{
+    overflow: hidden;
+}
+.dish{
+    margin: 0 0 30px 0;
+    overflow: hidden;
+}
+
+.cl a{
+    font:bold 12px  Tahoma;
+    color:black;
+    float: right;
+
+}
+.dish img{
+    float: left;
+    margin:2px 0 26px 3px !important;
+}
+.dish a{
+    color:#d2972f;
+    text-decoration: underline;
+}
+.dish div{
+    float: right;
+    width: 144px;
+}
+.dish span{
+    font: bold 30px  Tahoma;
+}
+.dish p{
+    color: #d3d3d3;
+    display: block;
+    width: 144px;
+    background-color: #f8f8f8;
+}
+.news{
+    font:13px Tahoma;
+}
+.news_a{
+    border-bottom: 5px #f8f8f8 solid;
+    margin: 5px 0 10px 0;
+    padding: 1px 5px 5px 5px ;
+}
+.news a{
+    color: #666666;
+    text-decoration: none;
+}
+.news a:hover{
+    color: #cc0000;
+    text-decoration: underline;
+}
+.last{
+    border: none !important;
+}
+.cart2{
+    display: block !important;
+    margin: 15px 0 !important;
+    border: none;
+    border-bottom: 2px #cccccc solid;
+    border-top: 2px #cccccc solid;
+    padding: 2px 0;
+}
+#tabl{display: none;}
+.sp a{
+    font: 25px Tahoma;
+    display:block;
+    color: #e97f1d !important;
+    margin: -5px 0 0 0;
+
+}
+.cart2{
+    display: none;
+}
+.cart2 table{
+    margin: 12px 0 -10px;
+}
+.cart2 table td{
+    vertical-align: middle;
+    font: 11px Tahoma;
+    color: #666666;
+    padding: 1px 2px 5px 5px;
+    background-color:#f8f8f8;
+}
+.cart2 table td.cart_price,
+.cart2 table td.cart_quan{
+    white-space: nowrap;
+}
+.cart2 table td.cart_quan{
+    width: 90px;
+}
+.cart2 table td span{
+    display: inline-block;
+    padding-bottom: 12px;
+}
+.cart2 a{
+    color:#333333;
+    padding: 5px 4px 3px 0;
+
+}
+.f_tr td{
+    color: #999999 !important;
+    border-bottom: 2px white solid;
+}
+.cart2 table td input[type=text]{
+    border: none;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/f1.png');
+    width: 35px;
+    height: 12px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 1px;
+    background-size: cover;
+}
+
+.minus1{
+    display: inline-block;
+    width:9px;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/minus1.png');
+    background-repeat: no-repeat;
+    text-decoration: none;
+    float: left;
+    margin: 3px 0 0 0;
+}
+.plus1{
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/plus1.png');
+    background-repeat: no-repeat;
+    width:9px;
+    text-decoration: none;
+    float: left;
+    margin: 3px 0 0 3px;
+}
+.svernut,.razvernut{
+    color: #e97f1d !important;
+    display: inline-block;
+    border-bottom: 1px red dotted;
+    text-decoration: none !important;
+    font: 13px Tahoma;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/arrow5.png');
+    padding: 0 13px 0 0 !important;
+    background-repeat: no-repeat;
+    background-position: right 6px;
+    margin: 0 0 5px 11px !important;    
+    display: none;
+}
+.razvernut{   
+    float: left;
+    display: inline-block;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/arrow4.png');
+
+}
+/* Tovar
+-----------------------------------------------------------------------------*/
+.nav{
+    display: inline-block;
+    color: #cccccc;
+    margin-top: 2px;
+}
+.cl1{
+    margin-top: 10px !important;
+    background-color: #f8f8f8;
+}
+.nav a{
+    color: #cccccc;
+    font: 11px Tahoma;
+    text-decoration: underline;
+}
+.l_a{
+    color:#999999 !important;
+    text-decoration: none !important;
+}
+#tovar{
+    overflow: hidden;
+}
+#tovar img{
+    float: right;
+
+}
+#tovar ul{
+    font: 13px Tahoma;
+    color: #666666;
+    display:block;
+    line-height: 20px;
+}
+#tovar ul li{
+    margin: 8px 0 0 0;
+}
+#tovar ul li li{
+    margin: 0!important;
+}
+.f_li{
+    font: 16px Tahoma;
+    color: black;
+}
+#tovar strong{
+    color: black;
+    margin: 0 2px;
+}
+.tovar_cena{
+    float: right;
+    margin-bottom: 50px;
+}
+.tovar_cena1{
+    overflow: hidden;
+}
+.tovar_cena input[type=text]{
+    width: 30px;
+    height: 25px;
+    display:inline-block;
+    float: left;
+    border: none;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/f.png');
+    text-align: center;}
+.cost_a{
+    font-size: 28px !important;
+}
+.in_cart1{
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/cart.png');
+    height: 20px;
+    width: 91px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-decoration: none;
+    margin:3px 0 0 9px;
+    float: right;
+}
+.section_list{
+    margin: 20px 0 0 2px;
+    color:#999999
+}
+.section_list td{
+    width: 185px;
+    padding: 10px 20px 0 5px;
+}
+.section_list a{
+    display: inline-block;
+    font: 11px Tahoma;
+    color:#999999
+}
+.section_list a:hover{
+    color: red;
+}
+.First{
+    color: #d2972f !important;
+    font-size: 13px !important;
+    margin-bottom: 7px;
+}
+.First1{
+    color: #4ca51f !important;
+}
+/* Tovar
+-----------------------------------------------------------------------------*/
+/* cat
+-----------------------------------------------------------------------------*/
+.links a{
+    display: block;
+    font: 12px Tahoma;
+    color: #e97f1d;
+    margin: 0 0 2px;
+}
+.dont_forget{
+    display: block;
+    margin: 0 0 10px 0;
+    font: 25px Tahoma;
+}
+.cart_form{
+    font: 13px Tahoma;
+    color: #333333;
+    padding: 8px 10px 5px 10px;
+    background-color: #f8f8f8;
+    margin: 30px 0 25px 0;
+}
+.cart_form2{
+    margin-top: 10px !important;
+}
+.cart_form input[type=text]{
+    border: none;
+    height: 25px;
+    margin: 0 0 3px 4px;
+    text-align: center;
+    color: #999999;
+}
+.choose{
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    width: 93px;
+    height: 20px;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/choose.png');
+    float: right;
+    margin-right: 10px;
+}
+.cart_form select{
+    padding: 3px 5px;
+    border: none;
+    width: 185px;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/t1.png');
+}
+.cart_form input[type=text]{
+    width: 59px;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/t2.png');
+}
+.page_nav{
+    margin: 10px 0 10px 0;
+    font: 13px Tahoma;
+}
+.page_nav1{
+    margin-bottom: 50px !important;
+}
+.page_nav a{
+    text-decoration: none;
+    color: #333333;
+    font: 13px Tahoma;
+}
+.page_nav .selected{
+    color: #cc0000 !important;
+}
+.page_nav span{
+    float: right;
+    display: inline-block;
+    padding: 0 0 5px 0;
+}
+.page_nav span a{
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #666666;
+}
+
+.ar{
+    text-decoration: underline!important;
+
+}
+.ar:hover{
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/fon_a.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-decoration: none !important;
+}
+.selected{
+    text-decoration: none;
+    color: #666666 !important;
+}
+.cart_table{
+    vertical-align: middle;
+    font: 11px Tahoma;
+    width: 100%;
+    border-bottom: 1px #cccccc solid;
+}
+.cart_table2{
+    margin: 10px 0;
+}
+.cart_table td{
+    padding: 17px 0 5px 10px;  
+}
+.colomn{
+    color: #999999;
+    font: 11px Tahoma;
+
+}
+.colomn td{
+    border-bottom: 1px #cccccc solid;
+    border-top: 1px #cccccc solid;
+    height: 14px;
+    padding: 8px 0 8px 10px !important;
+}
+.table_img{
+    width: 74px;
+    padding-left: 0 !important;
+}
+.name_a{
+    width: 240px;
+}
+.name_a a{
+    color: #d2972f;
+    line-height: 15px;
+}
+.name_a a:hover{
+    color: red;
+}
+.type{
+    width: 80px;
+}
+
+.rub{
+    width: 107px;
+}
+.quont{
+    width: 90px;
+}
+.quont_a{
+    float: left;
+    margin: 0 5px 0 26px;
+}
+.quont_a a{
+    display: block;
+    height: 5px;
+    width: 5px;
+    text-decoration: none;
+    margin: 0 0 5px 0;
+}
+.up_a{
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/up_a.png');
+    background-repeat: no-repeat;
+}
+.down_a{
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/down_a.png');
+    background-repeat: no-repeat;
+}
+.quont input[type=text]{
+    width: 30px;
+    height: 14px;
+    text-align: center;
+    border: none;
+    float: left;
+}
+.cart_put{
+    width: 80px;
+
+}
+.cart_put a{
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/cart_put.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 72px;
+    height: 20px;
+    text-decoration: none !important;
+}
+.cart_put2 a{
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/delete.png') !important;
+}
+/*cat
+-----------------------------------------------------------------------------*/
+/*cart
+-----------------------------------------------------------------------------*/
+.table_header{
+    margin: 10px 0;
+    border-bottom: 5px #cccccc solid;
+    overflow: hidden;
+    font:  13px Tahoma;
+}
+.table_header a{
+    color: #666666;
+    float: left;
+    display: inline-block;
+    background-color:#f8f8f8;
+    margin: 1px 5px -1px -1px;
+    padding: 3px 5px 8px 5px;
+}
+.table_header span{
+    display: inline-block;
+    border-bottom: 1px #cccccc dotted;
+    height: 17px;
+}
+.table_header_selected span{
+    background-color: #cccccc !important;
+    padding: 2px 6px 4px 6px;
+    color: white;
+    height: 20px !important;
+    text-decoration: none;
+    font:  16px Tahoma !important;
+}
+.table_header_selected{
+    padding: 1px 2px 1px 1px !important;
+}
+.w a{
+    display: inline-block;
+    width: 82px; 
+    height: 16px;
+    font: 11px Tahoma;
+    text-decoration: none;
+}
+.w td{
+    border-top: 1px #cccccc solid;
+    padding-top: 10px !important;
+}
+.w1 input{
+    width: 83px;
+    height: 17px;
+    border: none;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/perescitat.png');
+    background-repeat: no-repeat;
+
+}
+.w2 input{
+    width: 83px;
+    height: 16px;
+    border: none;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/oformit.png');
+    padding-right: 5px;
+    background-repeat: no-repeat;
+}
+
+.w3{
+    font: 20px Tahoma;
+    margin-left: 0 !important;
+}
+.cart_table1{
+    border-bottom: none !important;
+}
+#kabinet{
+    overflow: hidden;
+    display: block;
+}
+#kabinet a{
+    text-decoration: underline;
+    display: block;
+}
+.kabinet{
+    font: 25px Tahoma;
+    color: #e97f1d;
+    float: left;
+}
+.exit{
+    font: 13px Tahoma;
+    color: #666666;
+    float: right;
+    margin-top: 10px;
+}
+#All_ingradients{
+    overflow: hidden;
+    margin-top: 15px;
+}
+.All_ingradients{
+    display: inline-block;
+    float: right;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/ingradients.png');
+    height: 17px;
+    width: 144px;
+    text-decoration: none;
+}
+.cl2{
+    margin-top: 50px;
+}
+.a_b{
+    background-color: white !important;
+    display: inline-block;
+    float: right;
+}
+.b7{
+    display: inline-block;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/b7.png');
+    background-repeat: no-repeat;
+    height: 19px;
+    width: 23px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.b8{
+    display: inline-block;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/b8.png');
+    background-repeat: no-repeat;
+    height: 19px;
+    width: 23px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.b9{
+    display: inline-block;
+    background-image: url('../../../../../templates/petromost_oneway_2014/images/b9.png');
+    background-repeat: no-repeat;
+    height: 19px;
+    width: 23px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+/*cart
+-----------------------------------------------------------------------------*/
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    margin: -233px auto 0;
+    width: 1146px;
+    height: 233px;
+    overflow: hidden;
+    padding-top: 15px;
+    border-top: 1px #e97f1d solid;
+    position: relative;
+    z-index: 5;
+}
+#footer a{font: 13px Tahoma;}
+
+#footer_menu{
+    float:left;    
+}
+#footer_menu th{
+    text-align: left;
+    font: 20px Tahoma;
+}
+#footer_menu td{
+    vertical-align: top;
+    padding-right: 50px;
+}
+.last_td a{
+    padding-right: 1px !important;
+}
+#footer_menu a{
+    display: block;
+    color:#999999;
+    padding: 5px 0 4px 0;
+}
+#footer .footer_right{
+    float: right;
+    height: 48px;
+    width: 181px;
+    margin-top: 5px;
+}
+#footer .footer_right span{
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #666666;
+    margin-left: 15px;
+}
+.copy{
+    margin-left: -5px !important;
+}
+.copy a{
+    color: red;
+    display: inline-block;
+}
+#content .sideLeft li{margin: 0 0 0 0 !important;}
+/*#content li{margin: 0 0 0 15px !important;}*/
+.add_upform {
+    width: 160px !important;
+}
+.add_recipe {
+    min-width: 115px;
+    padding: 0 10px;
+    height: 25px;
+    margin: 0 !important;
+    /*    background: url(/images/red_but.png) repeat;*/
+    border: none;
+    border-radius: 5px 0px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(bottom, rgb(176,17,17) 28%, rgb(217,21,21) 64%);
+    background-image: -o-linear-gradient(bottom, rgb(176,17,17) 28%, rgb(217,21,21) 64%);
+    background-image: -moz-linear-gradient(bottom, rgb(176,17,17) 28%, rgb(217,21,21) 64%);
+    background-image: -webkit-linear-gradient(bottom, rgb(176,17,17) 28%, rgb(217,21,21) 64%);
+    background-image: -ms-linear-gradient(bottom, rgb(176,17,17) 28%, rgb(217,21,21) 64%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.28, rgb(176,17,17)),
+        color-stop(0.64, rgb(217,21,21))
+        );
+}
+.add_recipe.inactive {
+    background-image: linear-gradient(bottom, rgb(176, 165, 169) 28%, rgb(161, 156, 156) 64%);
+    background-image: -o-linear-gradient(bottom, rgb(176, 165, 169) 28%, rgb(161, 156, 156) 64%);
+    background-image: -moz-linear-gradient(bottom, rgb(176, 165, 169) 28%, rgb(161, 156, 156) 64%);
+    background-image: -webkit-linear-gradient(bottom, rgb(176, 165, 169) 28%, rgb(161, 156, 156) 64%);
+    background-image: -ms-linear-gradient(bottom, rgb(176, 165, 169) 28%, rgb(161, 156, 156) 64%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.28, rgb(176, 165, 169)),
+        color-stop(0.64, rgb(161, 156, 156))
+    );
+}
+.field_error {
+    border: 1px solid red;
+}
+.field_error_icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url('/bitrix/templates/petromost_oneway_2014/img/error.png') 0 0 no-repeat;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.zgaloba {
+    border-bottom: 1px dotted #CCC;
+    padding-bottom: 10px;
+}
+.q_caption {
+    padding-bottom: 5px;
+}
+.q_date {
+    color: #666666;
+    font-size: 10px;
+}
+
+
+#footer_menu_2{
+    float:left;    
+}
+#footer_menu_2 th{
+    text-align: left;
+    font: 20px Tahoma;
+}
+#footer_menu_2 td{
+    vertical-align: top;
+}
+.last_td a{
+    padding-right: 1px !important;
+}
+#footer_menu_2 a{
+    display: block;
+    color:#999999;
+    padding: 5px 0 4px 0;
+    width: 130px;
+}
+.map-columns ul {
+    list-style-type: none;
+}
+
+.upform table td:first-child {
+    text-align: right;
+    vertical-align: top;
+}
+.upform table input[type='text'], .upform table input[type='email'] {
+    height: 25px;
+    padding: 0px;
+    padding-left: 5px;
+    width:98%;
+}
+.upform table td {
+    padding-bottom: 10px;
+
+}
+.data-table td {
+    padding-bottom: 14px;
+}
+.subsctibe-table {
+    padding-top: 15px;
+}
+.subscr-label {
+    padding: 0 10px 10px 0;
+}
+.new_price {
+    color: #d53b3b;
+    font-size: 1.5em;
+    line-height: 1.6em;
+}
+.new_price__price {
+    font-size: 2em;
+    font-weight: bold;
+    display: inline-block;
+}
+.new_price__price-small {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.new_price__text {
+    /*margin-left: -10%;*/
+    font-size: 0.8em;
+    display: inline-block;
+}
+.new_price .mera {
+    font-size: 0.7em;
+}
+.old_price {
+    margin: 0;
+    position: relative;
+    color:#777;
+    display: inline-block;
+    vertical-align: top;
+}
+.old_price .cost:after {
+    position: absolute;
+    width: 100%;
+    content: "";
+    border-top: 1px solid #666666;
+    top: .6em;
+    left: 0;
+    z-index: 2;
+    /*-moz-transform: rotate(-15deg);*/
+    /*-ms-transform: rotate(-15deg);*/
+    /*-webkit-transform: rotate(-15deg);*/
+    /*-o-transform: rotate(-15deg);*/
+    /*transform: rotate(-15deg);*/
+}
+.red_star {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+.order_confirm {
+    margin: 30px 0 0 0;
+}
+.order_confirm__text {
+    display: inline-block;
+    max-width: 60%;
+    vertical-align: top;
+}
+
+.cost-sale {
+    color: #666666;
+    font-size: 20px !important;
+}
+
+.sales_block {
+    /*display: none;*/
+    position: absolute;
+    /*background: #f58a44; *//* Old browsers */
+    /*background: -moz-linear-gradient(top, #f58a44 0%, #db6628 100%); *//* FF3.6+ */
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f58a44), color-stop(100%,#db6628)); *//* Chrome,Safari4+ */
+    /*background: -webkit-linear-gradient(top, #f58a44 0%,#db6628 100%); *//* Chrome10+,Safari5.1+ */
+    /*background: -o-linear-gradient(top, #f58a44 0%,#db6628 100%); *//* Opera 11.10+ */
+    /*background: -ms-linear-gradient(top, #f58a44 0%,#db6628 100%); *//* IE10+ */
+    /*background: linear-gradient(to bottom, #f58a44 0%,#db6628 100%); *//* W3C */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f58a44', endColorstr='#db6628',GradientType=0 ); *//* IE6-9 */
+    background: url('../../../../../templates/petromost_oneway_2014/images/sale_icon.png') 0 0 no-repeat;
+    color: #ffffff;
+     padding: 9px 55px;
+     top: -4px;
+     background-size: 100% 100%;
+     left: -10px;
+     border-radius: 5px 0px 5px 0px;
+    font-family: arial;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 0.9em;
+}
+
+.cart_icon {
+width: 30px;
+height: 30px;
+display: inline-block;
+background: url(../../../../../../images/cart_pic.png) 0 0 no-repeat;
+background-size: 100% auto;
+margin: 6px 0 5px 10px;
+vertical-align: middle;
+}
+.cart_a span {
+display: inline-block;
+vertical-align: middle;
+}
+
+/*111*/
+
+
+/* End */
+
+
+
+/* Start:/bitrix/templates/petromost_oneway_2014/js/fancybox/jquery.fancybox-1.3.4.css*/
+/*
+ * FancyBox - jQuery Plugin
+ * Simple and fancy lightbox alternative
+ *
+ * Examples and documentation at: http://fancybox.net
+ * 
+ * Copyright (c) 2008 - 2010 Janis Skarnelis
+ * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
+ * 
+ * Version: 1.3.4 (11/11/2010)
+ * Requires: jQuery v1.3+
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ *   http://www.opensource.org/licenses/mit-license.php
+ *   http://www.gnu.org/licenses/gpl.html
+ */
+
+#fancybox-loading {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	margin-left: -20px;
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 1104;
+	display: none;
+}
+
+#fancybox-loading div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 480px;
+	background-image: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox.png');
+}
+
+#fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1100;
+	display: none;
+	background-color: rgba(255,255,255,.9)!important;
+}
+
+#fancybox-tmp {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow: auto;
+	display: none;
+}
+
+#fancybox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	z-index: 1101;
+	outline: none;
+	display: none;
+}
+
+#fancybox-outer {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	-moz-box-shadow: 0 0 50px rgba(0,0,0,.2);
+-webkit-box-shadow: 0 0 50px rgba(0,0,0,.2);
+box-shadow: 0 0 50px rgba(0,0,0,.2);
+}
+
+#fancybox-content {
+	width: 0;
+	height: 0;
+	padding: 0;
+	outline: none;
+	position: relative;
+	overflow: hidden;
+	z-index: 1102;
+	border: 0px solid #fff;
+}
+
+#fancybox-hide-sel-frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	z-index: 1101;
+}
+
+#fancybox-close {
+	#background: transparent url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox.png') -40px 0px;
+	display: none;
+	
+
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	z-index: 8040;
+	line-height: 36px;
+}
+#fancybox-close:after {
+content: '×';
+position: absolute;
+top: 0;
+left: 10px;
+font-size: 16px;
+color: #797979;
+}
+#fancybox-error {
+	color: #444;
+	font: normal 12px/20px Arial;
+	padding: 14px;
+	margin: 0;
+}
+
+#fancybox-img {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	line-height: 0;
+	vertical-align: top;
+}
+
+#fancybox-frame {
+	width: 100%;
+	height: 100%;
+	border: none;
+	display: block;
+}
+
+#fancybox-left, #fancybox-right {
+	position: absolute;
+	bottom: 0px;
+	height: 100%;
+	width: 35%;
+	cursor: pointer;
+	outline: none;
+	background: transparent url('../../../../../templates/petromost_oneway_2014/js/fancybox/blank.gif');
+	z-index: 1102;
+	display: none;
+}
+
+#fancybox-left {
+	left: 0px;
+}
+
+#fancybox-right {
+	right: 0px;
+}
+
+#fancybox-left-ico, #fancybox-right-ico {
+	position: absolute;
+	top: 50%;
+	left: -9999px;
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	cursor: pointer;
+	z-index: 1102;
+	display: block;
+}
+
+#fancybox-left-ico {
+	background-image: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox.png');
+	background-position: -40px -30px;
+}
+
+#fancybox-right-ico {
+	background-image: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox.png');
+	background-position: -40px -60px;
+}
+
+#fancybox-left:hover, #fancybox-right:hover {
+	visibility: visible; /* IE6 */
+}
+
+#fancybox-left:hover span {
+	left: 20px;
+}
+
+#fancybox-right:hover span {
+	left: auto;
+	right: 20px;
+}
+
+.fancybox-bg {
+	display: none;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 20px;
+	height: 20px;
+	z-index: 1001;
+}
+
+#fancybox-bg-n {
+	top: -20px;
+	left: 0;
+	width: 100%;
+	#background-image: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox-x.png');
+}
+
+#fancybox-bg-ne {
+	top: -20px;
+	right: -20px;
+	background-image: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox.png');
+	background-position: -40px -162px;
+}
+
+#fancybox-bg-e {
+	top: 0;
+	right: -20px;
+	height: 100%;
+	#background-image: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox-y.png');
+	background-position: -20px 0px;
+}
+
+#fancybox-bg-se {
+	bottom: -20px;
+	right: -20px;
+	background-image: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox.png');
+	background-position: -40px -182px; 
+}
+
+#fancybox-bg-s {
+	bottom: -20px;
+	left: 0;
+	width: 100%;
+	#background-image: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox-x.png');
+	background-position: 0px -20px;
+}
+
+#fancybox-bg-sw {
+	bottom: -20px;
+	left: -20px;
+	background-image: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox.png');
+	background-position: -40px -142px;
+}
+
+#fancybox-bg-w {
+	top: 0;
+	left: -20px;
+	height: 100%;
+	#background-image: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox-y.png');
+}
+
+#fancybox-bg-nw {
+	top: -20px;
+	left: -20px;
+	background-image: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox.png');
+	background-position: -40px -122px;
+}
+
+#fancybox-title {
+	font-family: Helvetica;
+	font-size: 12px;
+	z-index: 1102;
+}
+
+.fancybox-title-inside {
+	padding-bottom: 10px;
+	text-align: center;
+	color: #333;
+	background: #fff;
+	position: relative;
+}
+
+.fancybox-title-outside {
+	padding-top: 10px;
+	color: #fff;
+}
+
+.fancybox-title-over {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #FFF;
+	text-align: left;
+}
+
+#fancybox-title-over {
+	padding: 10px;
+	background-image: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancy_title_over.png');
+	display: block;
+}
+
+.fancybox-title-float {
+	position: absolute;
+	left: 0;
+	bottom: -20px;
+	height: 32px;
+}
+
+#fancybox-title-float-wrap {
+	border: none;
+	border-collapse: collapse;
+	width: auto;
+}
+
+#fancybox-title-float-wrap td {
+	border: none;
+	white-space: nowrap;
+}
+
+#fancybox-title-float-left {
+	padding: 0 0 0 15px;
+	background: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox.png') -40px -90px no-repeat;
+}
+
+#fancybox-title-float-main {
+	color: #FFF;
+	line-height: 29px;
+	font-weight: bold;
+	padding: 0 0 3px 0;
+	background: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox-x.png') 0px -40px;
+}
+
+#fancybox-title-float-right {
+	padding: 0 0 0 15px;
+	background: url('../../../../../templates/petromost_oneway_2014/js/fancybox/fancybox.png') -55px -90px no-repeat;
+}
+
+/* IE6 */
+
+.fancybox-ie6 #fancybox-close { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_close.png', sizingMethod='scale'); }
+
+.fancybox-ie6 #fancybox-left-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_nav_left.png', sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-right-ico { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_nav_right.png', sizingMethod='scale'); }
+
+.fancybox-ie6 #fancybox-title-over { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_title_over.png', sizingMethod='scale'); zoom: 1; }
+.fancybox-ie6 #fancybox-title-float-left { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_title_left.png', sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-title-float-main { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_title_main.png', sizingMethod='scale'); }
+.fancybox-ie6 #fancybox-title-float-right { background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_title_right.png', sizingMethod='scale'); }
+
+.fancybox-ie6 #fancybox-bg-w, .fancybox-ie6 #fancybox-bg-e, .fancybox-ie6 #fancybox-left, .fancybox-ie6 #fancybox-right, #fancybox-hide-sel-frame {
+	height: expression(this.parentNode.clientHeight + "px");
+}
+
+#fancybox-loading.fancybox-ie6 {
+	position: absolute; margin-top: 0;
+	top: expression( (-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2 ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop )) + 'px');
+}
+
+#fancybox-loading.fancybox-ie6 div	{ background: transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_loading.png', sizingMethod='scale'); }
+
+/* IE6, IE7, IE8 */
+
+.fancybox-ie .fancybox-bg { background: transparent !important; }
+
+.fancybox-ie #fancybox-bg-n { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_n.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-ne { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_ne.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-e { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_e.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-se { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_se.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-s { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_s.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-sw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_sw.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-w { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_w.png', sizingMethod='scale'); }
+.fancybox-ie #fancybox-bg-nw { filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='fancybox/fancy_shadow_nw.png', sizingMethod='scale'); }
+/* End */
+
+
+
+/* Start:/bitrix/templates/petromost_oneway_2014/components/slobel/social.icons/socserv/style.css*/
+.slobel-social-icons{
+	text-align: center;
+}
+.slobel-social-icons a{
+	vertical-align: top;
+	display: inline-block;
+	padding: 8px;
+}
+.slobel-social-icons a>div{
+	position: relative;
+	width: 100%;
+}
+.slobel-social-icons a.horizontal{
+	display: inline-block;
+}
+.slobel-social-icons a.vertical{
+	display: block;
+}
+.slobel-social-icons img.hover, .slobel-social-icons img.nohover{
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+.slobel-social-icons img.hover{
+	display: block;
+	position: absolute;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+	top: 0;
+}
+/* End */
+
+
+
+/* Start:/bitrix/templates/petromost_oneway_2014/components/it-nord/search.title/catalog/style.css*/
+.width-fixer-search {
+	width: 350px !important;
+	right: 0 !important;
+}
+div.title-search-result {
+	border:1px solid #c6c6c6;
+	display:none;
+	overflow:hidden;
+	z-index:205;
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	min-width: 350px;
+}
+
+table.title-search-result {
+	border-collapse: collapse;
+	border:none;
+}
+
+table.title-search-result th {
+	background-color:#F7F7F7;
+	border-right:1px solid #e8e8e8;
+	color:#949494;
+	font-weight:normal;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:14px;
+ 	padding-right:12px;
+	text-align:right;
+	vertical-align:top;
+	white-space:nowrap;
+	width:1%;
+}
+
+table.title-search-result td {
+	background-color:white;
+	font-weight:normal;
+	padding-top:2px;
+	padding-bottom:2px;
+	text-align:left;
+	white-space:nowrap;
+}
+
+table.title-search-result td.title-search-item {
+	padding-left:8px;
+	padding-right:15px;
+}
+
+table.title-search-result td.title-search-item a {
+	padding-left:4px;
+	padding-right:15px;
+	vertical-align:top;
+	color: #797979;
+}
+
+table.title-search-result td.title-search-item img {
+	vertical-align:top;
+}
+
+table.title-search-result td.title-search-item b {
+	color:#cf0000;
+	font-weight:normal;
+}
+
+table.title-search-result tr.title-search-selected td
+,table.title-search-result tr.title-search-selected a
+,table.title-search-result tr.title-search-selected td.title-search-more a
+{
+	background-color:#fff2be;
+}
+
+table.title-search-result td.title-search-more {
+	font-size:11px;
+	font-weight:normal;
+	/*padding-right:15px;
+	padding-left:24px;
+	padding-top:0px;*/
+	text-align: center;
+}
+
+table.title-search-result td.title-search-more a
+{
+	padding-left:12px;
+	padding-right:15px;
+	text-decoration:none;
+	color:#999999;
+}
+
+table.title-search-result td.title-search-all {
+	/*padding-left:24px;
+	padding-right:15px;*/
+	text-align: center;
+}
+
+table.title-search-result td.title-search-all a
+{
+	/*padding-left:4px;*/
+	text-decoration:none;
+	color:#808080;
+}
+
+table.title-search-result td.title-search-separator
+, table.title-search-result th.title-search-separator {
+	padding-top:0px;
+	padding-bottom:0px;
+	font-size:4px;
+}
+
+div.title-search-fader {
+	display:none;
+	background-image: url('../../../../../templates/petromost_oneway_2014/components/it-nord/search.title/catalog/images/fader.png');
+	background-position: right top;
+	background-repeat: repeat-y;
+	position:absolute;
+}
+
+p.title-search-preview {
+	font-size:12px;
+}
+div.title-search-result td.title-search-price {
+	font-size: 16px;
+}
+
+.search-image-wrapper {
+	width: 75px;
+	height: 75px;
+	float: left;
+	text-align: center;
+}
+/*.search-item-wrapper {
+	float: left;
+	padding-left: 10px;
+}*/
+/* End */
+
+
+
+/* Start:/bitrix/templates/petromost_oneway_2014/components/bitrix/system.auth.form/.default/style.css*/
+div.bx-system-auth-form span.bx-auth-secure {background-color:#FFFAE3; border:1px solid #DEDBC8; padding:2px; display:inline-block; vertical-align:bottom; margin-top:-1px;}
+div.bx-system-auth-form div.bx-auth-secure-icon {background-image:url('../../../../../templates/petromost_oneway_2014/components/bitrix/system.auth.form/.default/images/sec.png'); background-repeat:no-repeat; background-position:center; width:19px; height:18px;}
+div.bx-system-auth-form div.bx-auth-secure-unlock {background-image:url('../../../../../templates/petromost_oneway_2014/components/bitrix/system.auth.form/.default/images/sec-unlocked.png');}
+
+/* End */
+
+
+
+/* Start:/bitrix/templates/petromost_oneway_2014/components/bitrix/main.register/.default/style.css*/
+div.bx-auth-reg input.bx-auth-input {vertical-align:middle;}
+div.bx-auth-reg span.bx-auth-secure {background-color:#FFFAE3; border:1px solid #DEDBC8; padding:2px; display:inline-block; vertical-align:middle;}
+div.bx-auth-reg div.bx-auth-secure-icon {background-image:url('../../../../../templates/petromost_oneway_2014/components/bitrix/main.register/.default/images/sec.png'); background-repeat:no-repeat; background-position:center; width:19px; height:18px;}
+div.bx-auth-reg div.bx-auth-secure-unlock {background-image:url('../../../../../templates/petromost_oneway_2014/components/bitrix/main.register/.default/images/sec-unlocked.png');}
+
+/* End */
+
+
+
+/* Start:/bitrix/panel/main/popup.css*/
+.bx-core-adm-dialog, .bx-core-adm-dialog a, .bx-core-adm-dialog span, .bx-core-adm-dialog div
+{
+	 /*Protection from user styles */
+	letter-spacing:normal;
+	list-style:none;
+	text-align: left;
+	text-indent:0;
+	text-transform: none;
+	visibility:visible;
+	white-space: normal;
+	word-spacing:normal;
+	vertical-align:baseline;
+	text-decoration: none;
+	color:#000;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	font-size: 13px;
+}
+
+
+.bx-core-adm-dialog {
+	border-radius: 4px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 18px 37px 6px rgba(16,39,53,.69);
+	box-shadow: 0 18px 37px 6px rgba(16,39,53,.69);
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:13px;
+	position: absolute;
+	overflow: hidden;
+}
+
+
+.bx-core-adm-dialog a { color:#2675d7; text-decoration: underline; font-size: inherit;}
+.bx-core-adm-dialog a:hover {color:#2675d7; text-decoration:underline; background: none; font-size: inherit;}
+
+.bx-core-adm-dialog select, .bx-core-adm-dialog input, .bx-core-adm-dialog textarea {outline:none; font-size:13px;}
+.bx-core-adm-dialog textarea {font-size:13px;}
+.bx-core-adm-dialog table {font-size:13px;}
+.bx-core-adm-dialog td {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing:normal;
+	list-style:none;
+	text-align: left;
+	text-indent:0;
+	text-transform: none;
+	text-decoration: none;
+	visibility:visible;
+	white-space: normal;
+	word-spacing:normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	font-size: inherit;
+	background: none;
+	color: #000;
+}
+
+
+
+.bx-core-adm-dialog .bx-action-href:hover {border-bottom-color:#134889; text-decoration:none; color:#134889;}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-head {
+	background-color: #e2ebee;
+	border-bottom:1px solid#a9a9a9;
+	-webkit-box-shadow: 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #ecf1f3 inset, inset 0 1px 0 0 #fff, inset 0 0 0 1px #e9f0f2;
+	box-shadow: 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #ecf1f3 inset, inset 0 1px 0 0 #fff, inset 0 0 0 1px #e9f0f2;
+	border-radius:4px 4px 0 0;
+	height: 49px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-head-inner {
+	display: inline-block;
+	margin: 12px 0 0 18px;
+	font-size: 20px;
+	text-shadow:0 1px #fff;
+	white-space: nowrap;
+	color: #282a2c;
+}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-head-icons {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 11px 0 0 15px;
+	padding: 0 15px 0 0;
+	background-color: #E2EBEE;
+}
+
+.bx-core-adm-dialog .bx-core-adm-icon-expand, .bx-core-adm-dialog .bx-core-adm-icon-narrow, .bx-core-adm-dialog .bx-core-adm-icon-close
+{
+	display: inline-block;
+	height: 30px;
+	width: 28px;
+	cursor: pointer;
+	background: url('../../../../../panel/main/images/popup_sprite.png') no-repeat 0 0 #E2EBEE;
+}
+
+.bx-core-adm-dialog .bx-core-adm-icon-expand {background-position: 0 0;}
+.bx-core-adm-dialog .bx-core-adm-icon-narrow {background-position: 0 -120px;}
+.bx-core-adm-dialog .bx-core-adm-icon-close {background-position: 0 -30px;}
+.bx-core-adm-dialog .bx-core-adm-icon-expand:hover {background-position: 0 -60px;}
+.bx-core-adm-dialog .bx-core-adm-icon-narrow:hover {background-position: 0 -150px;}
+.bx-core-adm-dialog .bx-core-adm-icon-close:hover {background-position: 0 -90px;}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-content-wrap
+{
+	margin-top: 54px;
+	padding: 12px 12px 14px;
+}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-tabs {
+}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-tabs .adm-detail-tab {
+	display: inline-block !important;
+	cursor: pointer !important;
+	background: url('../../../../../panel/main/images/bx-admin-sprite-small-1.png') repeat-x scroll 0 -2728px transparent !important;
+	border-radius: 2px 2px 0 0 !important;
+	border: none !important;
+	color: #1C53A2 !important;
+	font-size: 13px !important;
+	font-weight: bold !important;
+	margin: 0 7px 0 0 !important;
+	padding: 10px 25px 10px !important;
+	text-shadow: 0 1px #FFFFFF !important;
+	vertical-align: top !important;
+	height: auto !important;
+	position: relative;
+	z-index: 1;
+}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-tabs .adm-detail-tab-active
+{
+	background:#f5f9f9 !important;
+	border:1px solid #dce7ed !important;
+	border-bottom:none !important;
+	color:#000 !important;
+	margin: 0 7px -2px 0 !important;
+	padding: 9px 24px 11px !important;
+	border-bottom:none !important;
+	height: auto !important;
+}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-tabs .adm-detail-tab-active:first-child:before
+{
+	display: none !important;
+}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-content
+{
+	overflow: auto;
+	border: solid 1px #dce7ed;
+	background-color: #f5f9f9;
+}
+
+.bx-core-adm-admin-dialog .bx-core-adm-dialog-content
+{
+	padding:15px 22px 22px;
+}
+
+.bx-core-adm-dialog .adm-detail-content-cell-l {
+	text-align:right;
+	padding: 5px 4px 7px 0;
+	background: none;
+	text-indent:0;
+	text-transform: none;
+	text-decoration: none;
+	visibility:visible;
+	white-space: normal;
+	word-spacing:normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	font-size: inherit;
+	color: inherit;
+}
+
+.bx-core-adm-dialog .adm-detail-content-cell-r {
+	padding: 5px 0 7px 4px;
+	background: none;
+	text-indent:0;
+	text-transform: none;
+	text-decoration: none;
+	visibility:visible;
+	white-space: normal;
+	word-spacing:normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	font-size: inherit;
+	color: inherit;
+}
+
+.bx-core-adm-dialog .adm-detail-content-cell {padding: 5px 0 7px;}
+
+.bx-core-adm-dialog .adm-detail-valign-top { vertical-align: top; }
+.bx-core-adm-dialog .adm-detail-valign-middle { vertical-align: middle; }
+.bx-core-adm-dialog .adm-detail-valign-bottom { vertical-align: bottom;}
+
+.adm-detail-file-row .adm-detail-content-cell-l { padding-top: 12px; vertical-align: top; }
+.adm-detail-file-image { padding-top: 7px; }
+.adm-detail-file-row .bx-input-file-desc { display:block; margin-top: -7px; }
+
+.adm-detail-iblock-types { width: 150px; }
+.adm-detail-iblock-list { width: 200px; }
+
+.bx-core-adm-dialog .adm-detail-content-table > tbody > .heading td {
+	padding:8px 70px 10px!important;
+}
+.bx-core-adm-dialog .bx-core-adm-dialog-buttons {
+	padding-top: 12px;
+	position: relative;
+}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-buttons input {margin-right:12px;}
+
+
+.bx-core-adm-dialog .bx-core-adm-dialog-head-block {
+	background-position: 99% center !important;
+	background-repeat: no-repeat;
+	border-bottom: 1px solid #DCE7ED;
+	font-size: 12px;
+	padding: 6px 30px 9px 9px;
+	margin-bottom: 12px;
+}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-head-block p {margin: 0;}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-head-block .title {
+	font-weight: bold;
+	font-size: 14px;
+	margin: 0 0 5px;
+}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-content-wrap-inner
+{
+	padding: 12px;
+}
+
+.bx-quirks .bx-core-adm-dialog .bx-core-adm-dialog-content-wrap-inner
+{
+	padding: 12px 0;
+}
+
+.bx-core-dialog-overlay {
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	position: absolute;
+	background-color: rgba(57,60,67,0.82);
+}
+
+.bx-ie9 .bx-core-dialog-overlay {
+	background-color:#393c43;
+	opacity:0.82;
+}
+
+.bx-ie8 .bx-core-dialog-overlay, .bx-quirks .bx-core-dialog-overlay
+{
+	background-color:#393c43;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+
+.bx-core-adm-dialog .bx-core-resizer {background: url('../../../../../panel/main/images/popup_sprite.png') no-repeat right -188px; position: absolute; z-index: 6; bottom: 3px; right: 2px; height: 20px; width: 20px;
+}
+
+
+.bx-core-adm-dialog .bx-core-adm-dialog-tabs .adm-detail-tab-last {
+	margin-right: 0;
+}
+
+.bx-core-adm-dialog .adm-detail-title {
+	border-bottom: 1px solid #ddd;
+	font-size: 18px;
+	margin-bottom: 14px;
+	padding: 0 0 15px;
+	text-align: left;
+}
+
+.bx-core-adm-dialog .adm-detail-content-item-block
+{
+	border: none;
+	padding: 0;
+}
+
+.bx-core-adm-dialog .adm-detail-content {padding: 0}
+
+.bx-core-adm-dialog .adm-detail-content-item-block table {
+	border:none;
+	border-spacing:0;
+	font-size:13px;
+	margin:0;
+	width:100%;
+}
+
+
+.bx-core-adm-dialog .adm-input,
+.bx-core-adm-dialog input[type="text"],
+.bx-core-adm-dialog input[type="password"],
+.bx-core-adm-dialog input[type="email"] {
+	font-size: 13px;
+	height: 29px;
+	padding: 0 5px;
+}
+
+.bx-core-adm-dialog .bx-core-adm-dialog-buttons .adm-btn-add {
+	float: right;
+}
+
+.bx-ie8 .bx-core-adm-dialog-buttons .adm-btn-add,
+.bx-quirks .bx-core-adm-dialog-buttons .adm-btn-add
+{
+	float: none;
+	position: absolute;
+	right: 28px;
+}
+
+/********************* menu *************************/
+
+.bx-core-popup-menu {
+	position: absolute;
+	border: solid 1px #181b20;
+	border-radius: 0 0 2px 2px;
+	background-color: rgba(52, 59, 74, 0.94);
+	-webkit-box-shadow:0 1px 0 rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(212, 212, 212, 0.12);
+	box-shadow:0 1px 0 rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(212, 212, 212, 0.12);
+	letter-spacing:normal;
+	list-style:none;
+	text-align: left;
+	text-indent:0;
+	text-transform: none;
+	visibility:visible;
+	white-space: normal;
+	word-spacing:normal;
+	vertical-align:baseline;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+}
+
+.bx-ie8 .bx-core-popup-menu,
+.bx-quirks .bx-core-popup-menu
+{
+	background-color: #3a4150;
+}
+
+.bx-quirks .bx-core-popup-menu
+{
+	width: 220px !important;
+	margin-top: -2px;
+	margin-left: -2px;
+}
+
+.bx-core-popup-menu-level0
+{
+	background-color: rgba(30, 36, 50, 0.94);
+	border-radius: 2px;
+}
+
+.bx-ie8 .bx-core-popup-menu-level0,
+.bx-quirks .bx-core-popup-menu-level0
+{
+	background-color: #252d3f;
+}
+
+
+/*.bx-core-popup-menu-top*/
+.bx-core-popup-menu-angle,
+.bx-core-popup-menu-angle-bottom {
+	display: block;
+	position: absolute;
+	height: 10px;
+	width: 17px;
+	content: "";
+	line-height: 1px;
+	font-size: 1px;
+	padding: 0;
+	margin: 0;
+}
+
+.bx-core-popup-menu-angle {
+	top: -9px;
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left bottom;
+}
+
+.bx-core-popup-menu-angle-bottom {
+	bottom: -9px;
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -1470px;
+}
+
+.bx-core-popup-menu-item {
+	display: block;
+	text-decoration: none;
+	border-top: solid 1px transparent;
+	border-right: solid 1px transparent;
+	color: #9ca4b2 !important;
+	min-width: 120px;
+	cursor: pointer;
+	position: relative;
+	z-index: 1;
+}
+
+.bx-ie8 .bx-core-popup-menu-item,
+.bx-quirks .bx-core-popup-menu-item
+{
+	width: 220px;
+	overflow-x: hidden;
+}
+
+.bx-core-popup-menu-item:hover,
+.bx-core-popup-menu-item-opened
+{
+	border-top: solid 1px #55a8d9;
+	border-right: solid 1px #2278b7;
+	background-image: -webkit-linear-gradient(top, #2a92d0, #1d66b5);
+	background-image: -moz-linear-gradient(top, #2a92d0, #1d66b5);
+	background-image: -ms-linear-gradient(top, #2a92d0, #1d66b5);
+	background-image: -o-linear-gradient(top, #2a92d0, #1d66b5);
+	background-image: linear-gradient(top, #2a92d0, #1d66b5);
+	-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+	text-decoration: none;
+	color: #ebebeb !important;
+}
+
+.bx-ie8 .bx-core-popup-menu-item-text,
+.bx-quirks .bx-core-popup-menu-item-text
+{
+	overflow-x: hidden;
+}
+
+.bx-ie8 .bx-core-popup-menu-item:hover,
+.bx-ie8 .bx-core-popup-menu-item-opened,
+.bx-ie9 .bx-core-popup-menu-item:hover,
+.bx-ie9 .bx-core-popup-menu-item-opened
+{
+	background-color: #257fc4;
+}
+
+.bx-core-popup-menu-item-text {
+	display: block;
+	padding: 0 10px 0 40px;
+	height: 28px;
+	line-height: 26px;
+
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.bx-core-popup-menu-item-icon {
+	display: block;
+	position: absolute;
+	height: 28px;
+	width: 40px;
+}
+
+.bx-core-popup-menu-no-icons .bx-core-popup-menu-item-text {
+	padding-left: 19px;
+}
+
+.bx-core-popup-menu-no-icons .bx-core-popup-menu-item-icon
+{
+	display: none;
+}
+
+.adm-menu-content {
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -30px;
+}
+
+.bx-core-popup-menu-item:hover .adm-menu-content,
+.bx-core-popup-menu-item-opened .adm-menu-content
+{
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -60px;
+}
+
+.adm-menu-services {
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -90px;
+}
+
+.bx-core-popup-menu-item:hover .adm-menu-services,
+.bx-core-popup-menu-item-opened .adm-menu-services
+{
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -120px;
+}
+
+.adm-menu-settings {
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -150px;
+}
+
+.bx-core-popup-menu-item:hover .adm-menu-settings,
+.bx-core-popup-menu-item-opened .adm-menu-settings
+{
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -180px;
+}
+
+.adm-menu-favorites {
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -210px;
+}
+
+.bx-core-popup-menu-item:hover .adm-menu-favorites,
+.bx-core-popup-menu-item-opened .adm-menu-favorites
+{
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -240px;
+}
+
+.adm-menu-analytics {
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -300px;
+}
+
+.bx-core-popup-menu-item:hover .adm-menu-analytics,
+.bx-core-popup-menu-item-opened .adm-menu-analytics
+{
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -330px;
+}
+
+.adm-menu-marketPlace {
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -360px;
+}
+
+.bx-core-popup-menu-item:hover .adm-menu-marketPlace,
+.bx-core-popup-menu-item-opened .adm-menu-marketPlace
+{
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -390px;
+}
+
+.adm-menu-desktop {
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -420px;
+}
+
+.bx-core-popup-menu-item:hover .adm-menu-desktop,
+.bx-core-popup-menu-item-opened .adm-menu-desktop
+{
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -450px;
+}
+
+.adm-menu-store {
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -480px;
+}
+
+.bx-core-popup-menu-item:hover .adm-menu-store,
+.bx-core-popup-menu-item-opened .adm-menu-store
+{
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -510px;
+}
+
+
+.bx-core-popup-menu-item-checked .bx-core-popup-menu-item-text
+{
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -540px;
+}
+
+.bx-core-popup-menu-item-checked:hover .bx-core-popup-menu-item-text
+{
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat left -570px;
+}
+
+.bx-core-popup-menu-item-opener .bx-core-popup-menu-item-text
+{
+	padding-right: 20px;
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat right -270px;
+}
+
+.bx-core-popup-menu-item-opener:hover .bx-core-popup-menu-item-text,
+.bx-core-popup-menu-item-opened .bx-core-popup-menu-item-text
+{
+	background: url('../../../../../panel/main/images/popup_menu_sprite_1.png') no-repeat right 0;
+}
+
+.bx-core-popup-menu-separator {
+	height: 1px;
+	margin: 0 1px;
+	background-color: rgba(172, 179, 191, 0.2);
+	font-size: 1px;
+	line-height: 1px;
+}
+
+.bx-ie8 .bx-core-popup-menu-separator, .bx-quirks .bx-core-popup-menu-separator
+{
+	background-color: #444b58;
+}
+
+.bx-core-popup-menu-item-disabled .bx-core-popup-menu-item-text {
+	color: #525A68;
+}
+
+.bx-core-popup-menu-item-disabled:hover .bx-core-popup-menu-item-text
+{
+	color: #858D9B;
+}
+
+/* standard menu icons */
+
+
+/*menu icons*/
+.bx-core-popup-menu-item .checked {background-image:url(../../../../../js/main/core/images/menu/checkbox.gif);}
+
+/*component menu icons */
+.bx-core-popup-menu-item .parameters {background-image:url(../../../../../themes/.default/public/components/buttons/parameters.gif);}
+.bx-core-popup-menu-item .edit {background-image:url(../../../../../themes/.default/public/components/buttons/edit.gif);}
+.bx-core-popup-menu-item .copy {background-image:url(../../../../../themes/.default/public/components/buttons/copy.gif);}
+.bx-core-popup-menu-item .edit-common {background-image:url(../../../../../themes/.default/public/components/buttons/edit_common.gif);}
+.bx-core-popup-menu-item .edit-wf {background-image:url(../../../../../themes/.default/public/components/buttons/edit_wf.gif);}
+.bx-core-popup-menu-item .menu-edit {background-image:url(../../../../../themes/.default/public/components/buttons/menu_edit.gif);}
+.bx-core-popup-menu-item .menu-add {background-image:url(../../../../../themes/.default/public/components/buttons/menu_add.gif);}
+.bx-core-popup-menu-item .menu-delete {background-image:url(../../../../../themes/.default/public/components/buttons/menu_delete.gif);}
+.bx-core-popup-menu-item .menu-template {background-image:url(../../../../../themes/.default/public/components/buttons/menu_templ.gif);}
+.bx-core-popup-menu-item .nav-template {background-image:url(../../../../../themes/.default/public/components/buttons/nav_templ.gif);}
+.bx-core-popup-menu-item .parameters-2 {background-image:url(../../../../../themes/.default/public/components/buttons2/parameters.gif);}
+.bx-core-popup-menu-item .edit-2 {background-image:url(../../../../../themes/.default/public/components/buttons2/edit.gif);}
+.bx-core-popup-menu-item .edit-css {background-image:url(../../../../../themes/.default/public/components/buttons2/edit_css.gif);}
+.bx-core-popup-menu-item .copy-2 {background-image:url(../../../../../themes/.default/public/components/buttons2/copy.gif);}
+.bx-core-popup-menu-item .del-cache {background-image:url(../../../../../themes/.default/public/components/buttons2/delcache.gif);}
+
+/*panel menu icons */
+.bx-core-popup-menu-item .panel-new-file {background-image:url(../../../../../themes/.default/public/panel_new/menus/new_file.gif);}
+.bx-core-popup-menu-item .panel-new-file-template {background-image:url(../../../../../themes/.default/public/panel_new/menus/create_template.gif);}
+.bx-core-popup-menu-item .panel-new-folder {background-image:url(../../../../../themes/.default/public/panel_new/menus/new_folder.gif);}
+.bx-core-popup-menu-item .panel-new-folder-template {background-image:url(../../../../../themes/.default/public/panel_new/menus/create_folder_template.gif);}
+.bx-core-popup-menu-item .panel-edit-visual {background-image:url(../../../../../themes/.default/public/panel_new/menus/edit_html.gif);}
+.bx-core-popup-menu-item .panel-edit-text {background-image:url(../../../../../themes/.default/public/panel_new/menus/edit_text.gif);}
+.bx-core-popup-menu-item .panel-edit-php {background-image:url(../../../../../themes/.default/public/panel_new/menus/edit_php.gif);}
+.bx-core-popup-menu-item .panel-file-props {background-image:url(../../../../../themes/.default/public/panel_new/menus/file_props.gif);}
+.bx-core-popup-menu-item .panel-folder-props {background-image:url(../../../../../themes/.default/public/panel_new/menus/folder_props.gif);}
+.bx-core-popup-menu-item .panel-file-access {background-image:url(../../../../../themes/.default/public/panel_new/menus/file_access.gif);}
+.bx-core-popup-menu-item .panel-folder-access {background-image:url(../../../../../themes/.default/public/panel_new/menus/folder_access.gif);}
+.bx-core-popup-menu-item .panel-file-delete {background-image:url(../../../../../themes/.default/public/panel_new/menus/delete_file.gif);}
+.bx-core-popup-menu-item .panel-folder-delete {background-image:url(../../../../../themes/.default/public/panel_new/menus/delete_folder.gif);}
+.bx-core-popup-menu-item .panel-page-cache {background-image:url(../../../../../themes/.default/public/panel_new/menus/page_cache.gif);}
+.bx-core-popup-menu-item .panel-comp-cache {background-image:url(../../../../../themes/.default/public/panel_new/menus/comp_cache.gif);}
+.bx-core-popup-menu-item .icon-delete {background-image:url(../../../../../themes/.default/public/panel_new/buttons/delete.gif);}
+.bx-core-popup-menu-item .panel-key {background-image:url(../../../../../themes/.default/public/panel_new/menus/key.gif);}
+.bx-core-popup-menu-item .panel-user {background-image:url(../../../../../themes/.default/public/panel_new/menus/user.gif);}
+
+/* diff old styles */
+
+.bx-width30 {width:30% !important;}
+.bx-width50 {width:50% !important;}
+.bx-width100 {width:100% !important;}
+.bx-width0 {width:0% !important;}
+
+.bx-popup-label {
+	text-align: right !important;
+	padding: 6px 2px 10px 0 !important;
+	vertical-align: top !important;
+	background: transparent;
+	font-size: inherit;
+	color: #000;
+}
+.bx-core-adm-dialog .section td {
+	background-image:none !important;
+	background-color:#E0E8EA !important;
+	color: #4B6267;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.bx-core-adm-dialog .section > td {
+	padding: 5px 10px;
+}
+
+/*.bx-menu-layout {background-color: white;}*/
+
+#bx-admin-prefix .bx-menu-current-row {background-color: #E2E7CB !important;}
+
+#bx-admin-prefix .view-area {
+	-moz-box-sizing: border-box;
+	cursor: text;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	height: 31px !important;
+	margin: 3px !important;
+}
+
+#bx-admin-prefix .edit-field {
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-image: url(../../../../../panel/main/images_old/panel/pencil.gif);
+	font-size: 13px;
+	padding: 7px 5px 0;
+	margin: 2px;
+	height: 22px;
+	width: 232px;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	color: #3F4B54;
+	display: inline-block;
+	outline: medium none;
+	vertical-align: middle;
+}
+
+#bx-admin-prefix .edit-field:hover {
+	padding: 7px 5px 0;
+	background-color: #FFFFFF;
+	border-color: #87919C #959EA9 #9EA7B1;
+	-webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.3), 0 2px 2px -1px rgba(180, 188, 191, 0.7) inset;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.3), 0 2px 2px -1px rgba(180, 188, 191, 0.7) inset;
+	border-image: none;
+	border-radius: 3px 3px 3px 3px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.bx-core-adm-dialog a.bx-popup-sign {display:block; width:11px; height:11px; overflow:hidden; margin-right:3px; background-repeat:no-repeat; background-position:top left;}
+.bx-core-adm-dialog a.bx-popup-minus {background-image:url(../../../../../js/main/core/images/components/minus.gif);}
+.bx-core-adm-dialog a.bx-popup-plus {background-image:url(../../../../../js/main/core/images/components/plus.gif);}
+
+/* styles for WYSIWYG/HTML/PHP editors in public mode - BX.CEditorDialog */
+.bx-core-adm-dialog .bx-core-editor-dialog-content-wrap{
+	padding: 14px 12px 14px !important;
+	margin-top: 54px !important;
+}
+.bx-core-adm-dialog .bx-core-editor-dialog-buttons{
+	padding-top: 12px;
+}
+.bx-core-adm-dialog .bx-core-editor-dialog-buttons input {
+	margin-right: 12px;
+}
+
+/* styles for auth dialog */
+.bx-core-popup-auth-field {
+	padding: 5px 0;
+}
+
+/* wizard dialog */
+.bx-core-adm-dialog .bx-core-wizard-dialog-content-wrap { padding: 0 0 14px !important; margin-top: 54px !important; }
+/* End */
+
+
+
+/* Start:/bitrix/templates/petromost_oneway_2014/template_styles.css*/
+@charset "utf-8";
+.bz {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* ALL SITE */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+.site_container {
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 320px;
+  height: 100%;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  line-height: 1;
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+}
+.site_container img {
+  border: none;
+}
+.block__popup {
+  line-height: 1;
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+}
+.block__popup img {
+  border: none;
+}
+.site_block {
+  margin: 0 auto;
+  padding: 0;
+  width: 1148px;
+  min-height: 100%;
+  position: relative;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.cf:after {
+  clear: both;
+}
+/*resets*/
+.site_container input,
+.site_container textarea,
+.site_container button,
+.block__popup input,
+.block__popup textarea,
+.block__popup button {
+  outline: none;
+  font-weight: normal;
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  font-family: Tahoma, sans-serif;
+}
+.site_container input::-webkit-input-placeholder {
+  color: #C5C6C5;
+}
+.site_container input:-moz-placeholder {
+  color: #C5C6C5;
+}
+.block__popup input::-webkit-input-placeholder {
+  color: #C5C6C5;
+}
+.block__popup input:-moz-placeholder {
+  color: #C5C6C5;
+}
+.site_container textarea,
+.block__popup textarea {
+  resize: none;
+}
+.site_container input::-moz-focus-inner,
+.block__popup input::-moz-focus-inner,
+.site_container button::-moz-focus-inner,
+.block__popup button::-moz-focus-inner {
+  border: 0;
+}
+.site_container a,
+.block__popup a,
+.ui-datepicker a,
+.block__popup a {
+  font-family: Tahoma, sans-serif;
+  outline: 0;
+  text-decoration: underline;
+}
+.site_container a:hover,
+.block__popup a:hover,
+.ui-datepicker a:hover,
+.block__popup a:hover {
+  text-decoration: none;
+}
+.site_container header,
+.site_container footer,
+.site_container figure,
+.site_container figcaption,
+.site_container aside,
+.site_container article,
+.site_container hgroup,
+.site_container nav,
+.site_container section,
+.block__popup header,
+.block__popup footer,
+.block__popup figure,
+.block__popup figcaption,
+.block__popup aside,
+.block__popup article,
+.block__popup hgroup,
+.block__popup nav,
+.block__popup section {
+  display: block;
+  position: relative;
+}
+.site_container table,
+.block__popup table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.site_container ol,
+.site_container ul,
+.site_container li,
+.block__popup ul,
+.block__popup ol,
+.block__popup li {
+  margin: 0;
+  padding: 0;
+}
+.site_container h1 {
+  font-size: 25px;
+  font-weight: normal;
+  color: #000;
+  margin: 0 0 18px 0;
+  position: relative;
+  line-height: 1.2;
+}
+.site_container h2 {
+  font-size: 25px;
+  font-weight: normal;
+  color: #000;
+  margin: 0 0 18px 0;
+  position: relative;
+  line-height: 1.2;
+}
+.inp {
+  border: 1px solid #E2E2E2;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: transparent;
+  color: #6B6B6B;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+.site_container .btn,
+.btn {
+  color: #E43B24;
+  border: 1px solid #E85C4E;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  background: #FFF;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.site_container .btn:hover,
+.btn:hover {
+  background: #E85C4E;
+  color: #FFF;
+}
+.site_container .btn i,
+.btn i {
+  display: inline-block;
+  vertical-align: middle;
+}
+/*reset end*/
+/*header*/
+.header {
+  background: url('../../../../../templates/petromost_oneway_2014/img/header__bg.jpg') no-repeat bottom center;
+  height: 182px;
+}
+.header__left {
+  width: 863px;
+  float: left;
+  position: relative;
+  height: 100%;
+}
+.header__logo {
+  position: absolute;
+  left: 0;
+  top: 40px;
+}
+.header__soc {
+  position: absolute;
+  top: 58px;
+  left: 359px;
+}
+.header__soc_item {
+  display: inline-block;
+  float: left;
+  width: 26px;
+  height: 26px;
+  margin-right: 11px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/header__soc.png') no-repeat;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.header__soc_item-tw {
+  background-position: -37px 0;
+}
+.header__soc_item-fb {
+  background-position: -73px 0;
+}
+.header__soc_item:hover {
+  opacity: 0.7;
+}
+.header__deliv_time {
+  position: absolute;
+  top: 39px;
+  left: 526px;
+  color: #000;
+  width: 343px;
+}
+.header__deliv_time_row {
+  margin-bottom: 7px;
+}
+.header__deliv_time_item {
+  display: inline-block;
+  border-bottom: 1px dotted #bc6323;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-left: 12px;
+}
+.header__deliv_time_item.active {
+  border-bottom: 1px solid transparent;
+  color: #E43B24;
+}
+.header__deliv_time_item:hover {
+  border-bottom: 1px dotted transparent;
+}
+.header__deliv_time_table table {
+  width: 100%;
+  display: none;
+}
+.header__deliv_time_table table.active {
+  display: table;
+}
+.header__deliv_time_table td {
+  color: #D6D6D6;
+  text-align: left;
+  vertical-align: middle;
+  padding: 4px 0 10px 0;
+}
+.header__deliv_time_table td.active {
+  color: #E2B96E;
+}
+.header__deliv_time_table td.active span {
+  border: 1px solid #DA251D;
+  color: #DA251D;
+}
+.header__deliv_time_table span {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 2px 8px;
+}
+.header .header__menu {
+  position: absolute;
+  top: 131px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 13px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/header__menu-bg.jpg') repeat-x 0 100%;
+}
+.header__menu_ul {
+  list-style-type: none;
+}
+.header__menu_item {
+  float: left;
+}
+.header__menu_item a {
+  font-size: 16px;
+  display: block;
+  color: #000;
+  line-height: 1.4;
+  text-decoration: none;
+  padding-left: 11px;
+  margin-right: 19px;
+  margin-top: 1px;
+}
+.header__menu_item a.active {
+  color: #797979;
+}
+.header__menu_item a:hover {
+  text-decoration: underline;
+}
+.header__right {
+  width: 250px;
+  float: right;
+  height: 100%;
+  position: relative;
+}
+.header__tel {
+  font-size: 40px;
+  color: #E43B24;
+  padding-top: 35px;
+}
+.header__tel div {
+  font-size: 16px;
+  color: #6B6B6B;
+  margin-top: 4px;
+}
+.header__search {
+  position: absolute;
+  bottom: 2px;
+  width: 100%;
+}
+.header__input {
+  float: left;
+  width: 100%;
+  height: 31px;
+  padding: 0 33px 0 12px;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+.header__search_button {
+  height: 31px;
+  width: 31px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: url('../../../../../templates/petromost_oneway_2014/img/header__search_btn.png') no-repeat 40% 50%;
+  margin-left: -31px;
+  float: left;
+  cursor: pointer;
+}
+/*content*/
+.content {
+  margin: 10px auto 0;
+}
+/*content__left*/
+.content__left {
+  float: left;
+  width: 211px;
+}
+.aside__menu {
+  margin-bottom: 60px;
+  border-bottom: 1px solid #D6D6D6;
+}
+.aside__menu_ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.aside__menu_ul .aside__menu_item {
+  margin-bottom: 16px;
+}
+.aside__menu_ul .aside__menu_item a {
+  text-decoration: none;
+  color: #222222;
+  font-size: 13px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 8px 0;
+  line-height: 1.2;
+}
+.aside__menu_ul .aside__menu_item a:hover,.aside__menu_ul .aside__menu_item a.active {
+  color: #E43B24;
+  text-decoration: underline;
+}
+.aside__menu_ul .aside__menu_item span {
+  display: block;
+  margin-left: 32px;
+}
+.aside__menu_ul .aside__menu_item-1 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/1.png');
+}
+.aside__menu_ul .aside__menu_item-2 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/2.png');
+  background-position: 10px 0;
+}
+.aside__menu_ul .aside__menu_item-3 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/3.png');
+}
+.aside__menu_ul .aside__menu_item-4 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/4.png');
+  background-position: 11px 0;
+}
+.aside__menu_ul .aside__menu_item-5 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/5.png');
+  background-position: 9px 0px;
+}
+.aside__menu_ul .aside__menu_item-6 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/6.png');
+  background-position: 9px 0;
+}
+.aside__menu_ul .aside__menu_item-7 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/7.png');
+  background-position: 9px 2px;
+}
+.aside__menu_ul .aside__menu_item-8 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/8.png');
+  background-position: 9px 2px;
+}
+.aside__menu_ul .aside__menu_item-9 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/9.png');
+  background-position: 11px 0px;
+}
+.aside__menu_ul .aside__menu_item-10 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/10.png');
+  background-position: 12px 0px;
+}
+.aside__menu_ul .aside__menu_item-11 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/11.png');
+  background-position: 9px 0px;
+}
+.aside__menu_ul .aside__menu_item-12 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/8.png');
+  background-position: 9px 2px;
+}
+.aside__menu_ul .aside__menu_item-13 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/13.png');
+  background-position: 7px 0px;
+}
+.aside__menu_ul .aside__menu_item-14 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/14.png');
+  background-position: 9px 0px;
+}
+.aside__menu_ul .aside__menu_item-15 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/15.png');
+  background-position: 9px 0px;
+}
+.aside__menu_ul .aside__menu_item-16 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/16.png');
+  background-position: 9px 1px;
+}
+.aside__menu_ul .aside__menu_item-17 a {
+  background-image: url('../../../../../templates/petromost_oneway_2014/img/icon/17.png');
+  background-position: 9px 0px;
+}
+.aside__feedback {
+  display: block;
+  text-decoration: underline;
+  padding-left: 32px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+  color: #E43B24;
+  background: url('../../../../../templates/petromost_oneway_2014/img/aside__feedback.png') no-repeat 9px 50%;
+}
+.aside__soc {
+  text-align: center;
+}
+/*content__center*/
+.breadcrumbs {
+  color: #B9BBBA;
+  font-size: 11px;
+  line-height: 1.8;
+  margin-bottom: 36px;
+  margin-top: -6px;
+}
+.breadcrumbs a {
+  display: inline-block;
+  color: #B9BBBA;
+}
+.breadcrumbs span {
+  display: inline-block;
+  margin: 0 4px;
+}
+.content__center {
+  width: 620px;
+  float: left;
+  margin-left: 33px !important;
+  font-size: 15px;
+  color: #797979;
+  line-height: 1.5;
+}
+.goods__list {
+  margin: 0;
+  padding: 0;
+  width: 654px;
+}
+.goods__list a {
+  display: block;
+}
+.goods__item {
+  position: relative;
+  float: left;
+  width: 184px;
+  text-align: left;
+  margin-right: 34px;
+  margin-bottom: 40px;
+  padding-bottom: 42px;
+}
+.goods__item:nth-child(3n-2) {
+  clear: left;
+}
+.goods__img {
+  height: 130px;
+  line-height: 130px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.goods__img img {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0;
+}
+.goods__category {
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.goods__category a {
+  font-size: 12px;
+  color: #A9A9A9;
+}
+.goods__name {
+  margin-bottom: 20px;
+}
+.goods__name a {
+  color: #222222;
+  font-size: 14px;
+  line-height: 1.59;
+}
+.goods__price {
+  position: relative;
+  font-size: 26px;
+  color: #E43B24;
+  line-height: 1;
+  text-align: center;
+}
+.goods__price-old {
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #868585;
+  display: inline-block;
+  #margin-right: 5px;
+}
+.goods__price-new {
+  display: inline-block;
+  font-size: 24px;
+}
+.goods__price .rub {
+  font-size: 16px;
+}
+.goods__row_buy {
+  position: absolute;
+  bottom: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  width: 100%;
+}
+.goods__row_buy .goods__number {
+  float: left;
+  width: 64px;
+}
+.goods__row_buy .goods__in_cart {
+  padding: 0 12px;
+  height: 28px;
+  line-height: 25px;
+  float: right;
+  font-size: 13px;
+}
+.goods__row_buy .goods__in_cart i {
+  width: 16px;
+  height: 13px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/icon-cart.png') no-repeat;
+  margin-right: 5px;
+  margin-top: -2px;
+}
+.goods__row_buy .goods__in_cart:hover i {
+  background: url('../../../../../templates/petromost_oneway_2014/img/icon-cart-hover.png') no-repeat;
+}
+.number {
+  position: relative;
+  display: inline-block;
+}
+.number input {
+  width: 100%;
+  height: 28px;
+  padding: 0 13px 0 11px;
+}
+.number .plus {
+  width: 12px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/plusminus.png') no-repeat 0px 5px;
+  color: #a5a5a5;
+  text-align: center;
+  line-height: 6px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.number .minus {
+  width: 12px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  right: 1px;
+  bottom: 1px;
+  color: #a5a5a5;
+  text-align: center;
+  line-height: 6px;
+  cursor: pointer;
+  background: url('../../../../../templates/petromost_oneway_2014/img/plusminus.png') no-repeat 0px -19px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.control-page {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.control-page span,
+.control-page a {
+  display: inline-block;
+  margin: 0 3px;
+}
+.control-page span:hover,
+.control-page a:hover {
+  opacity: .8;
+}
+.control-page .control-page__arrow {
+  text-decoration: none;
+}
+.control-page .control-page__label {
+  margin-right: 7px;
+  margin-left: 0;
+}
+.control-page a {
+  color: #222222;
+}
+.control-page .active {
+  color: #E43B24;
+}
+.control-page__filter {
+  float: left;
+}
+.control-page__filter span,
+.control-page__filter a {
+  margin: 0 6px;
+}
+.control-page__pag {
+  float: right;
+  text-align: right;
+}
+/*content__right*/
+.content__right {
+  float: right;
+  width: 250px;
+}
+.aside__user {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.aside__user_item {
+  display: inline-block;
+  margin: 0 25px 0 13px;
+}
+.aside__user_item a {
+  padding-left: 21px;
+  display: block;
+  color: #E43B24;
+  line-height: 1.2;
+  font-size: 16px;
+}
+.aside__user_item-enter a {
+  background: url('../../../../../templates/petromost_oneway_2014/img/aside__user_item-enter.png') no-repeat 0 50%;
+}
+.aside__user_item-cart a {
+  padding-left: 24px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/aside__user_item-cart.png') no-repeat 0 50%;
+}
+.aside__user_item-exit a {
+background: url('../../../../../templates/petromost_oneway_2014/img/exit.png') no-repeat 0 50%;
+}
+.aside__cart {
+  margin-bottom: 50px;
+}
+.aside__cart_table {
+  width: 100%;
+}
+.aside__cart_table td {
+  font-size: 13px;
+  color: #797979;
+  vertical-align: top;
+  text-align: left;
+  line-height: 1.66;
+  padding-bottom: 7px;
+}
+.aside__cart_table td a {
+  display: inline-block;
+  color: #bc6323;
+}
+.aside__cart_table td a.close__btn,
+i.close__btn {
+  background: url('../../../../../templates/petromost_oneway_2014/img/close.svg') center center no-repeat;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+}
+.aside__cart_table td:first-child {
+  max-width: 175px;
+}
+.aside__cart_table td:nth-child(2) {
+  white-space: nowrap;
+  text-align: right;
+}
+.aside__cart_table td:last-child {
+  text-align: right;
+  padding-left: 4px;
+}
+.aside__cart_table td:last-child a {
+  font-size: 12px;
+  color: #E43B24;
+  text-decoration: none;
+}
+.btn__order {
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  font-size: 14px;
+  padding: 0 18px;
+}
+.btn__order i {
+  width: 13px;
+  height: 16px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/btn_icon_order.png') no-repeat;
+  margin-right: 5px;
+}
+.btn__order:hover i {
+  background: url('../../../../../templates/petromost_oneway_2014/img/btn_icon_order-hover.png') no-repeat;
+}
+.btn__cansel_order {
+  margin-top: 20px;
+  color: #666;
+  border: none;
+  background: none;
+  font-size: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-right: 0;
+  padding-right: 0;
+}
+.btn__cansel_order i {
+  display: inline-block;
+  font-style: normal;
+  color: #E43B24;
+  margin-right: 5px;
+}
+.btn__cansel_order:hover {
+  text-decoration: none;
+}
+.aside__ad_block {
+  margin-bottom: 30px;
+}
+.aside__ad_block a {
+  display: block;
+}
+.aside__ad_block img {
+  line-height: 0;
+}
+.aside__news {
+  margin: 0 0 30px ;
+}
+.aside__news h2 {
+  margin-bottom: 15px;
+}
+.aside__allnews {
+  font-size: 13px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  color: #000;
+}
+.aside__news_text {
+  font-size: 12px;
+  color: #7D7D7D;
+  line-height: 1.6;
+}
+.aside__news_text a {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #7D7D7D;
+}
+.aside__news_item {
+  margin-bottom: 18px;
+}
+.product__left {
+  float: left;
+  width: 402px;
+}
+.product__row_info {
+  padding-bottom: 35px;
+}
+.product__rating {
+  float: left;
+  vertical-align: middle;
+}
+.product__star {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  margin-right: 2px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/star.png') no-repeat 50% 50%;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.product__star-active {
+  background: url('../../../../../templates/petromost_oneway_2014/img/star-active.png') no-repeat 50% 50%;
+}
+.product__art {
+  float: right;
+  font-size: 12px;
+  color: #B3B5B4;
+  padding-top: 7px;
+  line-height: 1;
+}
+.product__text_row {
+  font-size: 15px;
+  color: #797979;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.product__label {
+  font-weight: bold;
+}
+.product__right {
+  float: right;
+  width: 184px;
+  padding-top: 18px;
+}
+.product__price {
+  font-size: 38px;
+  color: #E43B24;
+  margin-bottom: 20px;
+}
+.product__price-old {
+  text-decoration: line-through;
+  color: #CBCBCB;
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 6px;
+}
+.product__price .rub {
+  font-size: 24px;
+}
+.product__row_buy {
+  margin-bottom: 30px;
+}
+.product__number {
+  width: 64px;
+  float: left;
+}
+.product__in_cart {
+  padding: 0 12px;
+  height: 28px;
+  line-height: 25px;
+  float: right;
+  font-size: 13px;
+}
+.product__in_cart i {
+  width: 16px;
+  height: 13px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/icon-cart.png') no-repeat;
+  margin-right: 5px;
+  margin-top: -2px;
+}
+.product__in_cart:hover i {
+  background: url('../../../../../templates/petromost_oneway_2014/img/icon-cart-hover.png') no-repeat;
+}
+.product__img {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.product__img img {
+  max-width: 100%;
+  display: inline-block;
+  line-height: 0;
+}
+.product__info {
+  color: #A7A7A7;
+  font-size: 12px;
+  line-height: 1.7;
+}
+/* catalog */
+.catalog__type_product {
+  margin-top: 30px;
+}
+.catalog__type_product .catalog__type_item {
+  float: left;
+  width: 150px;
+  color: #E43B24;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: bold;
+  margin: 0 30px 26px -18px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/catalog__bullet.png') no-repeat 0 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  padding-left: 18px;
+}
+.catalog__type_product .catalog__type_item:nth-child(4n) {
+  margin-right: 0;
+}
+.catalog__type_product .catalog__type_item:nth-child(4n-3) {
+  clear: left;
+}
+.catalog__type_product .catalog__type_item:hover {
+  text-decoration: underline;
+}
+.catalog__row_filter {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  min-height: 1px;
+}
+.catalog__wrp_filter {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  z-index: 666;
+}
+.catalog__wrp_filter:nth-child(2) {
+  left: 150px;
+}
+.catalog__wrp_filter:nth-child(3) {
+  left: 300px;
+}
+.catalog__filter {
+  display: inline-block;
+  vertical-align: top;
+}
+.catalog__filter.active {
+  width: 195px;
+  height: 255px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  background: #FFF;
+  padding-left: 20px;
+  -moz-box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.15);
+}
+.catalog__filter.sort.active {
+  width: 195px;
+  height: 120px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  background: #FFF;
+  padding-left: 20px;
+  -moz-box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.15);
+}
+.catalog__filter.active .catalog__filter_list {
+  display: block;
+}
+.catalog__filter.active .catalog__filter_name {
+  padding-left: 18px;
+}
+.catalog__filter_name {
+  color: #666;
+  text-decoration: underline;
+  font-size: 12px;
+  cursor: pointer;
+  padding-left: 38px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.catalog__filter_name:hover {
+  text-decoration: none;
+}
+.catalog__filter_arrow {
+  background: url('../../../../../templates/petromost_oneway_2014/img/arrowdown.png') no-repeat;
+  display: inline-block;
+  width: 9px;
+  height: 5px;
+  margin-left: 5px;
+  -webkit-transition: 0.2s 0.1s ease;
+  -moz-transition: 0.2s 0.1s ease;
+  transition: 0.2s 0.1s ease;
+  -webkit-delay: 0;
+}
+.catalog__filter_arrow.active {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.catalog__filter_list {
+  display: none;
+  margin-top: 15px;
+  font-size: 12px;
+  color: #666;
+  margin-left: -6px;
+  padding-right: 13px;
+  padding-bottom: 18px;
+}
+.catalog__filter_list .btn__select {
+  height: 27px;
+  line-height: 25px;
+  padding-left: 19px;
+  padding-right: 19px;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.catalog__filter_list-label {
+  height: 170px;
+  outline: none;
+}
+.catalog__filter_item {
+  margin-bottom: 9px;
+}
+.catalog__filter_item label {
+  display: block;
+  cursor: pointer;
+}
+input.checkbox {
+  position: absolute;
+  left: -99999px;
+}
+input.checkbox[type="checkbox"]:checked ~ .checkbox {
+  background-position: 0 -18px;
+}
+span.checkbox {
+  display: inline-block;
+  vertical-align: middle;
+  width: 13px;
+  height: 13px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/checkbox.png') no-repeat 0 0;
+  cursor: pointer;
+  margin-right: 6px;
+  position: relative;
+  top: 0px;
+}
+/*Всплывающее окно авторизации регистрации*/
+.enter {
+  width: 825px;
+  background: #FFF;
+  padding: 36px 0;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+}
+.enter__tabs {
+  text-align: center;
+  border-bottom: 1px solid #E4E4E4;
+  margin-bottom: 35px;
+}
+.enter__tabs_item {
+  display: inline-block;
+  position: relative;
+  height: 46px;
+  line-height: 39px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 24px;
+  background: #fff;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #E4E4E4;
+  margin-bottom: -1px;
+  border-radius: 8px 8px 0 0;
+  -webkit-border-radius: 8px 8px 0 0;
+  -moz-border-radius: 8px 8px 0 0;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #DA251D;
+  cursor: pointer;
+}
+.enter__tabs_item:hover {
+  text-decoration: none;
+}
+.enter__tabs_item.active {
+  border: 1px solid #E4E4E4;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+.enter__block {
+  display: none;
+  margin-top: 30px;
+}
+.enter__block.active {
+  display: block;
+}
+.enter__row {
+  width: 652px;
+  margin: 0 auto 16px;
+}
+.enter__row-agreement {
+  margin-top: 25px;
+}
+.enter__row-center {
+  width: 428px;
+  margin: 0 auto 16px;
+  position: relative;
+}
+.enter__row-top {
+  margin-top: 25px;
+}
+.enter__label {
+  width: 95px;
+  float: left;
+  min-height: 1px;
+  font-size: 14px;
+  color: #B3B5B4;
+  text-align: right;
+  line-height: 1.3;
+  padding-top: 14px;
+}
+.enter__label-2line {
+  padding-top: 2px;
+}
+.enter__content {
+  width: 525px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 22px;
+  float: left;
+  position: relative;
+}
+.enter__input {
+  padding: 0 12px;
+  height: 41px;
+  width: 368px;
+  float: left;
+}
+.enter__input-capcha {
+  width: 180px;
+  margin-left: 8px;
+}
+.enter__input-center {
+  padding: 0 12px;
+  height: 41px;
+  width: 100%;
+}
+.enter__block_capcha {
+  border: 1px solid #E2E2E2;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: transparent;
+  float: left;
+  height: 41px;
+  width: 180px;
+}
+.enter__block_capcha img {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+}
+.enter__soc_text {
+  font-size: 12px;
+  color: #797979;
+  line-height: 14px;
+  width: 95px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.enter__soc_item {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/enter__soc.jpg') no-repeat;
+  margin-right: 16px;
+  position: relative;
+  top: -3px;
+}
+.enter__soc_item-vkontakte {
+  background-position: 0 0;
+}
+.enter__soc_item-ya {
+  background-position: -32px 0;
+}
+.enter__soc_item-yandex {
+  background-position: -32px 0;
+}
+.enter__soc_item-mail {
+  background-position: -57px 0;
+}
+.enter__soc_item-openid-mail-ru {
+  background-position: -57px 0;
+}
+.enter__soc_item-goo {
+  background-position: -84px 0;
+}
+.enter__soc_item-google {
+  background-position: -84px 0;
+}
+.enter__soc_item-facebook {
+  background-position: -115px 0;
+}
+.enter__soc_item-odnoklassniki {
+  background-position: -145px 0;
+}
+.enter__soc_item:hover {
+  opacity: 0.7;
+}
+.enter__btn {
+  height: 40px;
+  line-height: 38px;
+  font-size: 14px;
+  padding: 0 18px;
+  margin-top: 20px;
+}
+.enter__btn:disabled {
+    opacity: 0.5;
+    color: #E85C4E;
+    cursor: default;
+}
+.enter__btn:disabled:hover {
+    background: #fff;
+    color: #E85C4E;
+}
+.checkbox_label {
+  position: relative;
+  cursor: pointer;
+}
+.checkbox_label input {
+  position: absolute;
+  left: -99999999px;
+  top: -999999999px;
+}
+.checkbox_label input[type="checkbox"]:checked ~ .checkbox {
+  background-position: 0 -18px;
+}
+.checkbox_label .checkbox {
+  position: absolute;
+  left: -20px;
+  top: 4px;
+}
+.checkbox_label .checkbox_text {
+  color: #797979;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.enter__remember {
+  float: left;
+  color: #E43B24;
+  text-decoration: underline;
+  font-size: 14px;
+  margin-left: 12px;
+}
+.enter__remember span.checkbox {
+  position: relative;
+  top: -1px;
+}
+.enter__remember:hover {
+  text-decoration: none;
+}
+.enter__forget {
+  float: right;
+  color: #E43B24;
+  text-decoration: underline;
+  font-size: 14px;
+  margin-right: 40px;
+}
+.enter__forget:hover {
+  text-decoration: none;
+}
+/*ошибки в всплывающем окне*/
+.enter__input-error {
+  border-color: #DA251D;
+}
+.enter__text_error {
+  font-size: 11px;
+  position: absolute;
+  left: 445px;
+  top: 13px;
+  color: #DA251D;
+  line-height: 1.2;
+  width: 150px;
+}
+.reg_error {
+  top: 8px;
+  left: 425px;
+}
+/*reset password*/
+.reset {
+  margin-top: 50px;
+}
+.reset__label {
+  color: #686868;
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 20px;
+}
+.reset__email {
+  width: 280px;
+  margin: 0 0 22px 0;
+}
+.reset__input {
+  height: 41px;
+  padding: 0 12px;
+  width: 100%;
+}
+.reset__btn {
+  height: 40px;
+  padding: 0 19px;
+  font-size: 14px;
+}
+/* footer */
+.footer {
+  padding-top: 45px;
+  margin-top: 35px;
+  padding-bottom: 35px;
+  border-top: 1px solid #E97E2E;
+}
+.foo__left {
+  float: left;
+  width: 260px;
+  padding-left: 23px;
+  font-size: 12px;
+  color: #666;
+  margin-right: 50px;
+}
+.foo__logo {
+  display: block;
+  width: 227px;
+  margin-bottom: 39px;
+}
+.foo__logo img {
+  max-width: 100%;
+  display: block;
+}
+.foo__copy {
+  margin-bottom: 7px;
+}
+.foo__dev {
+  margin-left: 15px;
+}
+.foo__dev a {
+  color: #DA251D;
+}
+.foo__ul {
+  float: left;
+  margin-right: 50px;
+}
+.foo__ul-last {
+  margin-right: 0;
+}
+.foo__ul-2 {
+  margin-right: 56px;
+}
+.foo__ul-3 {
+  margin-right: 37px;
+}
+.foo__ul-4 {
+  margin-right: 65px;
+}
+.foo__li {
+  font-size: 16px;
+  color: #E97F2E;
+  margin-bottom: 7px;
+}
+.foo__li a {
+  font-size: 12px;
+  color: #9A9A9A;
+}
+.foo__li:first-child {
+  margin-bottom: 13px;
+}
+/* footer end*/
+/* стили слайдера */
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.flexslider {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  zoom: 1;
+  /*border-bottom: 4px solid #E43B24;*/
+}
+.flex-container {
+  width: 620px;
+  padding-bottom: 22px;
+  margin-bottom: 30px;
+}
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+}
+.flexslider .slides > li > a {
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+.flexslider .slides img {
+  width: 100%;
+  display: block;
+}
+.slides:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.flexslider .slides {
+  zoom: 1;
+}
+.flex-viewport {
+  /*border: 1px solid #DCDBDB;*/
+  border-bottom: none;
+}
+.flex-direction-nav a {
+  display: block;
+  cursor: pointer;
+  text-indent: -9999px;
+}
+.flex-direction-nav .flex-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -13px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 11;
+  width: 18px;
+  height: 26px;
+  display: block;
+  background: url('../../../../../templates/petromost_oneway_2014/img/s-right-arrow.png') no-repeat;
+}
+.flex-direction-nav .flex-prev {
+  position: absolute;
+  top: 50%;
+  margin-top: -13px;
+  left: 20px;
+  cursor: pointer;
+  z-index: 11;
+  width: 18px;
+  height: 26px;
+  display: block;
+  background: url('../../../../../templates/petromost_oneway_2014/img/s-left-arrow.png') no-repeat;
+}
+.flexslider .flex-control-nav {
+  position: absolute;
+  width: 100%;
+  bottom: -32px;
+  text-align: center;
+  margin: 0 0 0 -10px;
+}
+.flex-control-nav li {
+  display: inline-block;
+  zoom: 1;
+}
+.flex-control-paging li a {
+  margin: 0 8px;
+  height: 10px;
+  width: 10px;
+  float: left;
+  border: 1px solid #B8C4CF;
+  color: #B8C4CF;
+  text-indent: -1000px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.flex-control-paging li a.flex-active {
+  background: #E43B24;
+  border: 1px solid #E43B24;
+}
+/*----------------------- СТИЛИ НЕСТАНДАРТНОГО СКРОЛЛА ---------------------------*/
+.jspContainer {
+  overflow: hidden;
+  position: relative;
+}
+.jspPane {
+  position: absolute;
+  outline: none;
+}
+.jspVerticalBar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+}
+.jspHorizontalBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+}
+.jspVerticalBar *,
+.jspHorizontalBar * {
+  margin: 0;
+  padding: 0;
+}
+.jspCap {
+  display: none;
+}
+.jspHorizontalBar .jspCap {
+  float: left;
+}
+.jspTrack {
+  background: #f5b7b4;
+  position: relative;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+.jspDrag {
+  background: #ef8c87;
+  position: relative;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag {
+  float: left;
+  height: 100%;
+}
+.jspArrow {
+  background: #50506d;
+  text-indent: -20000px;
+  display: block;
+  cursor: pointer;
+}
+.jspArrow.jspDisabled {
+  cursor: default;
+  background: #80808d;
+}
+.jspVerticalBar .jspArrow {
+  height: 16px;
+}
+.jspHorizontalBar .jspArrow {
+  width: 16px;
+  float: left;
+  height: 100%;
+}
+.jspVerticalBar .jspArrow:focus {
+  outline: none;
+}
+.jspCorner {
+  background: #eeeef4;
+  float: left;
+  height: 100%;
+}
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner {
+  margin: 0 -3px 0 0;
+}
+/*----------------------- СТИЛИ НЕСТАНДАРТНОГО СКРОЛЛА ---------------------------*/
+/* анимация отправки в корзину */
+.wrp_goods__row_buy {
+  position: relative;
+}
+.icon-select-source {
+  visibility: hidden;
+  opacity: 0;
+  position: relative;
+  z-index: -1;
+}
+.goods__bought {
+  display:none;
+  height: 0;
+  opacity: 0;
+  -webkit-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+  transform: translateY(100px);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.goods__bought .goods__incart {
+  text-align: left;
+  display: block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 0 0 30px;
+  color: #bc6323;
+  font-size: 14px;
+  text-decoration: underline;
+  position: relative;
+}
+.goods__bought .goods__incart span {
+  position: relative;
+  display: inline-block;
+  text-decoration: underline;
+}
+.goods__bought .goods__incart:hover span {
+  text-decoration: none;
+}
+.goods__bought .goods__incart i {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-delay: 0;
+  -webkit-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  opacity: 0;
+  display: inline-block;
+  width: 12px;
+  height: 10px;
+  margin-right: 6px;
+  line-height: 0;
+}
+.goods__bought .goods__incart i svg {
+  fill: #bc6323;
+}
+.goods__bought .goods__incart_number {
+  position: absolute;
+  height: 13px;
+  min-width: 13px;
+  display: block;
+  line-height: 13px;
+  font-size: 8px;
+  color: #FFF;
+  background: #da251d;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  right: -15px;
+  top: -2px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 2px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-delay: 0;
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  font-family: Arial, Helvetica, Sans-Serif;
+  text-align: center;
+}
+.goods__row_buy-js {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-delay: 0;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+}
+.goods__bought-js {
+  display:block;
+  height: 26px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-delay: 0;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+.goods__bought-js .goods__incart i {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+}
+.goods__bought-js .goods__incart_number {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  transform: translateX(0px);
+}
+/* анимация отправки в корзину end*/
+
+/*cart*/
+.cart {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.table__cart {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+.table__cart td {
+  vertical-align: middle;
+  padding: 3px 0;
+}
+.table__cart .table__td-1 {
+  width: 76px;
+  padding-right: 20px;
+  text-align: center;
+}
+.table__cart .table__td-1 img {
+  max-width: 70px;
+  max-height: 90px;
+}
+.table__cart .table__td-2 {
+  width: 325px;
+  padding-right: 20px;
+}
+.table__cart .table__td-2 a {
+  color: #C4763E;
+  font-size: 14px;
+}
+.table__cart .table__td-3 {
+  width: 64px;
+}
+.table__cart .table__td-4 {
+  width: 90px;
+  text-align: right;
+  white-space: nowrap;
+}
+.table__cart .table__td-5 {
+  text-align: right;
+}
+.table__cart .table__td-5 .close {
+  display: inline-block;
+  background: url('../../../../../templates/petromost_oneway_2014/img/close.svg') no-repeat 50% 50%;
+  width: 12px;
+  height: 12px;
+}
+.row__total {
+  padding: 22px 0;
+  margin-top: 10px;
+  border-top: 1px solid #DADADA;
+}
+.btn__order-cart {
+  line-height: 38px;
+  margin-left: 96px!important;
+}
+.btn__cansel_order {
+  color: #666!important;
+}
+.btn__cansel_order-cart {
+  margin-left: 14px;
+}
+.total-price {
+  float: right;
+  margin-top: 8px;
+  font-size: 12px;
+  margin-right: 25px;
+}
+.total-price b {
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 15px;
+}
+.total-price span {
+  font-size: 16px;
+}
+/*cart end*/
+
+/*index cart total*/
+.aside__row_total {
+  text-align: right;
+  font-size: 12px;
+  color: #666;
+  border-top: 1px solid #DADADA;
+  padding: 14px 16px 14px 0;
+  margin-bottom: 5px;
+  margin-top: 9px;
+}
+.aside__row_total b {
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 14px;
+}
+/*index cart total end*/
+
+/* Страница rentals 111*/
+.content__center2 {
+  width: 620px;
+  float: left;
+  margin-left: 0px !important;
+  font-size: 15px;
+  color: #797979;
+  line-height: 1.5;
+}
+
+.profile__download {
+  float: left;
+  width: 49%;
+}
+
+.profile__download a {
+  padding-left: 59px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/rentals__download.png') no-repeat 18px 50%;
+  line-height: 1.2;
+  display: block;
+  margin-top: 26px;
+  min-height: 38px;
+  color: #E43B24;
+}
+#profile__load__true{
+display:none;
+}
+.profile__upload {
+  float: left;
+  width: 50%;
+}
+.profile__upload div {
+  position: relative;
+}
+.profile__upload span {
+  margin-top: 22px;
+  display: block;
+  margin-left: 16px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border: 3px dashed rgba(190, 190, 190, 0.3);
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  color: #A7A7A7;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-delay: 0;
+  position: relative;
+  z-index: 1;
+}
+.profile__upload .upload-file {
+  z-index: 2;
+  position: absolute;
+  height: 41px;
+  width: 226px;
+  left: 15px;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.selected-file {
+  color: #008800 !important;
+  border-color: #008800 !important;
+  opacity: 0.6 !important;
+  overflow: hidden;
+}
+.profile__upload .upload-file:hover + span {
+  opacity: 0.6;
+  border: 3px dashed rgba(190, 190, 190, 0.8);
+}
+.profile__upload a:hover {
+  opacity: 0.6;
+  border: 3px dashed rgba(190, 190, 190, 0.8);
+}
+.rentals p a{
+color: #E43B24;
+}
+.rentals__form {
+  margin-top: 26px;
+}
+.rentals__row {
+  margin-bottom: 16px;
+}
+.rentals__row .rentals__btn {
+  height: 41px;
+  line-height: 39px;
+  font-size: 14px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 10px;
+}
+
+.rentals__label {
+  width: 95px;
+  float: left;
+  text-align: right;
+  color: #a3a5a4;
+  font-size: 14px;
+  padding-top: 11px;
+}
+.rentals__label-2line {
+  padding-top: 1px;
+  line-height: 1.35;
+}
+.rentals__email a{
+color: #E43B24;
+}
+.rentals__content {
+  width: 367px;
+  float: right;
+  position: relative;
+}
+.rentals__content .rentals__input {
+  height: 41px;
+  padding: 0 11px;
+  width: 100%;
+}
+.rentals__content .enter__text_error {
+  top: 7px;
+  left: 385px;
+}
+.rentals__content .rentals__input-capcha {
+  width: 179px;
+  float: right;
+}
+.rentals__block_capcha {
+  float: left;
+  width: 179px;
+
+}
+.rentals__block_capcha img {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: pointer;
+}
+.rentals__wrp_form {
+  margin-top: 45px;
+  width: 484px;
+}
+/* Страница rentals end*/
+
+/*небольшие правки*/
+.goods__item a {
+  text-decoration: none;
+}
+.goods__item a:hover {
+  text-decoration: underline;
+}
+.aside__cart_table a {
+  text-decoration: none;
+}
+.aside__cart_table a:hover {
+  text-decoration: underline;
+}
+.breadcrumbs a {
+  text-decoration: none;
+}
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+.foo__ul a {
+  text-decoration: none;
+}
+.foo__ul a:hover {
+  text-decoration: underline;
+}
+.table__cart a {
+  text-decoration: none;
+}
+.table__cart a:hover {
+  text-decoration: underline;
+}
+.control-page a {
+  text-decoration: none;
+}
+.control-page a:hover {
+  text-decoration: underline;
+}
+/*небольшие правки*/
+
+/*plashka*/
+.good__plashka {
+  top: -4px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/sale_icon.png') no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  left: -10px;
+  border-radius: 5px 0px 5px 0px;
+  width: 110px;
+  height: 18px;
+}
+.good__plashka-off {
+  height: 20px;
+  width: 126px;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  background: url('../../../../../templates/petromost_oneway_2014/img/sale_off.png') no-repeat 0 0;
+}
+
+/* ----------- СТИЛИ ПРОГРАММИСТА --------------- */
+.personal-item-menu, .personal-item-menu a {
+  font-size: 14px;
+}
+.unit {
+  font-size: 16px;
+  display: inline-block;
+}
+.error-color {
+  color: #E43B24;
+}
+.ok-color {
+  color: #008800;
+}
+.ok-margin {
+  margin: 20px;
+  text-align: center;
+}
+.width-restore-pass-input {
+  width: 303px !important;
+}
+.width-restore-pass-lable {
+  width: 170px !important;
+}
+.rotate_background {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: rotate;
+    -moz-animation-duration:2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform:rotate(0deg);}
+    to {  -webkit-transform:rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform:rotate(0deg);}
+    to {  -moz-transform:rotate(360deg);}
+}
+/* ----------- СТИЛИ ПРОГРАММИСТА --------------- */
+table.active span {font-size:13px;}
+
+.item-count-loader
+{
+  display: none;
+}
+
+@font-face {
+	font-family: 'Conv_ariblk';
+	src: url('../../../../../templates/petromost_oneway_2014/fonts/ariblk.eot');
+	src: local('☺'), url('../../../../../templates/petromost_oneway_2014/fonts/ariblk.woff') format('woff'), url('../../../../../templates/petromost_oneway_2014/fonts/ariblk.ttf') format('truetype'), url('../../../../../templates/petromost_oneway_2014/fonts/ariblk.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.good__plashka__kopi {
+	font-family: 'Conv_ariblk';
+	background:url('../../../../../templates/petromost_oneway_2014/img/kopi_ico.png') no-repeat 0 0;
+	width:38px;
+	padding-left:57px;
+	height:29px;
+	color:#ffffff;
+	text-align:center;
+	font-size:12px;
+	line-height: 35px;
+	
+}
+/* End */
+/* /bitrix/templates/petromost_oneway_2014/petromost_template_styles.css */
+/* /bitrix/templates/petromost_oneway_2014/js/fancybox/jquery.fancybox-1.3.4.css */
+/* /bitrix/templates/petromost_oneway_2014/components/slobel/social.icons/socserv/style.css */
+/* /bitrix/templates/petromost_oneway_2014/components/it-nord/search.title/catalog/style.css */
+/* /bitrix/templates/petromost_oneway_2014/components/bitrix/system.auth.form/.default/style.css */
+/* /bitrix/templates/petromost_oneway_2014/components/bitrix/main.register/.default/style.css */
+/* /bitrix/panel/main/popup.css */
+/* /bitrix/templates/petromost_oneway_2014/template_styles.css */
