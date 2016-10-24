@@ -1401,16 +1401,36 @@
     $(this).parent().removeClass('is-active');
   });
 
-  $('.goods__list').readmore({
-    speed: 200,
-    moreLink: '<a href="#" class="">показать все</a>',
-    lessLink: '<a href="#" class="">скрыть список</a>',
-    embedCSS: true,
-    blockCSS: 'display: block; width: 200px;',
-    startOpen: false
-  });
 
   $('.js-dotted').dotdotdot();
+
+  $(window).resize(function() {
+    if(document.documentElement.clientWidth < 472) {
+
+      $('.goods__list').readmore({
+        speed: 200,
+        moreLink: '<a href="#" class="show-readmore">показать все</a>',
+        lessLink: '<a href="#" class="hide-readmore">скрыть список</a>',
+        embedCSS: true,
+        blockCSS: 'display: block; width: 200px;',
+        startOpen: false
+      });
+    } else {
+      $('.goods__list').readmore('destroy');
+    }
+  });
+
+  if(document.documentElement.clientWidth < 472) {
+
+    $('.goods__list').readmore({
+      speed: 200,
+      moreLink: '<a href="#" class="show-readmore">показать все <i>▼</i></a>',
+      lessLink: '<a href="#" class="hide-readmore">скрыть список <i>▲</i></a>',
+      embedCSS: true,
+      blockCSS: 'display: block; width: 200px;',
+      startOpen: false
+    });
+  };
 </script>
 <!--end script changes 2016-->
 

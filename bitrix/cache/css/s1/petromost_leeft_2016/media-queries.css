@@ -741,7 +741,7 @@
 }/*max-width: 490px*/
 
 
-@media screen and (max-width: 455px) {
+@media screen and (max-width: 472px) {
   .content__center h1 {
     text-align: center;
     color: #1C1C1C;
@@ -750,11 +750,34 @@
 
   .goods__list {
     width: 200px;
-    max-height: 370px;
+    max-height: 360px;
     overflow: hidden;
     margin: 0 auto;
   }
-}/*max-width: 455px*/
+
+  a.show-readmore,
+  a.hide-readmore {
+    display: block;
+    width: 100% !important;
+    text-align: center;
+    color: #1C1C1C;
+    font-family: "Tahoma";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-decoration: none;
+  }
+
+  .show-readmore i,
+  .hide-readmore i {
+    font-size: 8px;
+    line-height: 1.2;
+  }
+  a.show-readmore:hover,
+  a.hide-readmore:hover {
+    text-decoration: underline;
+  }
+}/*max-width: 472px*/
 
 
 /*----------------------- СТИЛИ MAIN ---------------------------*/
