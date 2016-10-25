@@ -25,6 +25,7 @@
   }
 
   .content__right {
+    float: none;
     width: auto;
   }
 
@@ -169,7 +170,9 @@
   .content__center::after,
   .content::after,
   .content__left::after,
-  .foo__ul::after{
+  .foo__ul::after,
+  .catalog::after,
+  .catalog__type_product::after {
     content: '';
     clear: both;
   }
@@ -230,6 +233,11 @@
     border-top: 1px solid #8f8f8f;
   }
 
+  .content__left::after {
+    content: '';
+    clear: both;
+  }
+
 
 }/*max-width: 1170px*/
 
@@ -279,6 +287,7 @@
   .content__center .header__tel--mobile {
     display: none;
   }
+
 }/*min-width: 1170px*/
 
 
