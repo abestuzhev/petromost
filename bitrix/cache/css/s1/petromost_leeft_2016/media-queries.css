@@ -76,7 +76,6 @@
     padding-top: 34px;
   }
 
-
   .aside__user_item-cart,
   .aside__cart_table,
   .btn__order,
@@ -162,6 +161,11 @@
     padding: 0 11px;
   }
 
+  .content__center .header__deliv_time,
+  .content__center .header__tel--mobile {
+    display: none;
+  }
+
   .content__center::after,
   .content::after,
   .content__left::after,
@@ -226,9 +230,6 @@
     border-top: 1px solid #8f8f8f;
   }
 
-  .foo__dev {
-    float: right;
-  }
 
 }/*max-width: 1170px*/
 
@@ -272,6 +273,11 @@
 
   .header__search {
     bottom: 10px;
+  }
+
+  .content__center .header__deliv_time,
+  .content__center .header__tel--mobile {
+    display: none;
   }
 }/*min-width: 1170px*/
 
@@ -330,6 +336,40 @@
   }
   .goods__item:nth-child(3n) {
     /*margin-right: 0;*/
+  }
+
+  .enter {
+    border: none;
+    width: auto;
+    display: block;
+  }
+
+  .enter__content,
+  .enter__row,
+  .enter__input,
+  .enter__row-center {
+    width: auto;
+  }
+
+  .enter__input-capcha {
+    margin:0;
+  }
+
+  .enter__soc_text {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .enter__forget,
+  .enter__remember {
+    float: none;
+  }
+  .enter__forget {
+    display: block;
+    margin-right: 0;
+    margin-left: 30px;
+    margin-top: 10px;
   }
 
 }/*max-width: 940px*/
@@ -433,6 +473,74 @@
   .header__search {
     top: 42px;
     width: 100% !important;
+  }
+  .row-1-2 {
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .content__center .header__deliv_time {
+    box-sizing: content-box;
+    display: block;
+    position: static;
+    width: 100%;
+    background-color: rgb(248,248,248);
+    padding: 10px;
+    margin-bottom: 14px;
+  }
+
+  .header__tel--mobile-text {
+    color: #1E1E1E;
+    font-family: "Tahoma";
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .header__tel--mobile-num {
+    font-size: 40px;
+    line-height: 1.1;
+    color: #E43B24;
+    padding-left: 38px;
+    position: relative;
+    display: inline-block;
+  }
+  .header__tel--mobile-num::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 29px;
+    height: 29px;
+    background: url(../../../../templates/petromost_oneway_2014/img/phone-icon.png) 0 0 no-repeat;
+  }
+
+  .header__tel--mobile-call {
+    color: #DA3323;
+    font-family: "Tahoma";
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    text-decoration: underline;
+    display: inline-block;
+    vertical-align: top;
+    width: 81px;
+    padding-top: 2px;
+    padding-left: 12px;
+    text-transform: lowercase;
+  }
+
+  .content__center .header__deliv_time_table {
+    width: 340px;
+  }
+  .content__center .header__deliv_time_table span{
+    color: #a5a5a5;
+  }
+
+  .content__center .header__tel--mobile {
+    display: block;
+    position: static;
+    margin-bottom: 30px;
+    padding: 0;
   }
 
   .site_container .mobile-btn_menu,
@@ -741,7 +849,20 @@
 }/*max-width: 490px*/
 
 
-@media screen and (max-width: 472px) {
+@media screen and (max-width: 490px) {
+
+  .content__center .header__deliv_time_table {
+    width: 310px;
+  }
+
+  .content__center .header__deliv_time_row {
+    font-size: 14px;
+  }
+
+  .content__center .header__deliv_time_item {
+    margin-left: 8px;
+  }
+
   .content__center h1 {
     text-align: center;
     color: #1C1C1C;
@@ -777,7 +898,24 @@
   a.hide-readmore:hover {
     text-decoration: underline;
   }
-}/*max-width: 472px*/
+
+  .aside__news_item {
+    height: 78px;
+    overflow: hidden;
+  }
+
+  .aside__news_text {
+    max-height: 78px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+}/*max-width: 490px*/
 
 
 /*----------------------- СТИЛИ MAIN ---------------------------*/

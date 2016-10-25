@@ -133,7 +133,7 @@
 
         <div class="header__deliv_time">
           <div class="header__deliv_time_row">
-            Доступное время доставки23:
+            Доступное время доставки:
             <span class="header__deliv_time_item active">сегодня</span>
             <span class="header__deliv_time_item">завтра</span>
           </div>
@@ -385,7 +385,69 @@
           });
         </script>
 
+        <!--mobile header__deliv_time-->
+          <div class="header__deliv_time">
+            <div class="header__deliv_time_row">
+              Доступное время доставки:
+              <span class="header__deliv_time_item active">сегодня</span>
+              <span class="header__deliv_time_item">завтра</span>
+            </div>
+            <div class="header__deliv_time_table">
 
+              <table class="active">
+                <tr>
+                  <td>
+                    <span>10:00 – 12:30</span>
+                  </td>
+                  <td>
+                    <span>12:30 – 15:00</span>
+                  </td>
+                  <td>
+                    <span>15:00 – 18:00</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span>18:30 – 20:30</span>
+                  </td>
+                  <td>
+                    <span>20:30 –  23:00</span>
+                  </td>
+                  <td><span></span></td>
+                </tr>
+              </table>
+
+              <table>
+                <tr>
+                  <td class="active">
+                    <span>10:00 – 12:30</span>
+                  </td>
+                  <td class="active">
+                    <span>12:30 – 15:00</span>
+                  </td>
+                  <td class="active">
+                    <span>15:00 – 18:00</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="active">
+                    <span>18:30 – 20:30</span>
+                  </td>
+                  <td class="active">
+                    <span>20:30 –  23:00</span>
+                  </td>
+                  <td><span></span></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="header__tel--mobile">
+            <div class="header__tel--mobile-text">Заказ товаров по телефону</div>
+            <div class="header__tel--mobile-num">20-03-18</div>
+            <a href="#" class="header__tel--mobile-call">Позвонить сейчас</a>
+          </div>
+        <!--end mobile header__deliv_time-->
         <div class="">
 
           <h1 title="Двойной щелчок - Редактировать файл включаемой области"
@@ -1235,13 +1297,13 @@
 
           <h2>Новости <a href="/about-the-company/news/" class="aside__allnews">Все новости</a></h2>
           <div class="aside__news_text">
-            <div id="bx_1914200112_53318" class="aside__news_item">
+            <div id="bx_1914200112_53318" class="aside__news_item js-dotted">
               <a href="/about-the-company/news/vnimanie/">ВНИМАНИЕ!</a>
               <p style="margin:0">На сайте проводятся технические работы, возможны проблемы с работой сайта.
                 Заказ так же&nbsp;&nbsp;можно оформить по телефону 20-03-18, с 8.00 до 20.00.
                 Спасибо за понимание.</p>
             </div>
-            <div id="bx_1914200112_53060" class="aside__news_item">
+            <div id="bx_1914200112_53060" class="aside__news_item js-dotted">
               <a href="/about-the-company/news/pravila-bonusnoy-programmy-snegiri/">ПРАВИЛА БОНУСНОЙ ПРОГРАММЫ
                 «СНЕГИРИ»</a>
               <p style="margin:0">С 30.08.2016 при покупке товара &quot;КОПИ&quot; бонусы по -новому!
@@ -1255,7 +1317,7 @@
                 Подробнее, кликай на новость.
               </p>
             </div>
-            <div id="bx_1914200112_52017" class="aside__news_item">
+            <div id="bx_1914200112_52017" class="aside__news_item js-dotted">
               <a href="/about-the-company/news/rayony-dostavki/">РАЙОНЫ ДОСТАВКИ</a>
               <p style="margin:0">Уважаемые покупатели!
                 С 01.05.2016 г, в связи с сокращением районов доставки,&nbsp;&nbsp;внесены изменения&nbsp;&nbsp;в раздел
@@ -1405,7 +1467,7 @@
   $('.js-dotted').dotdotdot();
 
   $(window).resize(function() {
-    if(document.documentElement.clientWidth < 472) {
+    if(document.documentElement.clientWidth < 490) {
 
       $('.goods__list').readmore({
         speed: 200,
@@ -1415,12 +1477,27 @@
         blockCSS: 'display: block; width: 200px;',
         startOpen: false
       });
+
+      $('.aside__news_text').readmore({
+        speed: 200,
+        moreLink: '<a href="#" class="show-readmore">показать все <i>▼</i></a>',
+        lessLink: '<a href="#" class="hide-readmore">скрыть список <i>▲</i></a>',
+        embedCSS: true,
+        blockCSS: 'display: block; width: 100%;',
+        startOpen: false
+      });
+
+      $('.js-dotted').dotdotdot();
+
     } else {
       $('.goods__list').readmore('destroy');
-    }
+      $('.aside__news_text').readmore('destroy');
+    };
+
+
   });
 
-  if(document.documentElement.clientWidth < 472) {
+    if(document.documentElement.clientWidth < 490) {
 
     $('.goods__list').readmore({
       speed: 200,
@@ -1430,6 +1507,17 @@
       blockCSS: 'display: block; width: 200px;',
       startOpen: false
     });
+
+    $('.aside__news_text').readmore({
+      speed: 200,
+      moreLink: '<a href="#" class="show-readmore">показать еще <i>▼</i></a>',
+      lessLink: '<a href="#" class="hide-readmore">скрыть список <i>▲</i></a>',
+      embedCSS: true,
+      blockCSS: 'display: block; width: 100%;',
+      startOpen: false
+    });
+
+    $('.js-dotted').dotdotdot();
   };
 </script>
 <!--end script changes 2016-->
