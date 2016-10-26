@@ -1,6 +1,17 @@
 /*----------------------- СТИЛИ HEADER ---------------------------*/
 @media screen and (max-width: 1170px) {
 
+
+  .content__right .popap-basket {
+    display: none;
+  }
+
+  .catalog__wrp_filter {
+    z
+  }
+
+
+
   .header__contact {
     display: none;
   }
@@ -269,6 +280,10 @@
 
 @media screen and (min-width: 1170px) {
 
+  .content__right .popap-basket {
+    display: none;
+  }
+
   .header {
     height: 164px;
   }
@@ -318,9 +333,6 @@
 
 @media screen and (max-width: 940px) {
 
-  /*.header {*/
-    /*height: 256px;*/
-  /*}*/
 
   .header__soc {
     top: 58px;
@@ -1137,15 +1149,22 @@
     left: 5px;
     margin-left: 0;
     font-size: 12px;
-    width: 95%;
+    width: 97%;
     z-index: 999;
     background-color: #fff;
     text-align: center;
     margin-top: 0;
     padding-top: 60px;
+    -moz-box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.15);
   }
   .jspContainer {
     height: 396px !important;
+  }
+
+  .catalog__row_filter {
+    z-index: 9999;
   }
 
   .jspPane,
@@ -1155,23 +1174,36 @@
   .catalog__filter_list .catalog__filter_list-label {
     height: 320px;
   }
+
+  .catalog__filter_list-label,
+  .jspContainer,
+  .jspContainer {
+    width: auto;
+  }
+  .catalog__filter.active {
+
+    width: auto;
+    height: 0;
+
+
 }
 
 
 
 /*----------------------- СТИЛИ попап корзины ---------------------------*/
 @media screen and (min-width: 1170px) {
-  .popap-basket {
+  .content__right .popap-basket {
     display: none;
   }
 
   .is-active {
     display: block !important;
   }
+
 }
 
 @media screen and (max-width: 1170px) {
-  .popap-basket {
+  .content__right .popap-basket {
     display: none;
     position: fixed;
     top: 0;
@@ -1267,6 +1299,7 @@
   .popap-basket .table__td-1 {
     display: none;
   }
-
 }
+
+
 
