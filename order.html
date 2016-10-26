@@ -20,6 +20,9 @@
   <link href="bitrix\cache\css\s1\petromost_oneway_2014\template_7d5612486746b7604b871b77231b7cd5\template_7d5612486746b7604b871b77231b7cd5_b357d29af6a96e236e0977106579afeb.css?1477037064109762"
         type="text/css" rel="stylesheet">
 
+  <link href="bitrix\cache\css\s1\petromost_oneway_2014\page_c96baeb959379a5611f4a8df11cfe306\page_c96baeb959379a5611f4a8df11cfe306_ab511639880a0582f646a8ef8fd9abe8.css?14170935972203"
+        type="text/css" rel="stylesheet">
+
   <!-- changes 2016-->
   <link rel="stylesheet" href="bitrix\cache\css\s1\petromost_leeft_2016\media-queries.css">
   <!-- end changes 2016-->
@@ -345,560 +348,466 @@
 
       <!-- begin content__center -->
       <section class="content__center">
+        <div class="breadcrumbs"><a href="/" title="Главная">Главная</a><span>/</span><a href="/personal/"
+                                                                                         title="Персональный раздел">Персональный
+          раздел</a><span>/</span><a href="/personal/order/" title="Заказ">Заказ</a></div>
+        <h1>Заказ</h1>
 
 
-        <div class="content__slider flex-container">
-          <div class="flexslider">
-            <ul class="slides">
-              <li id="bx_1914200112_53277">
-                <a href="http://www.петромост.рф/petromost-kafe/kafe/">
-                  <img src="upload\iblock\762\Доставка пиццы Банер на сайт.jpg" width="618" height="186" alt="Пицца">
-                </a>
-              </li>
-              <li id="bx_1914200112_51833">
-                <a href="http://www.петромост.рф/about-the-company/news/pravila-bonusnoy-programmy-snegiri/">
-                  <img src="upload\iblock\c6a\Банер КОПИ.jpg" width="618" height="186" alt="копи">
-                </a>
-              </li>
-              <li id="bx_1914200112_48203">
-                <a href="pharmacies\index.htm">
-                  <img src="upload\iblock\b2b\Аптека (2).jpg" width="618" height="186" alt="Аптека">
-                </a>
-              </li>
-              <li id="bx_1914200112_47541">
-                <a href="http://www.петромост.рф/petromost-kafe/kafe/">
-                  <img src="upload\iblock\9d5\Доставка Пиццы и Суши.jpg" width="618" height="186" alt="суши пицца">
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <a name="order_fform"></a>
+        <div id="order_form_div" class="order-checkout">
+          <noscript>
+            &lt;div class="errortext"&gt;Для оформления заказа необходимо включить JavaScript. По-видимому, JavaScript
+            либо не поддерживается браузером, либо отключен. Измените настройки браузера и затем &lt;a href=""&gt;повторите
+            попытку&lt;/a&gt;.&lt;/div&gt;
+          </noscript>
+          <script>
+            <!--
+            function submitForm(val) {
+              if (val != 'Y')
+                BX('confirmorder').value = 'N';
 
-        <script>
-          $(document).ready(function () {
-            $('.flexslider').flexslider({
-              animation: 'slide',
-              animationSpeed: 1000,
-              touch: true,
-              controlsContainer: '.flexslider'
-            });
-          });
-        </script>
+              var orderForm = BX('ORDER_FORM');
 
-        <!--mobile header__deliv_time-->
-        <div class="header__deliv_time">
-          <div class="header__deliv_time_row">
-            Доступное время доставки:
-            <span class="header__deliv_time_item active">сегодня</span>
-            <span class="header__deliv_time_item">завтра</span>
-          </div>
-          <div class="header__deliv_time_table">
+              BX.ajax.submitComponentForm(orderForm, 'order_form_content', true);
+              BX.submit(orderForm);
 
-            <table class="active">
-              <tr>
-                <td>
-                  <span>10:00 – 12:30</span>
-                </td>
-                <td>
-                  <span>12:30 – 15:00</span>
-                </td>
-                <td>
-                  <span>15:00 – 18:00</span>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <span>18:30 – 20:30</span>
-                </td>
-                <td>
-                  <span>20:30 –  23:00</span>
-                </td>
-                <td><span></span></td>
-              </tr>
-            </table>
-
-            <table>
-              <tr>
-                <td class="active">
-                  <span>10:00 – 12:30</span>
-                </td>
-                <td class="active">
-                  <span>12:30 – 15:00</span>
-                </td>
-                <td class="active">
-                  <span>15:00 – 18:00</span>
-                </td>
-              </tr>
-              <tr>
-                <td class="active">
-                  <span>18:30 – 20:30</span>
-                </td>
-                <td class="active">
-                  <span>20:30 –  23:00</span>
-                </td>
-                <td><span></span></td>
-              </tr>
-            </table>
-          </div>
-        </div>
-
-        <div class="header__tel--mobile">
-          <div class="header__tel--mobile-text">Заказ товаров по телефону</div>
-          <div class="header__tel--mobile-num">20-03-18</div>
-          <a href="#" class="header__tel--mobile-call">Позвонить сейчас</a>
-        </div>
-        <!--end mobile header__deliv_time-->
-        <div class="">
-
-          <h1 title="Двойной щелчок - Редактировать файл включаемой области"
-              style="margin: 0px 0px 18px; padding: 0px; outline: none; font-size: 25px; font-weight: normal; position: relative; line-height: 1.2; font-family: Tahoma, sans-serif;">
-            Только неделю!</h1>
-        </div>
-
-
-        <!-- begin goods__list -->
-        <div class="goods__list cf">
-          <div id="bx_2004265238_42119" class="js-good-item goods__item">
-            <div class="good__plashka"></div>
-            <div class="goods__img">
-              <a href="/catalog/3-3-02-1-kolbasa-varenaya-vesovaya/kolbasa-doktorskaya-var-v-s-gost-n-o-vitlayn-sever/">
-                <img src="upload\resize_cache\iblock\d77\129_110_1\ДОКТвитлайн НАТ ОБ ГОСТ.png" width="129" height="96"
-                     alt="Колбаса Докторская вар в/с ГОСТ н/о Витлайн Север">
-              </a>
-            </div>
-            <div class="goods__category">
-              <a href="/catalog/3-3-02-1-kolbasa-varenaya-vesovaya/">
-                3.3.02.1 Колбаса вареная весовая </a>
-            </div>
-            <div class="goods__name">
-              <a href="/catalog/3-3-02-1-kolbasa-varenaya-vesovaya/kolbasa-doktorskaya-var-v-s-gost-n-o-vitlayn-sever/">
-                Колбаса Докторская вар в/с ГОСТ н/о Витлайн Север </a>
-            </div>
-            <div class="goods__price">
-              <span class="goods__price-old">429</span>
-              <span class="goods__price-new">299,90</span>
-              <span class="rub">р.</span><span class="unit">/кг.</span>
-            </div>
-            <div class="goods__row_buy">
-              <div class="goods__number">
-                <div class="number">
-                  <input type="tel" value="0.1" class="inp" data-max="11.826" readonly="">
-                  <span data-unit="weight" class="plus"></span>
-                  <span data-unit="weight" class="minus"></span>
-                </div>
-              </div>
-              <span class="btn goods__in_cart js-add-cart" data-id="42119"><i></i> В корзину</span>
-            </div>
-            <div class="goods__bought ">
-              <a href="/personal/" class="goods__incart">
-                <i>
-                  <svg class="icon-ok" width="12.001px" height="10px" viewbox="0 0 12.001 10">
-                    <use xlink:href="#iconOk"></use>
-                  </svg>
-                </i><span>В корзине<div class="goods__incart_number">
-                                                    0.1
-                                            </div></span>
-              </a>
-            </div>
-          </div>
-          <div id="bx_2004265238_50620" class="js-good-item goods__item">
-            <div class="good__plashka"></div>
-            <div class="goods__img">
-              <a href="/catalog/4-2-4-3-ryba-preservy-ryba-v-banochkakh/seld-treskoed-atl-file-s-s-v-m-500g/">
-                <img src="upload\resize_cache\iblock\d09\129_110_1\6H2A1312.JPG" width="129" height="86"
-                     alt="Сельдь Трескоед атл.филе с/с в/м 500г">
-              </a>
-            </div>
-            <div class="goods__category">
-              <a href="/catalog/4-2-4-3-ryba-preservy-ryba-v-banochkakh/">
-                4.2.4.3. Рыба пресервы (рыба в баночках) </a>
-            </div>
-            <div class="goods__name">
-              <a href="/catalog/4-2-4-3-ryba-preservy-ryba-v-banochkakh/seld-treskoed-atl-file-s-s-v-m-500g/">
-                Сельдь Трескоед атл.филе с/с в/м 500г </a>
-            </div>
-            <div class="goods__price">
-              <span class="goods__price-old">189</span>
-              <span class="goods__price-new">149,90</span>
-              <span class="rub">р.</span><span class="unit">/шт.</span>
-            </div>
-            <div class="goods__row_buy">
-              <div class="goods__number">
-                <div class="number">
-                  <input type="tel" value="1" class="inp" data-max="41" readonly="">
-                  <span data-unit="piece" class="plus"></span>
-                  <span data-unit="piece" class="minus"></span>
-                </div>
-              </div>
-              <span class="btn goods__in_cart js-add-cart" data-id="50620"><i></i> В корзину</span>
-            </div>
-            <div class="goods__bought ">
-              <a href="/personal/" class="goods__incart">
-                <i>
-                  <svg class="icon-ok" width="12.001px" height="10px" viewbox="0 0 12.001 10">
-                    <use xlink:href="#iconOk"></use>
-                  </svg>
-                </i><span>В корзине<div class="goods__incart_number">
-                                                    1
-                                            </div></span>
-              </a>
-            </div>
-          </div>
-          <div id="bx_2004265238_17326" class="js-good-item goods__item">
-            <div class="good__plashka"></div>
-            <div class="goods__img">
-              <a href="/catalog/1-2-13-3-tvorog-s-napolnitelyami-200-g-i-menee/produkt-tvor-danon-persik-abrikos-3-6-170g/">
-                <img src="upload\resize_cache\iblock\d4b\129_110_1\47123.jpg" width="129" height="97"
-                     alt="Продукт твор.Данон персик/абрикос 3,6% 170г">
-              </a>
-            </div>
-            <div class="goods__category">
-              <a href="/catalog/1-2-13-3-tvorog-s-napolnitelyami-200-g-i-menee/">
-                1.2.13.3 Творог с наполнителями 200 г и менее </a>
-            </div>
-            <div class="goods__name">
-              <a href="/catalog/1-2-13-3-tvorog-s-napolnitelyami-200-g-i-menee/produkt-tvor-danon-persik-abrikos-3-6-170g/">
-                Продукт твор.Данон персик/абрикос 3,6% 170г </a>
-            </div>
-            <div class="goods__price">
-              <span class="goods__price-old">44</span>
-              <span class="goods__price-new">29,90</span>
-              <span class="rub">р.</span><span class="unit">/шт.</span>
-            </div>
-            <div class="goods__row_buy">
-              <div class="goods__number">
-                <div class="number">
-                  <input type="tel" value="1" class="inp" data-max="96" readonly="">
-                  <span data-unit="piece" class="plus"></span>
-                  <span data-unit="piece" class="minus"></span>
-                </div>
-              </div>
-              <span class="btn goods__in_cart js-add-cart" data-id="17326"><i></i> В корзину</span>
-            </div>
-            <div class="goods__bought ">
-              <a href="/personal/" class="goods__incart">
-                <i>
-                  <svg class="icon-ok" width="12.001px" height="10px" viewbox="0 0 12.001 10">
-                    <use xlink:href="#iconOk"></use>
-                  </svg>
-                </i><span>В корзине<div class="goods__incart_number">
-                                                    1
-                                            </div></span>
-              </a>
-            </div>
-          </div>
-          <div id="bx_2004265238_52614" class="js-good-item goods__item">
-            <div class="good__plashka"></div>
-            <div class="goods__img">
-              <a href="/catalog/26-3-8-2-zubnye-pasty/pasta-zubnaya-splat-prof-sensitiv-100ml/">
-                <img src="upload\resize_cache\iblock\8d5\129_110_1\Паста зубная Сплат Проф Сенситив 100мл.png"
-                     width="129" height="79" alt="Паста зубная Сплат Проф.Сенситив 100мл">
-              </a>
-            </div>
-            <div class="goods__category">
-              <a href="/catalog/26-3-8-2-zubnye-pasty/">
-                26.3.8.2. Зубные пасты </a>
-            </div>
-            <div class="goods__name">
-              <a href="/catalog/26-3-8-2-zubnye-pasty/pasta-zubnaya-splat-prof-sensitiv-100ml/">
-                Паста зубная Сплат Проф.Сенситив 100мл </a>
-            </div>
-            <div class="goods__price">
-              <span class="goods__price-old">139</span>
-              <span class="goods__price-new">109,90</span>
-              <span class="rub">р.</span><span class="unit">/шт.</span>
-            </div>
-            <div class="goods__row_buy">
-              <div class="goods__number">
-                <div class="number">
-                  <input type="tel" value="1" class="inp" data-max="8" readonly="">
-                  <span data-unit="piece" class="plus"></span>
-                  <span data-unit="piece" class="minus"></span>
-                </div>
-              </div>
-              <span class="btn goods__in_cart js-add-cart" data-id="52614"><i></i> В корзину</span>
-            </div>
-            <div class="goods__bought ">
-              <a href="/personal/" class="goods__incart">
-                <i>
-                  <svg class="icon-ok" width="12.001px" height="10px" viewbox="0 0 12.001 10">
-                    <use xlink:href="#iconOk"></use>
-                  </svg>
-                </i><span>В корзине<div class="goods__incart_number">
-                                                    1
-                                            </div></span>
-              </a>
-            </div>
-          </div>
-          <div id="bx_2004265238_49863" class="js-good-item goods__item">
-            <div class="good__plashka"></div>
-            <div class="goods__img">
-              <a href="/catalog/14-2-2-4-kotl-bifsht-romsht-shnitseli-zrazy-zamor/kotlety-vitlayn-sever-severnye-okhotnichi-420g/">
-                <img src="upload\resize_cache\iblock\c98\129_110_1\6H2A0105.JPG" width="129" height="86"
-                     alt="Котлеты Витлайн Север Северные-охотничьи 420г">
-              </a>
-            </div>
-            <div class="goods__category">
-              <a href="/catalog/14-2-2-4-kotl-bifsht-romsht-shnitseli-zrazy-zamor/">
-                14.2.2.4.Котл, бифшт, ромшт, шницели, зразы замор. </a>
-            </div>
-            <div class="goods__name">
-              <a href="/catalog/14-2-2-4-kotl-bifsht-romsht-shnitseli-zrazy-zamor/kotlety-vitlayn-sever-severnye-okhotnichi-420g/">
-                Котлеты Витлайн Север Северные-охотничьи 420г </a>
-            </div>
-            <div class="goods__price">
-              <span class="goods__price-old">69</span>
-              <span class="goods__price-new">59,90</span>
-              <span class="rub">р.</span><span class="unit">/шт.</span>
-            </div>
-            <div class="goods__row_buy">
-              <div class="goods__number">
-                <div class="number">
-                  <input type="tel" value="1" class="inp" data-max="39" readonly="">
-                  <span data-unit="piece" class="plus"></span>
-                  <span data-unit="piece" class="minus"></span>
-                </div>
-              </div>
-              <span class="btn goods__in_cart js-add-cart" data-id="49863"><i></i> В корзину</span>
-            </div>
-            <div class="goods__bought ">
-              <a href="/personal/" class="goods__incart">
-                <i>
-                  <svg class="icon-ok" width="12.001px" height="10px" viewbox="0 0 12.001 10">
-                    <use xlink:href="#iconOk"></use>
-                  </svg>
-                </i><span>В корзине<div class="goods__incart_number">
-                                                    1
-                                            </div></span>
-              </a>
-            </div>
-          </div>
-          <div id="bx_2004265238_24418" class="js-good-item goods__item">
-            <div class="good__plashka"></div>
-            <div class="goods__img">
-              <a href="/catalog/1-2-01-2-deserty/pirozhnoe-kinder-molochnyy-lomtik-28g/">
-                <img src="upload\resize_cache\iblock\bb5\129_110_1\1688.jpg" width="129" height="50"
-                     alt="Пирожное Киндер Молочный ломтик 28г">
-              </a>
-            </div>
-            <div class="goods__category">
-              <a href="/catalog/1-2-01-2-deserty/">
-                1.2.01.2 Десерты </a>
-            </div>
-            <div class="goods__name">
-              <a href="/catalog/1-2-01-2-deserty/pirozhnoe-kinder-molochnyy-lomtik-28g/">
-                Пирожное Киндер Молочный ломтик 28г </a>
-            </div>
-            <div class="goods__price">
-              <span class="goods__price-old">34</span>
-              <span class="goods__price-new">19,90</span>
-              <span class="rub">р.</span><span class="unit">/шт.</span>
-            </div>
-            <div class="goods__row_buy">
-              <div class="goods__number">
-                <div class="number">
-                  <input type="tel" value="1" class="inp" data-max="494" readonly="">
-                  <span data-unit="piece" class="plus"></span>
-                  <span data-unit="piece" class="minus"></span>
-                </div>
-              </div>
-              <span class="btn goods__in_cart js-add-cart" data-id="24418"><i></i> В корзину</span>
-            </div>
-            <div class="goods__bought ">
-              <a href="/personal/" class="goods__incart">
-                <i>
-                  <svg class="icon-ok" width="12.001px" height="10px" viewbox="0 0 12.001 10">
-                    <use xlink:href="#iconOk"></use>
-                  </svg>
-                </i><span>В корзине<div class="goods__incart_number">
-                                                    1
-                                            </div></span>
-              </a>
-            </div>
-          </div>
-          <div id="bx_2004265238_27093" class="js-good-item goods__item">
-            <div class="good__plashka"></div>
-            <div class="goods__img">
-              <a href="/catalog/25-2-4-16-salfetki-tryapki-dlya-uborki/salfetki-klyuva-d-uborki-viskoza-3sht/">
-                <img src="upload\resize_cache\iblock\df2\129_110_1\119293.jpg" width="74" height="110"
-                     alt="Салфетки Клюва д/уборки вискоза 3шт">
-              </a>
-            </div>
-            <div class="goods__category">
-              <a href="/catalog/25-2-4-16-salfetki-tryapki-dlya-uborki/">
-                25.2.4.16. Салфетки, тряпки для уборки </a>
-            </div>
-            <div class="goods__name">
-              <a href="/catalog/25-2-4-16-salfetki-tryapki-dlya-uborki/salfetki-klyuva-d-uborki-viskoza-3sht/">
-                Салфетки Клюва д/уборки вискоза 3шт </a>
-            </div>
-            <div class="goods__price">
-              <span class="goods__price-old">29</span>
-              <span class="goods__price-new">19,90</span>
-              <span class="rub">р.</span><span class="unit">/шт.</span>
-            </div>
-            <div class="goods__row_buy">
-              <div class="goods__number">
-                <div class="number">
-                  <input type="tel" value="1" class="inp" data-max="53" readonly="">
-                  <span data-unit="piece" class="plus"></span>
-                  <span data-unit="piece" class="minus"></span>
-                </div>
-              </div>
-              <span class="btn goods__in_cart js-add-cart" data-id="27093"><i></i> В корзину</span>
-            </div>
-            <div class="goods__bought ">
-              <a href="/personal/" class="goods__incart">
-                <i>
-                  <svg class="icon-ok" width="12.001px" height="10px" viewbox="0 0 12.001 10">
-                    <use xlink:href="#iconOk"></use>
-                  </svg>
-                </i><span>В корзине<div class="goods__incart_number">
-                                                    1
-                                            </div></span>
-              </a>
-            </div>
-          </div>
-          <div id="bx_2004265238_24472" class="js-good-item goods__item">
-            <div class="good__plashka"></div>
-            <div class="goods__img">
-              <a href="/catalog/11-07-4-3-spetsii-fasovannye/smes-maggi-makaronomaniya-bolonez-30g/">
-                <img src="upload\resize_cache\iblock\656\129_110_1\7874.jpg" width="91" height="110"
-                     alt="Смесь Магги Макарономания Болонез 30г">
-              </a>
-            </div>
-            <div class="goods__category">
-              <a href="/catalog/11-07-4-3-spetsii-fasovannye/">
-                11.07.4.3. Специи фасованные </a>
-            </div>
-            <div class="goods__name">
-              <a href="/catalog/11-07-4-3-spetsii-fasovannye/smes-maggi-makaronomaniya-bolonez-30g/">
-                Смесь Магги Макарономания Болонез 30г </a>
-            </div>
-            <div class="goods__price">
-              <span class="goods__price-old">47</span>
-              <span class="goods__price-new">29,90</span>
-              <span class="rub">р.</span><span class="unit">/шт.</span>
-            </div>
-            <div class="goods__row_buy">
-              <div class="goods__number">
-                <div class="number">
-                  <input type="tel" value="1" class="inp" data-max="32" readonly="">
-                  <span data-unit="piece" class="plus"></span>
-                  <span data-unit="piece" class="minus"></span>
-                </div>
-              </div>
-              <span class="btn goods__in_cart js-add-cart" data-id="24472"><i></i> В корзину</span>
-            </div>
-            <div class="goods__bought ">
-              <a href="/personal/" class="goods__incart">
-                <i>
-                  <svg class="icon-ok" width="12.001px" height="10px" viewbox="0 0 12.001 10">
-                    <use xlink:href="#iconOk"></use>
-                  </svg>
-                </i><span>В корзине<div class="goods__incart_number">
-                                                    1
-                                            </div></span>
-              </a>
-            </div>
-          </div>
-          <div id="bx_2004265238_47034" class="js-good-item goods__item">
-            <div class="good__plashka"></div>
-            <div class="goods__img">
-              <a href="/catalog/12-6-2-1-govyadina-tushenaya/govyadina-tush-gost-v-s-grinprodukt-325g/">
-                <img src="upload\resize_cache\iblock\fbd\129_110_1\6H2A0888.JPG" width="129" height="86"
-                     alt="Говядина туш Гост в/с Гринпродукт 325г">
-              </a>
-            </div>
-            <div class="goods__category">
-              <a href="/catalog/12-6-2-1-govyadina-tushenaya/">
-                12.6.2.1. Говядина тушеная </a>
-            </div>
-            <div class="goods__name">
-              <a href="/catalog/12-6-2-1-govyadina-tushenaya/govyadina-tush-gost-v-s-grinprodukt-325g/">
-                Говядина туш Гост в/с Гринпродукт 325г </a>
-            </div>
-            <div class="goods__price">
-              <span class="goods__price-old">149</span>
-              <span class="goods__price-new">109,90</span>
-              <span class="rub">р.</span><span class="unit">/шт.</span>
-            </div>
-            <div class="goods__row_buy">
-              <div class="goods__number">
-                <div class="number">
-                  <input type="tel" value="1" class="inp" data-max="87" readonly="">
-                  <span data-unit="piece" class="plus"></span>
-                  <span data-unit="piece" class="minus"></span>
-                </div>
-              </div>
-              <span class="btn goods__in_cart js-add-cart" data-id="47034"><i></i> В корзину</span>
-            </div>
-            <div class="goods__bought ">
-              <a href="/personal/" class="goods__incart">
-                <i>
-                  <svg class="icon-ok" width="12.001px" height="10px" viewbox="0 0 12.001 10">
-                    <use xlink:href="#iconOk"></use>
-                  </svg>
-                </i><span>В корзине<div class="goods__incart_number">
-                                                    1
-                                            </div></span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <script>
-          // блоки одинаковой высоты
-          setEqualHeight($('.goods__category'), 3);
-          setEqualHeight($('.goods__name'), 3);
-          setEqualHeight($('.goods__price'), 3);
-          var ajaxAddCartCall = false;
-
-          // анимация отправки в корзину
-          $('.js-add-cart').click(function () {
-            if (ajaxAddCartCall) {
-              return false;
-            } else {
-              ajaxAddCartCall = true;
+              return true;
             }
+            function SetContact(profileId) {
+              BX("profile_change").value = "Y";
+              submitForm();
+            }
+            //-->
+          </script>
+          <script>
+            //функция для проверки сегодняшних временных слотов
+            function AjaxTimeSlotChecker($request) {
+              $.ajax({
+                type: 'GET',
+                url: '/bitrix/templates/.default/components/petromost/sale.order.ajax/order/timeslot_checker.php',
+                data: $request,
+                beforeSend: function () {
 
-            var $this = $(this);
-            var url = '/bitrix/templates/petromost_oneway_2014/components/bitrix/catalog.top/mp_only_old_price/ajax_add_cart.php';
-            var data = {
-              id: $this.data('id'),
-              quantity: $this.parent().find('input').val()
-            };
-
-            $.ajax({
-              url: url,
-              dataType: "json",
-              type: "post",
-              data: data,
-              success: function (data, textStatus) {
-                ajaxAddCartCall = false;
-
-                if (data.result) {
-                  $this.parent('.goods__row_buy').addClass('goods__row_buy-js');
-                  $this.parent().siblings('.goods__bought').addClass('goods__bought-js');
-                  $(document).trigger('addNewItemCartEvent', data);
-                } else {
-                  alert(data.error);
+                },
+                success: function (data) {
+                  if (data == 0)
+                    submitForm("Y");
+                  if (data != 0) {
+                    $("#ORDER_PROP_2 option").eq(0).attr("selected", "selected");
+                    $("#ORDER_PROP_2 option[value='" + data + "']").attr("disabled", "disabled");
+                    $("#ORDER_PROP_2").css("border", "1px solid red");
+                    $("#ORDER_PROP_2").after("<span class='error-sp' style='color:red;'> Выбранный Вами ранее слот успел уже закрыться.</span>");
+                    //$(document).scrollTop($("#ORDER_PROP_2").offset().top-100);
+                    $('html, body').animate({scrollTop: $("#ORDER_PROP_2").offset().top - 100}, 500);
+                  }
+                },
+                error: function (xhr, str) {
+                  console.log('Возникла ошибка: ' + xhr.responseCode);
                 }
+              });
+            }
+          </script>
+          <script>
+            $(".add_recipe").live("click", function () {
+              var time1 = $("#ORDER_PROP_2").val();
+              var time2 = $("#ORDER_PROP_7").val();
+              if ($("#confirmorder").attr("checked") == "checked") {
+                var conf = "Y";
+              } else {
+                if ($("#confirmorder").attr("type") == "hidden" && $("#confirmorder").val() == "Y")
+                  var conf = "Y";
+                else
+                  var conf = "N";
               }
+              if ((time1 != "" || time2 != "") && conf == "Y") {
+                //проверяем не закрылся ли временной слот
+                if (time1 != "")
+                  AjaxTimeSlotChecker('time_slot=' + time1);
+                else
+                  submitForm("Y");
+              }
+              return false;
             });
-          });
-        </script>
-        <!-- end goods__list -->
+          </script>
+          <script>
+            $("input[type='radio']").live("click", function () {
+              $(".error-sp").remove();
+            });
+            $(".required").live("click", function () {
+              $(".error-sp").remove();
+            });
+          </script>
+          <form action="" method="POST" name="ORDER_FORM" id="ORDER_FORM">
+            <div id="order_form_content">
+              <input type="hidden" name="sessid" id="sessid" value="f8e4228a675e19f8c16146d17eca12bb"> <input
+                    type="hidden" name="PERSON_TYPE" value="1">
+              <input type="hidden" name="PERSON_TYPE_OLD" value="1">
+
+              <b>Информация для оплаты и доставки заказа</b><br>
+              <table class="sale_order_full_table">
+                <tbody>
+                <tr>
+                  <td>
+                    <div style="display:none;">
 
 
-        <img src="http://petrovsky.ru/bitrix/spread.php?s=QklUUklYX1NNX0dVRVNUX0lEATQ5NjEzMwExNTA4MjU1MzU3AS8BAQECQklUUklYX1NNX0xBU1RfVklTSVQBMjIuMTAuMjAxNiAxODo0OToxNwExNTA4MjU1MzU3AS8BAQEC&amp;k=7905c068b4ef4ea218bffa3af1db4f4f"
+                      <div id="LOCATION_tmp">
+
+
+                      </div>
+                      <div id="wait_container_tmp" style="display: none;"></div>
+                      <script>
+                        function newlocation(orderPropId) {
+                          var select = document.getElementById("LOCATION_ORDER_PROP_" + orderPropId);
+
+                          arSelect = select.getElementsByTagName("select");
+                          if (arSelect.length > 0) {
+                            for (var i in arSelect) {
+                              var elem = arSelect[i];
+                              elem.disabled = false;
+                            }
+                          }
+                        }
+                      </script>
+                    </div>
+                    <table class="sale_order_full_table_no_border">
+                      <tbody>
+                      <tr>
+                        <td colspan="2">
+                          <b>Данные заказа</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" valign="top" id="EMAIL">
+                          Электронный адрес:<span class="sof-req">*</span></td>
+                        <td>
+                          <input class="required" type="text" maxlength="250" size="0" value="aleksey.bestuzhev@mail.ru"
+                                 name="ORDER_PROP_8" id="ORDER_PROP_8">
+
+                        </td>
+                      </tr>
+                      <script>
+                        $(document).ready(function () {
+
+                          $('#ORDER_PROP_7').attr("disabled", "disabled");
+                          $('#ORDER_PROP_7').hide();
+                          $('#ORDER_PROP_7').removeClass("required");
+                          $('#SLOT_TOD').hide();
+                          $('#ORDER_PROP_6_1').attr("checked", "checked");
+                          $('input[name="ORDER_PROP_6"]').change(function () {
+                            if ($(this).val() == '2') {
+                              $('#ORDER_PROP_7').removeAttr("disabled");
+                              $('#ORDER_PROP_7').show();
+                              $('#ORDER_PROP_7').addClass("required");
+                              $('#ORDER_PROP_2').attr("disabled", "disabled");
+                              $('#ORDER_PROP_2').removeClass("required");
+                              $('#ORDER_PROP_2').hide();
+                              $('#SLOT_TOD').show();
+                              $('#SLOT').hide();
+                            }
+                            else {
+                              $('#ORDER_PROP_2').removeAttr("disabled");
+                              $('#ORDER_PROP_2').show();
+                              $('#ORDER_PROP_2').addClass("required");
+                              $('#ORDER_PROP_7').attr("disabled", "disabled");
+                              $('#ORDER_PROP_7').hide();
+                              $('#ORDER_PROP_7').removeClass("required");
+                              $('#SLOT_TOD').hide();
+                              $('#SLOT').show();
+
+                            }
+                          })
+                        })
+                      </script>
+                      <tr>
+                        <td colspan="2">
+                          <b>Данные заказа</b>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" valign="top" id="FIO">
+                          ФИО:<span class="sof-req">*</span></td>
+                        <td>
+                          <input class="required" type="text" maxlength="250" size="0" value="Бестужев Алексей"
+                                 name="ORDER_PROP_3" id="ORDER_PROP_3">
+
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" valign="top" id="PHONE">
+                          Номер телефона:<span class="sof-req">*</span></td>
+                        <td>
+                          <input class="required" type="text" maxlength="250" size="0" value="" name="ORDER_PROP_1"
+                                 id="ORDER_PROP_1">
+
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" valign="top" id="ADDRESS">
+                          Адрес:<span class="sof-req">*</span></td>
+                        <td>
+                          <input class="required" type="text" maxlength="250" size="0" value="" name="ORDER_PROP_4"
+                                 id="ORDER_PROP_4">
+
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" valign="top" id="PODJEZD">
+                          Подъезд:
+                        </td>
+                        <td>
+                          <input class="" type="text" maxlength="250" size="1" value="" name="ORDER_PROP_9"
+                                 id="ORDER_PROP_9">
+
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" valign="top" id="FLOOR">
+                          Этаж:
+                        </td>
+                        <td>
+                          <input class="" type="text" maxlength="250" size="1" value="" name="ORDER_PROP_10"
+                                 id="ORDER_PROP_10">
+
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" valign="top" id="CARD_NUMBER">
+                          Номер карты:
+                        </td>
+                        <td>
+                          <input class="" type="text" maxlength="250" size="0" value="" name="ORDER_PROP_11"
+                                 id="ORDER_PROP_11">
+
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" valign="top" id="DATE">
+                          Дата заказа:<span class="sof-req">*</span></td>
+                        <td>
+                          <input type="radio" name="ORDER_PROP_6" id="ORDER_PROP_6_1" value="1" checked="checked">
+                          <label for="ORDER_PROP_6_1">Сегодня - 25.10.2016</label><br>
+                          <input type="radio" name="ORDER_PROP_6" id="ORDER_PROP_6_2" value="2"> <label
+                                for="ORDER_PROP_6_2">Завтра - 26.10.2016</label><br>
+
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" valign="top" id="SLOT">
+                          Временной слот сегодня:
+                        </td>
+                        <td>
+
+                          <select class="required" name="ORDER_PROP_2" id="ORDER_PROP_2" size="1">
+                            <option value="" selected="">Выберите время</option>
+
+                            <option disabled="" value="2">
+                              10:00 – 12:30
+                            </option>
+
+                            <option disabled="" value="3">
+                              12:30 – 15:00
+                            </option>
+
+                            <option disabled="" value="4">
+                              15:00 – 18:00
+                            </option>
+
+                            <option disabled="" value="5">
+                              18:30 – 20:30
+                            </option>
+
+                            <option disabled="" value="6">
+                              20:30 – 23:00
+                            </option>
+                          </select>
+
+
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="right" valign="top" id="SLOT_TOD" style="display: none;">
+                          Временной слот завтра:
+                        </td>
+                        <td>
+
+                          <select class="" name="ORDER_PROP_7" id="ORDER_PROP_7" size="1" disabled="disabled"
+                                  style="display: none;">
+                            <option value="" selected="">Выберите время</option>
+                            <option value="2">
+                              10:00 – 12:30
+                            </option>
+                            <option value="3">12:30 – 15:00</option>
+                            <option value="4">15:00 – 18:00</option>
+                            <option value="5">
+                              18:30 – 20:30
+                            </option>
+                            <option value="6">
+                              20:30 – 23:00
+                            </option>
+                          </select>
+
+                        </td>
+                      </tr>
+                      <script>
+                        $(document).ready(function () {
+
+                          $('#ORDER_PROP_7').attr("disabled", "disabled");
+                          $('#ORDER_PROP_7').hide();
+                          $('#ORDER_PROP_7').removeClass("required");
+                          $('#SLOT_TOD').hide();
+                          $('#ORDER_PROP_6_1').attr("checked", "checked");
+                          $('input[name="ORDER_PROP_6"]').change(function () {
+                            if ($(this).val() == '2') {
+                              $('#ORDER_PROP_7').removeAttr("disabled");
+                              $('#ORDER_PROP_7').show();
+                              $('#ORDER_PROP_7').addClass("required");
+                              $('#ORDER_PROP_2').attr("disabled", "disabled");
+                              $('#ORDER_PROP_2').removeClass("required");
+                              $('#ORDER_PROP_2').hide();
+                              $('#SLOT_TOD').show();
+                              $('#SLOT').hide();
+                            }
+                            else {
+                              $('#ORDER_PROP_2').removeAttr("disabled");
+                              $('#ORDER_PROP_2').show();
+                              $('#ORDER_PROP_2').addClass("required");
+                              $('#ORDER_PROP_7').attr("disabled", "disabled");
+                              $('#ORDER_PROP_7').hide();
+                              $('#ORDER_PROP_7').removeClass("required");
+                              $('#SLOT_TOD').hide();
+                              $('#SLOT').show();
+
+                            }
+                          })
+                        })
+                      </script>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+              <br><br>
+              <b>Платежная система</b>
+              <table class="sale_order_full_table">
+                <tbody>
+                <tr>
+                  <td valign="top" width="0%">
+                    <input type="radio" id="ID_PAY_SYSTEM_ID_2" name="PAY_SYSTEM_ID" value="2">
+                  </td>
+                  <td valign="top" width="100%">
+                    <label for="ID_PAY_SYSTEM_ID_2">
+                      <b>Оплата банковской картой</b><br>
+                    </label>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" width="0%">
+                    <input type="radio" id="ID_PAY_SYSTEM_ID_1" name="PAY_SYSTEM_ID" value="1">
+                  </td>
+                  <td valign="top" width="100%">
+                    <label for="ID_PAY_SYSTEM_ID_1">
+                      <b>Оплата наличными</b><br>
+                    </label>
+
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+              <br><br>
+              <b>Состав заказа</b><br>
+              <table class="sale_order_full data-table">
+                <tbody>
+                <tr>
+                  <th>Название</th>
+                  <!--		<th>Свойства</th>-->
+                  <!--		<th>Тип цены</th>-->
+                  <th>Скидка</th>
+                  <!--		<th>Вес</th>-->
+                  <th>Кол-во</th>
+                  <th>Цена</th>
+                </tr>
+                <tr>
+                  <td>Вода Аква Минерале Актив лимон н/газ 0,6л1</td>
+                  <!--			<td>
+                          : <br />            </td>-->
+                  <!--			<td>Цена</td>-->
+                  <td>0%</td>
+                  <!--			<td>0 г</td>-->
+                  <td>1 шт.</td>
+                  <td align="right">49.89 руб.</td>
+                </tr>
+
+                <!--	<tr>
+                <td align="right"><b>Общий вес:</b></td>
+                <td align="right" colspan="6">0 г</td>
+                </tr>-->
+                <tr>
+                  <td align="right"><b>Товаров на:</b></td>
+                  <td align="right" colspan="6">49.89 руб.</td>
+                </tr>
+                <tr>
+                  <td align="right"><b>Итого:</b></td>
+                  <td align="right" colspan="6"><b>49.89 руб.</b>
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+
+              <br><br>
+              <b>Дополнительная информация</b><br><br>
+
+              <table class="sale_order_full_table">
+                <tbody>
+                <tr>
+                  <td width="50%" align="left" valign="top">Комментарии к заказу:<br>
+                    <textarea rows="4" cols="40" name="ORDER_DESCRIPTION"></textarea>
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+
+            </div>
+            <div class="order_confirm">
+              <input type="checkbox" name="confirmorder" id="confirmorder" value="Y"
+                     class="confirmorder_checkbox required">
+              <div class="order_confirm__text">
+                Я ознакомлен с условиями
+                <a target="_blank" href="/delivery-and-payment/">
+                  платной доставки
+                </a>
+
+
+              </div>
+            </div>
+
+
+            <input type="hidden" name="profile_change" id="profile_change" value="N">
+            <input type="hidden" name="is_ajax_post" id="is_ajax_post" value="Y">
+            <br><br>
+            <div align="right">
+              <input style="width: 133px;margin:0;" class="add_recipe inactive" type="button" name="submitbutton"
+                     value="Оформить заказ">
+            </div>
+          </form>
+          <script language="JavaScript" src="/bitrix/js/main/cphttprequest.js"></script>
+          <script language="JavaScript"
+                  src="/bitrix/components/bitrix/sale.ajax.delivery.calculator/templates/.default/proceed.js"></script>
+        </div>
+        <br>
+
+
+        <img src="http://petrovsky.ru/bitrix/spread.php?s=QklUUklYX1NNX1NPVU5EX0xPR0lOX1BMQVlFRAFZATABLwEBAQJCSVRSSVhfU01fR1VFU1RfSUQBNDk1OTAxATE1MDg1MzMwNTUBLwEBAQJCSVRSSVhfU01fTEFTVF9WSVNJVAEyNS4xMC4yMDE2IDIzOjU3OjM1ATE1MDg1MzMwNTUBLwEBAQJCSVRSSVhfU01fU0FMRV9VSUQBODE3NjY3NQExNTA4NTMzMDU1AS8BAQEC&amp;k=80c1b2a1c3f27fa20091a11a5fad210c"
              alt="" style="width:0px; height:0px; position:absolute; left:-1px; top:-1px;">
-        <img src="http://петромост.рф/bitrix/spread.php?s=QklUUklYX1NNX0dVRVNUX0lEATQ5NjEzMwExNTA4MjU1MzU3AS8BAQECQklUUklYX1NNX0xBU1RfVklTSVQBMjIuMTAuMjAxNiAxODo0OToxNwExNTA4MjU1MzU3AS8BAQEC&amp;k=7905c068b4ef4ea218bffa3af1db4f4f"
+        <img src="http://петромост.рф/bitrix/spread.php?s=QklUUklYX1NNX1NPVU5EX0xPR0lOX1BMQVlFRAFZATABLwEBAQJCSVRSSVhfU01fR1VFU1RfSUQBNDk1OTAxATE1MDg1MzMwNTUBLwEBAQJCSVRSSVhfU01fTEFTVF9WSVNJVAEyNS4xMC4yMDE2IDIzOjU3OjM1ATE1MDg1MzMwNTUBLwEBAQJCSVRSSVhfU01fU0FMRV9VSUQBODE3NjY3NQExNTA4NTMzMDU1AS8BAQEC&amp;k=80c1b2a1c3f27fa20091a11a5fad210c"
              alt="" style="width:0px; height:0px; position:absolute; left:-1px; top:-1px;">
       </section>
       <!-- end content__center -->
       <!-- begin content__right -->
-      <aside class="content__right">
+      <aside class="content__right content__right--none">
         <div class="aside__user">
 
           <div class="aside__user_item aside__user_item-enter"><a href="#enter" class="enter__link">Вход</a></div>
@@ -1149,23 +1058,7 @@
 
 
           <div class="js-side-cart-wrapper">
-            <table class="js-cart-table aside__cart_table">
-              <tbody>
-              <tr id="js-basket-item-354143" class="js-basket-item-row">
-                <td>
-                  <a href="/catalog/13-1-4-3-voda-pitevaya-negaz-0-6-l-i-menee/voda-akva-minerale-aktiv-limon-n-gaz-0-6l/">Вода
-                    Аква Минерале Актив лимон н/газ 0,6л</a></td>
-                <td class="js-basket-item-price">49.89 р.</td>
-                <td><a class="js-basket-item-delete close__btn" href="javascript:void(0)" data-basket="354143"></a></td>
-              </tr>
-              </tbody>
-            </table>
-            <div class="aside__row_total">
-              Всего: <b>49,89</b> р.
-            </div>
-
-            <a href="/personal/" class="btn btn__order" style="padding-top:12px"><i></i>Оформить заказ</a>
-            <button class="js-basket-clear btn__cansel_order"><i class="close__btn"></i>Очистить</button>
+            <center style="opacity: 0.5">Ваша корзина пуста</center>
           </div>
 
           <script id="js-cart-template" type="x-tmpl-mustache">
@@ -1182,6 +1075,11 @@
     <a href="/personal/" class="btn btn__order" style="padding-top:12px"><i></i>Оформить заказ</a>
     <button class="js-basket-clear btn__cansel_order"><i class="close__btn"></i>Очистить</button>
 
+
+
+
+
+
           </script>
 
           <script id="js-cart-item-template" type="x-tmpl-mustache">
@@ -1191,10 +1089,20 @@
         <td><a class="js-basket-item-delete close__btn" href="javascript:void(0)" data-basket="{{item.id}}"></a></td>
     </tr>
 
+
+
+
+
+
           </script>
 
           <script id="js-cart-empty-template" type="x-tmpl-mustache">
     <center style="opacity: 0.5">Ваша корзина пуста</center>
+
+
+
+
+
 
           </script>
 
@@ -1300,50 +1208,6 @@
 
 
         </div>
-
-        <!--popap-basket-->
-          <div class="popap-basket">
-            <div class="mobile-menu_title">Корзина</div>
-            <a href="#" class="mobile-close">закрыть <i>×</i></a>
-            <div class="popap-basket_body">
-
-              <div class="js-side-cart-big-wrapper">
-                <form class="cart" method="post" action="/personal/order/" name="basket_form">
-                  <table class="table__cart">
-                    <tbody><tr class="js-basket-big-item-row  ">
-                      <td class="table__td-1">
-                        <img src="upload/resize_cache/iblock/ed8/60_60_1/66160.jpg" width="17" height="60" alt="Вода Аква Минерале Актив лимон н/газ 0,6л">
-                      </td>
-                      <td class="table__td-2">
-                        <a href="catalog/13-1-4-3-voda-pitevaya-negaz-0-6-l-i-menee/voda-akva-minerale-aktiv-limon-n-gaz-0-6l/">Вода Аква Минерале Актив лимон н/газ 0,6л</a>
-                      </td>
-                      <td class="table__td-3">
-                        <div class="number">
-                          <input type="text" name="QUANTITY_354143" value="1" class="inp js-item-quantity js-hide-when-load" data-basket="354143" readonly="" data-max="15">
-                          <span data-unit="piece" class="plus js-change-quantity js-hide-when-load"></span>
-                          <span data-unit="piece" class="minus js-change-quantity js-hide-when-load"></span>
-                          <img src="bitrix/templates/petromost_oneway_2014/img/loader.gif" width="50px" height="30px" class="js-item-count-loader item-count-loader">
-                        </div>
-                      </td>
-                      <td class="js-price-item table__td-4" data-basket="354143">
-                        49.89 р.                    </td>
-                      <td class="table__td-5">
-                        <a href="javascript:void(0)" class="js-basket-big-item-delete close" data-basket="354143"></a>
-                      </td>
-                    </tr>
-                    </tbody></table>
-                  <div class="row__total cf">
-                    <div class="total-price">
-                      Всего: <b>49,89</b> <span>р.</span>
-                    </div>
-                    <button type="submit" name="BasketOrder" value="Y" class="btn btn__order btn__order-cart"><i></i>Оформить заказ</button>
-                    <a href="javascript:void(0)" class="js-basket-big-clear btn__cansel_order btn__cansel_order-cart"><i>×</i>Очистить корзину</a>
-                  </div>
-                </form>
-              </div>
-
-            </div><!--end popap-basket_body-->
-          </div><!--end popap-basket-->
 
         <div class="aside__ad_block">
           <a href="/bitrix/rk.php?id=37&amp;event1=banner&amp;event2=click&amp;event3=1+%2F+%5B37%5D+%5BRIGHT1%5D+%D0%B1%5C%D0%BD&amp;goto=http%3A%2F%2Fwww.%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%BC%D0%BE%D1%81%D1%82.%D1%80%D1%84%2Fabout-the-company%2Fnews%2Foplata-bankovskoy-kartoy%2F"><img
@@ -1516,11 +1380,6 @@
   $('.mobile-btn_basket').on('click', function (e) {
     e.preventDefault();
     $('.aside__menu').toggleClass('is-active');
-  });
-
-  $('.aside__row_total').on('click', function (e) {
-    e.preventDefault();
-    $('.popap-basket').toggleClass('is-active');
   });
 
   $('.mobile-close').on('click', function (e) {

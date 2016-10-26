@@ -1,0 +1,83 @@
+
+
+
+/* Start:/bitrix/templates/.default/ajax/ajax.css*/
+iframe.waitwindowlocal {position:absolute; border:0px; z-index:9999;}
+div.waitwindowlocal {position:absolute; width:25px; height: 25px; padding:0px; z-index:10000; background-color:#FCF7D1; border:1px solid #E1B52D; background-image:url('/bitrix/templates/.default/ajax/images/wait.gif'); background-position:center center; background-repeat:no-repeat;}
+div.waitwindowlocalshadow {position:absolute; z-index:9998; background-image:url('/bitrix/templates/.default/ajax/images/shadow.gif'); border:1px solid #808080;}
+/* End */
+
+
+
+/* Start:/bitrix/templates/.default/components/petromost/sale.order.ajax/order/style.css*/
+table.sale_order_full
+{
+  width:100%;
+  background-color:#F9FAFB;
+  border-collapse:collapse;
+}
+
+/*Table head*/
+table.sale_order_full th
+{
+  /*background-image:url('/bitrix/templates/.default/components/petromost/sale.order.ajax/order/images/table_head.gif');
+  background-repeat:repeat-x;*/
+  text-align: left;
+}
+
+/* Table cells and heads*/
+table.sale_order_full th, table.sale_order_full td
+{
+  border:1px solid #CCCCCC;
+  padding: 3px 5px;
+  vertical-align:top;
+}
+
+table.sale_order_full_table
+{
+  width:100%;
+  background-color:#FFFFFF;
+  border-collapse:collapse;
+  font-size:12px;
+  border:1px solid #CCCCCC;
+}
+
+/* Table cells and heads*/
+table.sale_order_full_table td
+{
+  padding: 3px 5px;
+  vertical-align:top;
+}
+
+.sof-req{color:red;}
+.sof-ok{color:green; font-weight:bold;}
+
+table.register_form input[type=text],
+table.register_form input[type=password] {
+  width: 94%;
+  padding: 0 3%;
+  height: 25px;
+  border: 1px solid #fff;
+  background: #F6F6F6;
+  border-radius: 0 5px 0 5px;
+  box-shadow: inset 1px 2px 2px #aeaeae;
+}
+table.register_form input[type=text].error,
+table.register_form input[type=password].error {
+  border-color: #AB0000;
+}
+.form__checkbox_container {
+  display: inline-block;
+  width: 5%;
+  vertical-align: top;
+}
+.form__rules_container {
+  display: inline-block;
+  width: 90%;
+  color: #444;
+  line-height: 1.3em;
+  font-size: .9em;
+}
+/* End */
+/* /bitrix/templates/.default/ajax/ajax.css */
+/* /bitrix/templates/.default/components/petromost/sale.order.ajax/order/style.css */
