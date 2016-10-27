@@ -27,7 +27,7 @@
   }
 
   .header {
-    height: 230px;
+    height: 234px;
   }
 
   .header__left,
@@ -193,7 +193,7 @@
 
   .header__menu_item a {
     margin: 0;
-    padding: 0 11px;
+    padding: 0 8px;
   }
 
   .content__center .header__deliv_time,
@@ -300,7 +300,7 @@
 
   .header__menu_item a {
     margin: 0;
-    padding: 0 11px;
+    padding: 0 8px;
   }
 
   .foo__bottom {
@@ -368,7 +368,7 @@
 
   .header__menu_item a {
     margin: 0;
-    padding: 0 8px;
+    padding: 0 6px;
   }
 
 
