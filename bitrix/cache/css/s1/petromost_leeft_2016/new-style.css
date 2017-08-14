@@ -1,0 +1,354 @@
+/*new menu*/
+.header .header__menu {
+    height: 21px;
+}
+
+
+.site_container .category__menu {
+    width: 210px;
+    position: absolute;
+    z-index: 9999;
+    top: 82%;
+    left: 0;
+}
+.category__menu:hover .category__menu_list {
+    display: block;
+}
+
+.site_container .category__menu_link {
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    line-height: 1;
+    color:#ed1c24;
+    font-family: "Tahoma", sans-serif;
+    padding: 10px 58px 10px 35px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 1px solid #ed1c24;
+    background-color: #fff;
+    -webkit-transition: all .16 ease;
+    -moz-transition: all .16 ease;
+    -ms-transition: all .16 ease;
+    -o-transition: all .16 ease;
+    transition: all .16 ease;
+    cursor: pointer;
+}
+.site_container .category__menu_link:hover {
+    color:#ffd1d3;
+    background-color: #ed1c24;
+    -webkit-transition: all .16 ease;
+    -moz-transition: all .16 ease;
+    -ms-transition: all .16 ease;
+    -o-transition: all .16 ease;
+    transition: all .16 ease;
+}
+
+.site_container .category__menu_icon {
+    position: absolute;
+    width: 8px;
+    height: 4px;
+    fill: #ed1c24;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.site_container .category__menu_link:hover .category__menu_icon {
+    transform: rotate(180deg);
+    fill: #ffd1d3;
+    -webkit-transition: all .16 ease;
+    -moz-transition: all .16 ease;
+    -ms-transition: all .16 ease;
+    -o-transition: all .16 ease;
+    transition: all .16 ease;
+}
+
+.site_container .category__menu_list {
+    background-color: #f3f3f3;
+    padding: 16px 13px;
+    margin: 0;
+    list-style: none;
+    margin-top: 2px;
+    border-radius: 4px;
+    display: none;
+}
+
+.site_container .category__menu_item {
+    margin-bottom: 10px;
+}
+
+.site_container .category__menu_item a {
+    font-size: 13px;
+    font-family: "Tahoma", sans-serif;
+    color: #909090;
+    text-decoration: none;
+}
+
+.site_container .category__menu_item a:hover {
+    color: #ed1c24;
+}
+
+
+
+
+.site_container .category__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.site_container .category__list::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.category__list  .category__item {
+    display: inline-block;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0 7px;
+    vertical-align: top;
+}
+
+.category__list .c-category__card {
+    margin-bottom: 20px;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.category__list .c-category__card:hover {
+    opacity: .9;
+}
+
+.category__list .c-category__card:hover .c-category__link {
+    text-decoration: underline;
+}
+
+.category__list .c-category__images {
+    text-align: center;
+    max-width: 207px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.25);
+    overflow: hidden;
+}
+.category__list .c-category__images img {
+    max-width: 100%;
+}
+
+.category__list .c-category__link {
+    text-decoration: none;
+}
+
+.category__list .c-category__title {
+    text-align: center;
+    font-size: 15px;
+    line-height: 1;
+    color: #757575;
+    font-family: "Tahoma", sans-serif;
+}
+
+/*new goods card*/
+.goods__item_sale {
+    position: absolute;
+    top: 65px;
+    right: -5px;
+    width: 37px;
+    height: 37px;
+    background: url(../../../../templates/petromost_oneway_2014/images/sale-icon.png) 0 0 no-repeat;
+}
+
+.goods__list {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+.goods__list a {
+    display: block;
+}
+.goods__item {
+    position: relative;
+    float: left;
+    width: 24.3%;
+    text-align: left;
+    margin-right: 8px;
+    margin-bottom: 13px;
+    padding-bottom: 42px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.25);
+}
+.goods__item:nth-child(4n) {
+    margin-right: 0;
+}
+.goods__item * {
+    box-sizing: border-box;
+}
+/*.goods__item:nth-child(3n-2) {*/
+    /*clear: both;*/
+/*}*/
+
+.goods__item_body {
+    padding: 13px 17px 35px 17px;
+}
+
+
+.goods__img {
+    height: 130px;
+    line-height: 130px;
+    margin-bottom: 15px;
+    text-align: center;
+    border: 1px solid #f3f3f3;
+    border-radius: 4px;
+
+}
+.goods__img img {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+}
+.goods__weight {
+    font-size: 14px;
+    line-height: 1.1;
+    color:#757575;
+    margin-bottom: 10px;
+}
+
+.goods__category {
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+.goods__category a {
+    font-size: 12px;
+    color: #A9A9A9;
+}
+.goods__name {
+    margin-bottom: 10px;
+}
+.goods__name a {
+    color: #757575;
+    font-size: 15px;
+    line-height: 1.2;
+}
+.goods__price {
+    position: relative;
+    font-size: 22px;
+    color: #E43B24;
+    line-height: 1;
+    text-align: left;
+}
+.goods__price-old {
+    font-size: 14px;
+    text-decoration: line-through;
+    font-family: "Tahoma", sans-serif;
+    color: #c1c1c1;
+    /*display: inline-block;*/
+    float: right;
+    margin-top: 4px;
+}
+.goods__price-new {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+}
+.goods__price .rub {
+    font-size: 16px;
+}
+.goods__row_buy {
+    padding: 16px;
+    background-color: #f3f3f3;
+    position: absolute;
+    bottom: 0;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    width: 100%;
+    border-radius: 0 0 6px 6px;
+}
+.goods__row_buy .goods__number {
+    float: left;
+    width: 66px;
+}
+.goods__row_buy .goods__in_cart {
+    padding: 0 12px;
+    height: 28px;
+    line-height: 25px;
+    float: right;
+    font-size: 13px;
+    color:#fff;
+    background-color: #ff4342;
+}
+.goods__row_buy .goods__in_cart i {
+    width: 16px;
+    height: 13px;
+    background: url('../../../../templates/petromost_oneway_2014/img/icon-cart-hover.png') no-repeat;
+    margin-right: 0;
+    margin-top: -2px;
+}
+.goods__row_buy .goods__in_cart:hover {
+    /*background: url('../../../../templates/petromost_oneway_2014/img/icon-cart.png') no-repeat;*/
+    background-color: #dd4140;
+}
+.number {
+    position: relative;
+    display: inline-block;
+}
+.number input {
+    width: 100%;
+    height: 28px;
+    padding: 0 13px 0 11px;
+    text-align: center;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+.number .plus {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #c6c6c6;
+    text-align: center;
+    line-height: 21px;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    margin-top: 1px;
+}
+.number .minus {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #c6c6c6;
+    text-align: center;
+    line-height: 21px;
+    font-weight: 700;
+    cursor: pointer;
+    background: none;
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    margin-top: 1px;
+}

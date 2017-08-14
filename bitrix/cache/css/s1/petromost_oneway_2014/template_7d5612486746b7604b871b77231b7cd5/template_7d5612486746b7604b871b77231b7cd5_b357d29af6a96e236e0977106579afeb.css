@@ -3194,12 +3194,13 @@ body {
   margin: 0 4px;
 }
 .content__center {
-  width: 620px;
+  width: 78%;
   float: left;
-  margin-left: 33px !important;
+  padding-right: 33px;
   font-size: 15px;
   color: #797979;
   line-height: 1.5;
+    box-sizing: border-box;
 }
 .goods__list {
   margin: 0;
@@ -3218,9 +3219,9 @@ body {
   margin-bottom: 40px;
   padding-bottom: 42px;
 }
-.goods__item:nth-child(3n-2) {
-  clear: left;
-}
+/*.goods__item:nth-child(3n-2) {*/
+  /*clear: left;*/
+/*}*/
 .goods__img {
   height: 130px;
   line-height: 130px;
@@ -3380,7 +3381,7 @@ body {
 /*content__right*/
 .content__right {
   float: right;
-  width: 250px;
+  width: 22%;
 }
 .aside__user {
   text-align: center;
@@ -4127,7 +4128,7 @@ span.checkbox {
   /*border-bottom: 4px solid #E43B24;*/
 }
 .flex-container {
-  width: 620px;
+  width: 100%;
   padding-bottom: 22px;
   margin-bottom: 30px;
 }
