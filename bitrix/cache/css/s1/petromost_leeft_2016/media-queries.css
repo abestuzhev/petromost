@@ -257,7 +257,7 @@
   .foo__left {
     padding: 0;
   }
-  
+
   .clearfix {
     clear: both;
   }
@@ -854,6 +854,22 @@
     /*min-width: 184px;*/
   }
 
+
+    .category__list  .category__item {
+      width: 33%;
+    }
+
+    .content__center .header__deliv_time_table span{
+      padding: 2px 4px;
+    }
+
+    .header__deliv_time_table td {
+      padding: 0;
+      width: 31%;
+      display: inline-block;
+      box-sizing: border-box;
+    }
+
 }/*max-width: 660px*/
 
 
@@ -904,9 +920,6 @@
     top: 166px;
   }
 
-  .category__list  .category__item {
-    width: 33%;
-  }
 
     .goods__list {
       display: block;
@@ -1247,6 +1260,7 @@
     height: 0;
 
 
+}
 }
 
 
