@@ -12,7 +12,10 @@
     left: 0;
 }
 .category__menu:hover .category__menu_list {
-    display: block;
+    opacity: 1;
+    visibility: visible;
+
+    transition: all .2s ease .08s;
 }
 
 .site_container .category__menu_link {
@@ -71,7 +74,8 @@
     list-style: none;
     margin-top: 2px;
     border-radius: 4px;
-    display: none;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .site_container .category__menu_item {
@@ -352,4 +356,77 @@
     -moz-user-select: none;
     user-select: none;
     margin-top: 1px;
+}
+
+
+/*выпадающее меню*/
+
+.site_container .category__menu_list {
+    /*display: block;*/
+}
+
+.site_container .category__submenu_list,
+.site_container .category__menu_list{
+    padding: 16px 0;
+}
+
+.site_container .category__menu_item {
+    margin: 0;
+}
+
+.site_container .category__menu_item a {
+    display: block;
+    position: relative;
+    padding: 6px 23px 6px 13px;
+    margin-bottom: 0;
+}
+
+.site_container .category__menu_item:hover > .category__submenu_list,
+.category__menu_item > .category__submenu_list li:hover .category__submenu_list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.site_container .category__submenu_list {
+    position: absolute;
+    left: 99%;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 16px 0;
+    margin: 0;
+    min-height: 100%;
+    list-style: none;
+    border-radius: 0 4px 4px 0;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease .15s;
+}
+
+.site_container .category__menu_item > .category__submenu_list {
+    margin-top: 37px;
+    min-height: calc(100% - 37px);
+}
+
+.site_container .category__submenu_item {
+    box-sizing: border-box;
+}
+
+.site_container .category__submenu_item a {
+    font-size: 13px;
+    font-family: "Tahoma", sans-serif;
+    color: #909090;
+    text-decoration: none;
+    padding: 6px 23px 6px 13px;
+}
+
+.has-child > a::after {
+    content: '❯';
+    position: absolute;
+    right: 10px;
+    font-size: 11px;
+    top: 50%;
+    transform: translateY(-50%);
 }

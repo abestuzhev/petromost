@@ -1258,9 +1258,7 @@
 
     width: auto;
     height: 0;
-
-
-}
+  }
 }
 
 
@@ -1390,3 +1388,86 @@
         width: 100%;
     }
 }
+
+
+
+/*----------------------- СТИЛИ меню ---------------------------*/
+@media screen and (max-width: 720px) {
+    .site_container .category__menu_item {
+        border-bottom: 1px dotted #000;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .site_container .category__menu_item a{
+        /*padding: 0;*/
+        padding: 13px 23px 13px 13px;
+        border-bottom: none;
+        display: inline-block;
+    }
+
+    /*.site_container .category__menu_item.has-child a{*/
+    /*}*/
+
+    .site_container .has-child::after {
+        content: '❯';
+        position: absolute;
+        right: 10px;
+        font-size: 17px;
+        top: 9px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .site_container .has-child > a::after {
+        content: '';
+        display: none;
+    }
+
+    .site_container .category__submenu_list {
+        position: static;
+        display: block;
+        height: auto !important;
+        opacity: 1;
+        visibility: visible;
+        margin: 0 !important;
+        padding-top: 0;
+        border-bottom: 3px solid #eee;
+        background-color: #eee;
+        display: none;
+        /*-webkit-box-shadow: inset 0px 5px 20px -7px rgba(0,0,0,0.54);*/
+        /*-moz-box-shadow: inset 0px 5px 20px -7px rgba(0,0,0,0.54);*/
+        box-shadow: inset 0px -10px 20px -13px rgba(0,0,0,0.14), inset 0px 5px 20px -7px rgba(0,0,0,0.34);
+
+        /*-webkit-box-shadow: inset 0px -11px 20px -13px rgba(0,0,0,0.54);*/
+        /*-moz-box-shadow: inset 0px -11px 20px -13px rgba(0,0,0,0.54);*/
+        /*box-shadow: inset 0px -11px 20px -13px rgba(0,0,0,0.54);*/
+    }
+
+
+
+    .site_container .category__submenu_item {
+        /*padding: 6px 23px 6px 13px;*/
+        position: relative;
+    }
+
+    .show-submenu > .category__submenu_list {
+        display: block !important;
+    }
+
+    .site_container .show-submenu::after {
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+
+}
+
+
+

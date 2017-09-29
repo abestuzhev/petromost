@@ -216,7 +216,39 @@
                 </svg>
             </a>
             <ul class="category__menu_list">
-                <li class="category__menu_item"><a href="#">Аптека</a></li>
+                <li class="category__menu_item has-child">
+                    <a href="#">Аптека</a>
+                    <ul class="category__submenu_list">
+                        <li class="category__submenu_item"><a href="#">Пункт 1</a></li>
+                        <li class="category__submenu_item"><a href="#">Пункт-пункт</a></li>
+                        <li class="category__submenu_item"><a href="#">Замороженные продукты</a></li>
+                        <li class="category__submenu_item"><a href="#">Пункт 1</a></li>
+                        <li class="category__submenu_item"><a href="#">Пункт-пункт</a></li>
+                        <li class="category__submenu_item has-child">
+                            <a href="#">Замороженные продукты</a>
+                            <ul class="category__submenu_list">
+                                <li class="category__submenu_item"><a href="#">Пункт 2</a></li>
+                                <li class="category__submenu_item"><a href="#">Пункт-пункт 2</a></li>
+                                <li class="category__submenu_item"><a href="#">Замороженные продукты 2</a></li>
+                                <li class="category__submenu_item"><a href="#">Пункт 2</a></li>
+                                <li class="category__submenu_item"><a href="#">Пункт-пункт 2</a></li>
+                                <li class="category__submenu_item"><a href="#">Замороженные продукты 2</a></li>
+                            </ul>
+                        </li>
+                        <li class="category__submenu_item"><a href="#">Пункт-пункт</a></li>
+                        <li class="category__submenu_item"><a href="#">Замороженные продукты</a></li>
+                        <li class="category__submenu_item"><a href="#">Пункт 1</a></li>
+                        <li class="category__submenu_item"><a href="#">Пункт-пункт</a></li>
+                        <li class="category__submenu_item"><a href="#">Замороженные продукты</a></li>
+                        <li class="category__submenu_item"><a href="#">Пункт-пункт</a></li>
+                        <li class="category__submenu_item"><a href="#">Замороженные продукты</a></li>
+                        <li class="category__submenu_item"><a href="#">Пункт 1</a></li>
+                        <li class="category__submenu_item"><a href="#">Пункт-пункт</a></li>
+                        <li class="category__submenu_item"><a href="#">Замороженные продукты</a></li>
+                        <li class="category__submenu_item"><a href="#">Пункт-пункт</a></li>
+                        <li class="category__submenu_item"><a href="#">Замороженные продукты</a></li>
+                    </ul>
+                </li>
                 <li class="category__menu_item"><a href="#">Наши Марки</a></li>
                 <li class="category__menu_item"><a href="#">Бакалея</a></li>
                 <li class="category__menu_item"><a href="#">Безалкогольные напитки</a></li>
@@ -226,7 +258,17 @@
                 <li class="category__menu_item"><a href="#">Замороженные продукты</a></li>
                 <li class="category__menu_item"><a href="#">Консервация</a></li>
                 <li class="category__menu_item"><a href="#">Масло раст., Соусы, Специи</a></li>
-                <li class="category__menu_item"><a href="#">Молоко, молочные продукты, мороженое</a></li>
+                <li class="category__menu_item has-child">
+                    <a href="#">Молоко, молочные продукты, мороженое</a>
+                    <ul class="category__submenu_list">
+                        <li class="category__submenu_item"><a href="#">Пункт 1</a></li>
+                        <li class="category__submenu_item"><a href="#">Пункт-пункт</a></li>
+                        <li class="category__submenu_item"><a href="#">Замороженные продукты</a></li>
+                        <li class="category__submenu_item"><a href="#">Пункт 1</a></li>
+                        <li class="category__submenu_item"><a href="#">Пункт-пункт</a></li>
+                        <li class="category__submenu_item"><a href="#">Замороженные продукты</a></li>
+                    </ul>
+                </li>
                 <li class="category__menu_item"><a href="#">Мясо, Рыба, Птица</a></li>
                 <li class="category__menu_item"><a href="#">Овощи, Фрукты, Грибы, Орехи</a></li>
                 <li class="category__menu_item"><a href="#">Сахар, Варенье, Мед</a></li>
@@ -1203,9 +1245,32 @@
   });
 
 
+  //мобильное меню
+
+
+  $('.category__menu_item.has-child').on('click', function(){
+      $(this).siblings('.has-child').removeClass('show-submenu');
+      $(this).addClass('show-submenu');
+  });
+
+  $('.category__submenu_item.has-child').on('click', function(){
+      console.log('клик!');
+      $(this).toggleClass('show-submenu');
+  });
+
+
+
+//  $('.has-child').on('click', function(){
+//      console.log('клик!');
+//      $(this).children('.category__submenu_list').addClass('show-submenu');
+//  });
+
+
+
   $('.js-dotted').dotdotdot();
 
   $(window).resize(function () {
+
     if (document.documentElement.clientWidth < 490) {
 
       $('.goods__list').readmore({
