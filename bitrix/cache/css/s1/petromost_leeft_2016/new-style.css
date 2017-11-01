@@ -378,6 +378,7 @@
 
 .site_container .category__menu_item {
     margin: 0;
+    position: relative;
 }
 
 .site_container .category__menu_item a {
@@ -412,12 +413,14 @@
 }
 
 .site_container .category__menu_item > .category__submenu_list {
-    margin-top: 37px;
-    min-height: calc(100% - 37px);
+    /*margin-top: 37px;
+    min-height: calc(100% - 37px);*/
+    padding-top: 0;
 }
 
 .site_container .category__submenu_item {
     box-sizing: border-box;
+    position: relative;
 }
 
 .site_container .category__submenu_item a {
