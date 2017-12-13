@@ -25,7 +25,7 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.71057755">
+    <splitter split-orientation="horizontal" split-proportion="0.45253575">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -58,33 +58,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="product-card.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/product-card.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="8142">
-                  <caret line="454" column="14" lean-forward="false" selection-start-line="354" selection-start-column="8" selection-end-line="454" selection-end-column="14" />
-                  <folding>
-                    <element signature="n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="product-card-new.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="product-card-new.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/product-card-new.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="324" column="123" lean-forward="false" selection-start-line="324" selection-start-column="123" selection-end-line="324" selection-end-column="123" />
+                <state relative-caret-position="115">
+                  <caret line="85" column="28" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="catalog.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="catalog.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/catalog.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="24978">
-                  <caret line="1374" column="25" lean-forward="false" selection-start-line="1374" selection-start-column="25" selection-end-line="1374" selection-end-column="25" />
+                <state relative-caret-position="115">
+                  <caret line="85" column="28" lean-forward="false" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
                   <folding>
                     <element signature="n#div#0;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#0;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -113,7 +101,7 @@
                 <state relative-caret-position="0">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding>
-                    <marker date="1513169436361" expanded="true" signature="91:181" ph="{...}" />
+                    <marker date="1513174136896" expanded="true" signature="91:181" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -126,10 +114,15 @@
           <file leaf-file-name="new-style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="638">
-                  <caret line="711" column="18" lean-forward="false" selection-start-line="711" selection-start-column="18" selection-end-line="711" selection-end-column="18" />
+                <state relative-caret-position="1673">
+                  <caret line="775" column="0" lean-forward="true" selection-start-line="721" selection-start-column="0" selection-end-line="775" selection-end-column="0" />
                   <folding>
-                    <marker date="1513169436361" expanded="true" signature="91:181" ph="{...}" />
+                    <element signature="e#14129#31154#1" expanded="true" />
+                    <element signature="e#31339#42520#1" expanded="true" />
+                    <element signature="e#42642#44595#1" expanded="true" />
+                    <element signature="e#44858#64499#1" expanded="true" />
+                    <element signature="e#64601#64756#2" expanded="true" />
+                    <marker date="1513174136896" expanded="true" signature="91:181" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -176,14 +169,14 @@
         <option value="$PROJECT_DIR$/vacancies.html" />
         <option value="$PROJECT_DIR$/vacancies-more.html" />
         <option value="$PROJECT_DIR$/bitrix/cache/css/s1/petromost_oneway_2014/template_7d5612486746b7604b871b77231b7cd5/template_7d5612486746b7604b871b77231b7cd5_b357d29af6a96e236e0977106579afeb.css" />
-        <option value="$PROJECT_DIR$/catalog.html" />
         <option value="$PROJECT_DIR$/menu.js" />
         <option value="$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/media-queries.css" />
         <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/product-card.js" />
-        <option value="$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css" />
         <option value="$PROJECT_DIR$/product-card-new.html" />
+        <option value="$PROJECT_DIR$/catalog.html" />
+        <option value="$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css" />
       </list>
     </option>
   </component>
@@ -224,6 +217,41 @@
             <path>
               <item name="petromost" type="b2602c69:ProjectViewProjectNode" />
               <item name="petromost" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="petromost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petromost" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="petromost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petromost" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="petromost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petromost" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="petromost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petromost" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="s1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="petromost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="petromost" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cache" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="s1" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="petromost_leeft_2016" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -424,12 +452,12 @@
       <workItem from="1507269750307" duration="953000" />
       <workItem from="1507286184439" duration="374000" />
       <workItem from="1513155807723" duration="9045000" />
-      <workItem from="1513168992395" duration="764000" />
+      <workItem from="1513168992395" duration="3866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118100000" />
+    <option name="totallyTimeSpent" value="121202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -836,16 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8142">
-          <caret line="454" column="14" lean-forward="false" selection-start-line="354" selection-start-column="8" selection-end-line="454" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -875,31 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77304">
           <caret line="3221" column="0" lean-forward="false" selection-start-line="3221" selection-start-column="2" selection-end-line="3223" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24978">
-          <caret line="1374" column="25" lean-forward="false" selection-start-line="1374" selection-start-column="25" selection-end-line="1374" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#0;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#0;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#1;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#2;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#3;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#4;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#5;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#6;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#6;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#7;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#7;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,21 +927,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
+    <entry file="file://$PROJECT_DIR$/product-card.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="836">
+          <caret line="454" column="14" lean-forward="false" selection-start-line="354" selection-start-column="8" selection-end-line="454" selection-end-column="14" />
           <folding>
-            <marker date="1513169436361" expanded="true" signature="91:181" ph="{...}" />
+            <element signature="n#div#1;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product-card-new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="324" column="123" lean-forward="false" selection-start-line="324" selection-start-column="123" selection-end-line="324" selection-end-column="123" />
+        <state relative-caret-position="115">
+          <caret line="85" column="28" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="85" column="28" lean-forward="false" selection-start-line="85" selection-start-column="28" selection-end-line="85" selection-end-column="28" />
+          <folding>
+            <element signature="n#div#0;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#0;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#1;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#2;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#3;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#4;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#5;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#6;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#7;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#7;n#div#3;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1673">
+          <caret line="775" column="0" lean-forward="true" selection-start-line="721" selection-start-column="0" selection-end-line="775" selection-end-column="0" />
+          <folding>
+            <element signature="e#14129#31154#1" expanded="true" />
+            <element signature="e#31339#42520#1" expanded="true" />
+            <element signature="e#42642#44595#1" expanded="true" />
+            <element signature="e#44858#64499#1" expanded="true" />
+            <element signature="e#64601#64756#2" expanded="true" />
+            <marker date="1513174136896" expanded="true" signature="91:181" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
