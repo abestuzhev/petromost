@@ -773,14 +773,46 @@
 .happy-new-year .btn__order:hover i {
     background: none;
 }
+/**/
 
 
 
+.folding-btn {
+    display: none;
+}
 
+@media screen and (max-width: 490px){
+    .goods__list .goods__item,
+    .aside__news_text .aside__news_item {
+        display: none;
+    }
+    .goods__list .goods__item:first-child,
+    .aside__news_text .aside__news_item:first-child {
+        display: block;
+    }
 
+    .folding-btn {
+        display: block;
+        font-size: 14px;
+        color: #000000;
+        text-align: center;
+    }
 
+    .folding-show > div {
+        display: block !important;
+    }
 
+    .goods__list {
+        max-height: none !important;
+        overflow: visible !important;
+    }
 
+    .aside__news_text {
+         max-height: none !important;
+        overflow: visible !important;
+        margin-bottom: 10px;
+    }
+}
 
 
 

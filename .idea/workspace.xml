@@ -42,19 +42,13 @@
           <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="1290" column="73" lean-forward="false" selection-start-line="1290" selection-start-column="73" selection-end-line="1290" selection-end-column="73" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="product-card.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/product-card.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-                  <folding />
+                <state relative-caret-position="294">
+                  <caret line="604" column="28" lean-forward="false" selection-start-line="604" selection-start-column="17" selection-end-line="604" selection-end-column="28" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#2;n#div#0;n#div#0;n#div#5;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -106,6 +100,16 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="product-card.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/product-card.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -113,8 +117,8 @@
           <file leaf-file-name="new-style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-336">
-                  <caret line="740" column="17" lean-forward="false" selection-start-line="740" selection-start-column="17" selection-end-line="740" selection-end-column="17" />
+                <state relative-caret-position="816">
+                  <caret line="806" column="37" lean-forward="false" selection-start-line="806" selection-start-column="37" selection-end-line="806" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -139,10 +143,11 @@
       <find>category</find>
       <find>.goods__item:nth-child(3n-2)</find>
       <find>.goods__row_buy .goods__number</find>
-      <find>goods__list</find>
       <find>category__menu_list</find>
       <find>slider</find>
       <find>background</find>
+      <find>aside__news_text</find>
+      <find>goods__list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,8 +172,8 @@
         <option value="$PROJECT_DIR$/product-card.js" />
         <option value="$PROJECT_DIR$/product-card-new.html" />
         <option value="$PROJECT_DIR$/catalog.html" />
-        <option value="$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css" />
         <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css" />
       </list>
     </option>
   </component>
@@ -554,12 +559,12 @@
       <workItem from="1507286184439" duration="374000" />
       <workItem from="1513155807723" duration="9045000" />
       <workItem from="1513168992395" duration="3866000" />
-      <workItem from="1524033690333" duration="1018000" />
+      <workItem from="1524033690333" duration="2276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122220000" />
+    <option name="totallyTimeSpent" value="123478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="0" width="1871" height="1096" extended-state="0" />
@@ -623,7 +628,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="195" column="52" lean-forward="false" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
-          <folding />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#5;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -998,14 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-card.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product-card.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -1017,14 +1018,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2040">
           <caret line="85" column="28" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1070,10 +1063,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/product-card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="1290" column="73" lean-forward="false" selection-start-line="1290" selection-start-column="73" selection-end-line="1290" selection-end-column="73" />
+        <state relative-caret-position="294">
+          <caret line="604" column="28" lean-forward="false" selection-start-line="604" selection-start-column="17" selection-end-line="604" selection-end-column="28" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#5;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="806" column="37" lean-forward="false" selection-start-line="806" selection-start-column="37" selection-end-line="806" selection-end-column="37" />
           <folding />
         </state>
       </provider>

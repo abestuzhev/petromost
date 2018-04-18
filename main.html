@@ -1070,40 +1070,45 @@
 
 
           <h2>Новости <a href="/about-the-company/news/" class="aside__allnews">Все новости</a></h2>
-          <div class="aside__news_text">
-            <div id="bx_1914200112_53318" class="aside__news_item js-dotted">
-              <a href="/about-the-company/news/vnimanie/">ВНИМАНИЕ!</a>
-              <p style="margin:0">На сайте проводятся технические работы, возможны проблемы с работой сайта.
-                Заказ так же&nbsp;&nbsp;можно оформить по телефону 20-03-18, с 8.00 до 20.00.
-                Спасибо за понимание.</p>
-            </div>
-            <div id="bx_1914200112_53060" class="aside__news_item js-dotted">
-              <a href="/about-the-company/news/pravila-bonusnoy-programmy-snegiri/">ПРАВИЛА БОНУСНОЙ ПРОГРАММЫ
-                «СНЕГИРИ»</a>
-              <p style="margin:0">С 30.08.2016 при покупке товара &quot;КОПИ&quot; бонусы по -новому!
-                1. Товары с акцией &quot;КОПИ&quot; вы увидите в отдельном разделе.
-                2. Бонусы на покупки через Интернет- магазин Петромост будут начисляться на бонусную карту Снегири&nbsp;&nbsp;раз
-                в неделю.
-                3.Приобретая товар из раздела &quot;КОПИ &quot; на вашу бонусную карту будут возвращаться бонусы.&nbsp;&nbsp;Размер
-                возвращаемых бонусов с 18.10 по 24.10 будет составлять&nbsp;&nbsp;50&#37; / 35&#37; от стоимости товара.
-                Если у Вас возникнут вопросы по бонусной программе&nbsp;&nbsp;Снегири&nbsp;&nbsp;-&nbsp;&nbsp;телефон
-                горячей линии 46-01-86.
-                Подробнее, кликай на новость.
-              </p>
-            </div>
-            <div id="bx_1914200112_52017" class="aside__news_item js-dotted">
-              <a href="/about-the-company/news/rayony-dostavki/">РАЙОНЫ ДОСТАВКИ</a>
-              <p style="margin:0">Уважаемые покупатели!
-                С 01.05.2016 г, в связи с сокращением районов доставки,&nbsp;&nbsp;внесены изменения&nbsp;&nbsp;в раздел
-                &quot;Доставка и Оплата&quot;по следующим районам:
-
-                - Исакогорский район &#40;от Краснофлотского моста до ул.Вычегодская&#41;
-                - Маймаксанский округ &#40;Маймакса&#41;&nbsp;&nbsp;
-                &nbsp;&nbsp;
-                Приносим свои извинения за доставленные неудобства.
-                С уважением, администрация.</p>
-            </div>
+          <div class="folding-layout">
+              <div class="aside__news_text">
+                  <div id="bx_1914200112_53318" class="aside__news_item js-dotted">
+                      <a href="/about-the-company/news/vnimanie/">ВНИМАНИЕ!</a>
+                      <p style="margin:0">На сайте проводятся технические работы, возможны проблемы с работой сайта.
+                          Заказ так же&nbsp;&nbsp;можно оформить по телефону 20-03-18, с 8.00 до 20.00.
+                          Спасибо за понимание.</p>
+                  </div>
+                  <div id="bx_1914200112_53060" class="aside__news_item js-dotted">
+                      <a href="/about-the-company/news/pravila-bonusnoy-programmy-snegiri/">ПРАВИЛА БОНУСНОЙ ПРОГРАММЫ
+                          «СНЕГИРИ»</a>
+                      <p style="margin:0">С 30.08.2016 при покупке товара &quot;КОПИ&quot; бонусы по -новому!
+                          1. Товары с акцией &quot;КОПИ&quot; вы увидите в отдельном разделе.
+                          2. Бонусы на покупки через Интернет- магазин Петромост будут начисляться на бонусную карту Снегири&nbsp;&nbsp;раз
+                          в неделю.
+                          3.Приобретая товар из раздела &quot;КОПИ &quot; на вашу бонусную карту будут возвращаться бонусы.&nbsp;&nbsp;Размер
+                          возвращаемых бонусов с 18.10 по 24.10 будет составлять&nbsp;&nbsp;50&#37; / 35&#37; от стоимости товара.
+                          Если у Вас возникнут вопросы по бонусной программе&nbsp;&nbsp;Снегири&nbsp;&nbsp;-&nbsp;&nbsp;телефон
+                          горячей линии 46-01-86.
+                          Подробнее, кликай на новость.
+                      </p>
+                  </div>
+                  <div id="bx_1914200112_52017" class="aside__news_item js-dotted">
+                      <a href="/about-the-company/news/rayony-dostavki/">РАЙОНЫ ДОСТАВКИ</a>
+                      <p style="margin:0">Уважаемые покупатели!
+                          С 01.05.2016 г, в связи с сокращением районов доставки,&nbsp;&nbsp;внесены изменения&nbsp;&nbsp;в раздел
+                          &quot;Доставка и Оплата&quot;по следующим районам:
+                
+                          - Исакогорский район &#40;от Краснофлотского моста до ул.Вычегодская&#41;
+                          - Маймаксанский округ &#40;Маймакса&#41;&nbsp;&nbsp;
+                          &nbsp;&nbsp;
+                          Приносим свои извинения за доставленные неудобства.
+                          С уважением, администрация.</p>
+                  </div>
+              </div>
+              <a href="#" class="folding-btn">Показать еще</a>
           </div>
+          
+          
         </div>
 
         <!--<div class="aside__ad_block">
@@ -1269,11 +1274,23 @@
 
   $('.js-dotted').dotdotdot();
 
-  $(window).resize(function () {
+//  $(window).resize(function () {
+//
+//      showElem();
+//  });
 
-      showElem();
+  $('.folding-btn').on('click', function(e){
+      var textBtn = $(this).html();
+      e.preventDefault();
+      $(this).siblings().toggleClass('folding-show');
+      if(textBtn == 'Показать еще'){
+          $(this).html('Скрыть список');
+      }else {
+          $(this).html('Показать еще');
+      }
   });
-
+  
+  
   function showElem (){
       if (document.documentElement.clientWidth < 490) {
 
@@ -1300,10 +1317,10 @@
       }else {
           $('.goods__list').readmore('destroy');
           $('.aside__news_text').readmore('destroy');
-      };;
+      };
   }
 
-  showElem();
+//  showElem();
   
 </script>
 <!--end script changes 2016-->
