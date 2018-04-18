@@ -1269,60 +1269,42 @@
 
   $('.js-dotted').dotdotdot();
 
-//  $(window).resize(function () {
-//
-//    if (document.documentElement.clientWidth < 490) {
-//
-//      $('.goods__list').readmore({
-//        speed: 200,
-//        moreLink: '<a href="#" class="show-readmore">показать все</a>',
-//        lessLink: '<a href="#" class="hide-readmore">скрыть список</a>',
-//        embedCSS: true,
-//        blockCSS: 'display: block; width: 200px;',
-//        startOpen: false
-//      });
-//
-//      $('.aside__news_text').readmore({
-//        speed: 200,
-//        moreLink: '<a href="#" class="show-readmore">показать все <i>▼</i></a>',
-//        lessLink: '<a href="#" class="hide-readmore">скрыть список <i>▲</i></a>',
-//        embedCSS: true,
-//        blockCSS: 'display: block; width: 100%;',
-//        startOpen: false
-//      });
-//
-//      $('.js-dotted').dotdotdot();
-//
-//    } else {
-//      $('.goods__list').readmore('destroy');
-//      $('.aside__news_text').readmore('destroy');
-//    };
-//
-//
-//  });
+  $(window).resize(function () {
 
-  if (document.documentElement.clientWidth < 490) {
+      showElem();
+  });
 
-    $('.goods__list').readmore({
-      speed: 200,
-      moreLink: '<a href="#" class="show-readmore">показать все <i>▼</i></a>',
-      lessLink: '<a href="#" class="hide-readmore">скрыть список <i>▲</i></a>',
-      embedCSS: true,
-      blockCSS: 'display: block; width: 200px;',
-      startOpen: false
-    });
+  function showElem (){
+      if (document.documentElement.clientWidth < 490) {
 
-    $('.aside__news_text').readmore({
-      speed: 200,
-      moreLink: '<a href="#" class="show-readmore">показать еще1 <i>▼</i></a>',
-      lessLink: '<a href="#" class="hide-readmore">скрыть список1 <i>▲</i></a>',
-      embedCSS: true,
-      blockCSS: 'display: block; width: 100%;',
-      startOpen: false
-    });
+          $('.goods__list').readmore({
+              speed: 200,
+              moreLink: '<a href="#" class="show-readmore">показать все <i>▼</i></a>',
+              lessLink: '<a href="#" class="hide-readmore">скрыть список <i>▲</i></a>',
+              embedCSS: true,
+              blockCSS: 'display: block; width: 200px;',
+              startOpen: false
+          });
 
-    $('.js-dotted').dotdotdot();
-  };
+          $('.aside__news_text').readmore({
+              speed: 200,
+              moreLink: '<a href="#" class="show-readmore">показать еще1 <i>▼</i></a>',
+              lessLink: '<a href="#" class="hide-readmore">скрыть список1 <i>▲</i></a>',
+              embedCSS: true,
+              minHeight: 100,
+              blockCSS: 'display: block; width: 100%;',
+              startOpen: false
+          });
+
+          $('.js-dotted').dotdotdot();
+      }else {
+          $('.goods__list').readmore('destroy');
+          $('.aside__news_text').readmore('destroy');
+      };;
+  }
+
+  showElem();
+  
 </script>
 <!--end script changes 2016-->
 

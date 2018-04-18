@@ -26,7 +26,7 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.68974525">
+    <splitter split-orientation="horizontal" split-proportion="0.62116265">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -42,8 +42,8 @@
           <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/main.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="466">
-                  <caret line="1317" column="65" lean-forward="false" selection-start-line="1317" selection-start-column="65" selection-end-line="1317" selection-end-column="65" />
+                <state relative-caret-position="490">
+                  <caret line="1293" column="29" lean-forward="false" selection-start-line="1293" selection-start-column="29" selection-end-line="1293" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -113,7 +113,7 @@
           <file leaf-file-name="new-style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="24">
+                <state relative-caret-position="-336">
                   <caret line="740" column="17" lean-forward="false" selection-start-line="740" selection-start-column="17" selection-end-line="740" selection-end-column="17" />
                   <folding />
                 </state>
@@ -554,12 +554,12 @@
       <workItem from="1507286184439" duration="374000" />
       <workItem from="1513155807723" duration="9045000" />
       <workItem from="1513168992395" duration="3866000" />
-      <workItem from="1524033690333" duration="199000" />
+      <workItem from="1524033690333" duration="998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121401000" />
+    <option name="totallyTimeSpent" value="122200000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="0" width="1871" height="1096" extended-state="0" />
@@ -1072,8 +1072,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="1317" column="65" lean-forward="false" selection-start-line="1317" selection-start-column="65" selection-end-line="1317" selection-end-column="65" />
+        <state relative-caret-position="490">
+          <caret line="1293" column="29" lean-forward="false" selection-start-line="1293" selection-start-column="29" selection-end-line="1293" selection-end-column="29" />
           <folding />
         </state>
       </provider>
