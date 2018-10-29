@@ -816,11 +816,12 @@
 
 
 .site_container .catalog-filter {
-    position: absolute;
+    /* position: absolute; */
     /*top: 82%;*/
-    top: -150px;
-    left: 240px;
-    width: 72%;
+    /* top: -150px;
+    left: 240px; */
+    /* width: 72%; */
+    margin-bottom: 20px;
 }
 
 .catalog-filter .catalog-filter__title {
