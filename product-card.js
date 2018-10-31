@@ -8,4 +8,10 @@ $(function(){
         $(".tab-content").not(tab).css("display", "none");
         $(tab).fadeIn();
     });
+
+
+    $('.catalog-filter__title').on('click', function(e){
+        e.preventDefault();
+        $(this).parents('.catalog-filter').toggleClass('active');
+    })
 });
