@@ -926,16 +926,108 @@
 
 }
 
+/*pie*/
+.pie {
+    font-family: 'Tahoma', sans-serif;
+    box-sizing: border-box;
+}
+.pie * {
+    box-sizing: border-box;
+}
 
+.pie-banner {
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 256px;
+    background-position: 50% 50%;
+    position: relative;
+}
 
+.pie-banner__body {
+    background-color: #fff;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 14px 16px;
+}
 
+.pie-banner__title {
+    color: #e5452f;
+    font-size: 33px;
+    text-transform: uppercase;
+    line-height: 1;
+}
 
+.pie-banner__title span {
+    font-size: 51px;
+    display: block;
+    text-transform: uppercase;
+    line-height: 1;
+}
 
+.pie-banner__text {
+    font-size: 16px;
+    color: #1c1c1c;
+}
 
+.pie .slides a {
+    display: block;
+    position: relative;
+}
 
+.pie-catalog__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
+}
 
+.pie-catalog__list::after {
+    content: '';
+    clear: both;
+    display: table;
+}
 
+.pie-catalog__item {
+    float: left;
+    width: 50%;
+}
+
+.pie-catalog-card {
+
+}
+
+.pie-catalog-card__img {
+    height: 188px;
+}
+
+.pie-catalog-card__body {
+}
+
+.pie-catalog-card__title {
+
+}
+
+.pie-catalog-card-info {
+
+}
+
+.pie-catalog-card-info__item {
+
+}
+
+.pie-catalog-card-property {
+
+}
+
+.pie-catalog-card-property__size {
+
+}
+
+.pie-catalog-card-property__price {
+
+}
 
 
 
