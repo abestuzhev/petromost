@@ -995,26 +995,41 @@
 }
 
 .pie-catalog-card {
-
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.15);
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .pie-catalog-card__img {
     height: 188px;
+    overflow: hidden;
 }
 
 .pie-catalog-card__body {
+    padding: 10px 17px;
 }
 
 .pie-catalog-card__title {
-
+    font-size: 12px;
+    font-weight: 700;
+    color: #505050;
+    margin-bottom: 10px;
+    line-height: 1;
 }
 
 .pie-catalog-card-info {
+}
 
+.pie-catalog-card-info span {
+    color: #e43b24;
 }
 
 .pie-catalog-card-info__item {
 
+    font-size: 13px;
+    color: #757575;
+    line-height: 1;
+    margin-bottom: 4px;
 }
 
 .pie-catalog-card-property {
@@ -1029,6 +1044,26 @@
 
 }
 
+.pie-catalog-card__footer {
+    background-color: #f3f3f3;
+    /*padding: 16px 17px;*/
+}
+
+.pie-catalog-card__footer::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.pie-catalog-card__footer .goods__row_buy {
+    position: static;
+}
+
+.pie-catalog-card__footer .goods__row_buy::after {
+    content: '';
+    clear: both;
+    display: table;
+}
 
 
 

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4290d0f-d003-4012-8858-235b5510587e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pie.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pie.html" afterPath="$PROJECT_DIR$/pie.html" />
     </list>
     <ignored path="petromost.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +31,7 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6775083">
+    <splitter split-orientation="horizontal" split-proportion="0.64285713">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -47,7 +47,7 @@
           <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/main.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
+                <state relative-caret-position="5474">
                   <caret line="322" column="8" selection-start-line="322" selection-start-column="8" selection-end-line="348" selection-end-column="17" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -71,8 +71,8 @@
           <file leaf-file-name="pie.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pie.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="507">
-                  <caret line="451" column="87" selection-start-line="451" selection-start-column="56" selection-end-line="451" selection-end-column="87" />
+                <state relative-caret-position="-4858">
+                  <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
                   <folding>
                     <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
@@ -83,7 +83,7 @@
           <file leaf-file-name="catalog.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="373">
+                <state relative-caret-position="21335">
                   <caret line="1613" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="1638" selection-end-column="41" />
                   <folding>
                     <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -137,8 +137,8 @@
           <file leaf-file-name="new-style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="842">
-                  <caret line="1026" column="0" selection-start-line="1026" selection-start-column="0" selection-end-line="1026" selection-end-column="0" />
+                <state relative-caret-position="555">
+                  <caret line="1049" column="1" selection-start-line="1049" selection-start-column="1" selection-end-line="1049" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -240,7 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,6 +261,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <PATH>
@@ -466,18 +466,20 @@
       <workItem from="1540757936598" duration="1868000" />
       <workItem from="1540925364753" duration="277000" />
       <workItem from="1541017541357" duration="1750000" />
-      <workItem from="1545677939836" duration="3321000" />
+      <workItem from="1545677939836" duration="3379000" />
+      <workItem from="1545761046846" duration="614000" />
+      <workItem from="1545775302957" duration="1202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132997000" />
+    <option name="totallyTimeSpent" value="134871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11025358" sideWeight="0.49585062" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.112458654" sideWeight="0.49585062" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -959,7 +961,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
+        <state relative-caret-position="21335">
           <caret line="1613" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="1638" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -987,7 +989,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="5474">
           <caret line="322" column="8" selection-start-line="322" selection-start-column="8" selection-end-line="348" selection-end-column="17" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#aside#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -999,8 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="451" column="87" selection-start-line="451" selection-start-column="56" selection-end-line="451" selection-end-column="87" />
+        <state relative-caret-position="-4858">
+          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
           <folding>
             <element signature="n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -1009,8 +1011,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="1026" column="0" selection-start-line="1026" selection-start-column="0" selection-end-line="1026" selection-end-column="0" />
+        <state relative-caret-position="555">
+          <caret line="1049" column="1" selection-start-line="1049" selection-start-column="1" selection-end-line="1049" selection-end-column="1" />
           <folding />
         </state>
       </provider>
