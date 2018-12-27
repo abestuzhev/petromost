@@ -935,6 +935,24 @@
     box-sizing: border-box;
 }
 
+.pie .goods__in_cart {
+    background-color: #ece5dd;
+    border: 1px solid #d7d3cf;
+    color: #775f51;
+    text-transform: capitalize;
+}
+
+.pie .goods__in_cart i {
+    background: url(../../../../templates/petromost_oneway_2014/img/pie/icon-basket-pie.png) 0 0 no-repeat;
+    width: 19px;
+    height: 15px;
+}
+
+.pie .goods__in_cart:hover i {
+    background: url(../../../../templates/petromost_oneway_2014/img/pie/icon-basket-pie-hover.png) 0 0 no-repeat;
+
+}
+
 .pie-banner {
     width: 100%;
     -webkit-background-size: cover;
@@ -976,10 +994,12 @@
     position: relative;
 }
 
-.pie-catalog__list {
+.pie .pie-catalog__list {
     list-style: none;
     margin: 0;
     padding: 0;
+    margin-left: -3px;
+    margin-right: -3px;
 
 }
 
@@ -989,9 +1009,10 @@
     display: table;
 }
 
-.pie-catalog__item {
+.pie .pie-catalog__item {
     float: left;
     width: 50%;
+    padding: 4px 4px;
 }
 
 .pie-catalog-card {
@@ -999,10 +1020,22 @@
     border-radius: 8px;
     overflow: hidden;
 }
+.pie-catalog-card::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 
 .pie-catalog-card__img {
     height: 188px;
     overflow: hidden;
+}
+
+.pie-catalog-card__img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .pie-catalog-card__body {
@@ -1018,6 +1051,8 @@
 }
 
 .pie-catalog-card-info {
+    margin-bottom: 14px;
+    min-height: 43px;
 }
 
 .pie-catalog-card-info span {
@@ -1036,12 +1071,28 @@
 
 }
 
-.pie-catalog-card-property__size {
+.pie-catalog-card-property::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 
+.pie-catalog-card-property__size {
+    float: left;
 }
 
 .pie-catalog-card-property__price {
+    float: right;
+    color: #e43b24;
+    font-size: 14px;
+}
 
+.pie-catalog-card-property .pie-form__radio {
+    margin-right: 8px;
+}
+.pie-catalog-card-property__price span {
+    font-weight: 700;
+    font-size: 22px;
 }
 
 .pie-catalog-card__footer {
@@ -1067,4 +1118,148 @@
 
 
 
+.pie-form {
+    font-family: 'Tahoma', sans-serif;
+}
 
+
+.pie-form::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.pie-form__radio {
+    display: inline-block;
+}
+
+.pie-form__item {
+    margin-bottom: 10px;
+}
+
+.pie-form__item::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.pie-form__grid {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.pie-form__col {
+    padding: 5px ;
+    float: left;
+}
+
+.pie-form__col--6 {
+    width: 50%;
+}
+
+.pie-input {
+    display: block;
+    width: 100%;
+    border: 1px solid #d7d3cf;
+    outline: none;
+    border-radius:4px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.pie-radio {
+    display: none;
+}
+
+.pie-radio-label {
+    color: #616161;
+    font-size: 14px;
+    position: relative;
+    padding-left: 23px;
+    cursor: pointer;
+}
+
+.pie-radio-label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    border: 3px solid #e43b24;
+}
+
+.pie-radio:checked + .pie-radio-label::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    background-color: #e43b24;
+}
+
+.c-popup {
+    padding: 26px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.c-popup__title {
+    font-size: 25px;
+    line-height: 1;
+    margin-bottom: 18px;
+    color: #000000;
+}
+
+#pie-order {
+    width:650px;
+}
+
+#fancybox-content {
+    border-radius: 10px;
+}
+
+.popup-pie-order {
+    box-sizing: border-box;
+}
+
+.popup-pie-order *{
+    box-sizing: border-box;
+}
+
+.popup-pie-order .pie-catalog-card {
+    box-shadow:  none;
+    overflow: visible;
+    margin-bottom: 30px;
+}
+.popup-pie-order .goods__row_buy {
+    position: static;
+    width: auto;
+    float: left;
+    padding: 0;
+    background: none;
+}
+
+.popup-pie-order .minus,
+.popup-pie-order .plus {
+    border:1px solid #d7d3cf;
+}
+
+.popup-pie-order .pie-catalog-card-property__price {
+    padding: 5px 0;
+}
+.popup-pie-order .pie-catalog-card__img {
+    width: 38%;
+    height: 156px;
+    float: left;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.popup-pie-order .pie-catalog-card__body {
+    float: left;
+    width: 62%;
+}
