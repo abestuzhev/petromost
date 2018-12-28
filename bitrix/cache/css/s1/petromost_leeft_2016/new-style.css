@@ -934,20 +934,29 @@
 .pie * {
     box-sizing: border-box;
 }
-
+.pie-form .goods__in_cart {
+    padding: 10px 28px;
+    line-height: 1;
+}
+.pie-form .goods__in_cart:hover {
+    background-color: #dd4140;
+    color: #ffffff;
+}
+.pie-form .goods__in_cart,
 .pie .goods__in_cart {
-    background-color: #ece5dd;
+    background-color: #fff;
     border: 1px solid #d7d3cf;
     color: #775f51;
     text-transform: capitalize;
 }
 
+.pie-form .goods__in_cart i,
 .pie .goods__in_cart i {
     background: url(../../../../templates/petromost_oneway_2014/img/pie/icon-basket-pie.png) 0 0 no-repeat;
     width: 19px;
     height: 15px;
 }
-
+.pie-form .goods__in_cart:hover i,
 .pie .goods__in_cart:hover i {
     background: url(../../../../templates/petromost_oneway_2014/img/pie/icon-basket-pie-hover.png) 0 0 no-repeat;
 
@@ -1129,6 +1138,27 @@
     clear: both;
 }
 
+
+.pie-form .enter__remember{
+    position: relative;
+    padding-left: 10px;
+    text-decoration: none;
+    line-height: 1;
+}
+
+
+.pie-form .enter__remember span {
+    font-size: 12px;
+    color: #707070;
+    text-decoration: none;
+}
+
+.pie-form .enter__remember span.checkbox {
+    position: absolute;
+    left: -11px;
+    top: 5px;
+}
+
 .pie-form__radio {
     display: inline-block;
 }
@@ -1167,6 +1197,14 @@
     font-size: 14px;
 }
 
+.pie-label {
+    display: inline-block;
+    font-size: 13px;
+    color: #757575;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+
 .pie-radio {
     display: none;
 }
@@ -1199,6 +1237,10 @@
     width: 8px;
     border-radius: 50px;
     background-color: #e43b24;
+}
+.c-obligatory-field {
+    font-size: 13px;
+    color: #e43b24;
 }
 
 .c-popup {
@@ -1262,4 +1304,160 @@
 .popup-pie-order .pie-catalog-card__body {
     float: left;
     width: 62%;
+}
+
+.popup-pie-order .pie-form__radio {
+    margin-right: 6px;
+}
+
+.popup-pie-order__left {
+    float: left;
+    width: 78%;
+}
+
+.popup-pie-order__right {
+    float: right;
+    width: 22%;
+}
+
+.popup-pie-pickup {
+    display: none;
+}
+
+.popup-pie-pickup .pie-form__radio {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.popup-pie-order .datepicker-layout {
+    max-width: 127px;
+
+}
+
+.datepicker-layout {
+    position: relative;
+    display: inline-block;
+}
+
+.datepicker-layout::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    background: url(../../../../templates/petromost_oneway_2014/img/pie/icon-calendar.png) 0 0 no-repeat;
+    width: 21px;
+    height: 23px;
+}
+
+.datepicker-custom {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #d7d3cf;
+}
+
+.SumoSelect > .CaptionCont {
+    padding: 8px 10px;
+    border-radius: 6px !important;
+    border: 1px solid #d7d3cf !important;
+}
+
+.popup-pie-order .SumoSelect {
+    max-width: 116px;
+}
+.popup-pie-order .SumoSelect > .CaptionCont {
+    width: 100%;
+}
+
+@media (max-width:860px) {
+    #pie-order {
+        width: 100%;
+    }
+
+    .popup-pie-order .SumoSelect,
+    .popup-pie-order .datepicker-layout {
+        width: 100%;
+        max-width: 100%;
+        display: block;
+    }
+
+    .pie-label {
+        top: 0 !important;
+
+    }
+
+    .popup-pie-order__left,
+    .popup-pie-order__right {
+        float: none;
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .popup-pie-order__right {
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:600px) {
+    .popup-pie-order .pie-form__col {
+        width: 100%;
+        float: none;
+    }
+
+    .popup-pie-order .pie-catalog-card__img {
+        width: 100%;
+        height: 156px;
+        float: none;
+    }
+
+    .popup-pie-order .pie-catalog-card__body {
+        width: 100%;
+        float: none;
+        padding: 10px 0;
+    }
+
+    .popup-pie-order .pie-catalog-card {
+        margin-bottom: 8px;
+    }
+
+    .c-popup {
+        padding: 10px;
+    }
+
+    .pie .pie-catalog__item {
+        padding: 0;
+        margin-bottom: 6px;
+        float: none;
+        width: 100%;
+    }
+}
+@media (max-width:500px) {
+    .popup-pie-order .pie-form__col {
+        width: 100%;
+        float: none;
+    }
+
+    #pie-order {
+        width: 100%;
+        padding: 0;
+    }
+
+    /*#fancybox-content {*/
+        /*width: 100% !important;*/
+        /*border: none !important;*/
+        /*padding: 10px;*/
+        /*box-sizing: border-box;*/
+    /*}*/
+
+    /*#fancybox-wrap {*/
+        /*width: 100% !important;*/
+        /*position: fixed !important;*/
+        /*top: 0 !important;*/
+        /*left: 0 !important;*/
+        /*width: 100% !important;*/
+        /*padding: 0 !important;*/
+    /*}*/
+
 }
