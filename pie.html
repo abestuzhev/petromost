@@ -1305,150 +1305,161 @@
 <!-- end site_container -->
 
 <script>
-    $('.js-pie-popup').fancybox({});
+//    $('.js-pie-popup').fancybox({});
 </script>
-<div style="display:none;">
-    <div id="pie-order" class="c-popup popup-pie-order">
-        <div class="c-popup__body">
-            <form action="" id="pie-popup-form">
+<div class="mfp-wrap popup-pie-order" tabindex="-1" style="overflow-x: hidden; overflow-y: scroll;">
+    <div class="mfp-container mfp-inline-holder">
+        <div class="mfp-content">
+            <div class="c-popup ">
+                <div class="c-popup__body">
+                    <div class="c-popup__close js-popup-close"></div>
+                    <form action="" id="pie-popup-form">
 
 
-                <div class="c-popup__title">Ваш заказ</div>
-                <div class="pie-catalog-card">
-                    <div class="pie-catalog-card__img">
-                        <img src="bitrix/templates/petromost_oneway_2014/img/pie/pie-img-4.png" alt="">
-                    </div>
-                    <div class="pie-catalog-card__body">
-                        <div class="pie-catalog-card__title">ПИРОГ "РОЖДЕСТВЕНСКИЙ"</div>
-                        <div class="pie-catalog-card-info">
-                            <div class="pie-catalog-card-info__item">
-                                <span>Состав: </span>Пирог из дрожжевого теста с начинкой из яблок,
-                                изюма, клюквы и корицы
+                        <div class="c-popup__title">Ваш заказ</div>
+                        <div class="pie-catalog-card">
+                            <div class="pie-catalog-card__img">
+                                <img src="bitrix/templates/petromost_oneway_2014/img/pie/pie-img-4.png" alt="">
                             </div>
-                            <div class="pie-catalog-card-info__item">
-                                <span>Калорийность: </span>223,14 ккал/100г
-                            </div>
-                        </div>
+                            <div class="pie-catalog-card__body">
+                                <div class="pie-catalog-card__title">ПИРОГ "РОЖДЕСТВЕНСКИЙ"</div>
+                                <div class="pie-catalog-card-info">
+                                    <div class="pie-catalog-card-info__item">
+                                        <span>Состав: </span>Пирог из дрожжевого теста с начинкой из яблок,
+                                        изюма, клюквы и корицы
+                                    </div>
+                                    <div class="pie-catalog-card-info__item">
+                                        <span>Калорийность: </span>223,14 ккал/100г
+                                    </div>
+                                </div>
 
-                        <div class="pie-catalog-card-property">
-                            <div class="goods__row_buy">
-                                <div class="goods__number">
-                                    <div class="number">
-                                        <span data-unit="piece" class="minus">-</span>
-                                        <input type="tel" value="1" class="inp" data-max="15" readonly="">
-                                        <span data-unit="piece" class="plus">+</span>
+                                <div class="pie-catalog-card-property">
+                                    <div class="goods__row_buy">
+                                        <div class="goods__number">
+                                            <div class="number">
+                                                <span data-unit="piece" class="minus">-</span>
+                                                <input type="tel" value="1" class="inp" data-max="15" readonly="">
+                                                <span data-unit="piece" class="plus">+</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="pie-catalog-card-property__price">
+                                        Сумма заказа: <span>500</span> руб.
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="pie-catalog-card-property__price">
-                                Сумма заказа: <span>500</span> руб.
-                            </div>
                         </div>
-                    </div>
+                        <div class="c-popup__title">Ваши данные</div>
+                        <div class="pie-form">
+                            <div class="pie-form__item">
+                                <div class="pie-form__grid">
 
-                </div>
-                <div class="c-popup__title">Ваши данные</div>
-                <div class="pie-form">
-                    <div class="pie-form__item">
-                        <div class="pie-form__grid">
-
-                            <div class="pie-form__col pie-form__col--6">
-                                <label class="pie-label">Ф.И.О <span class="c-obligatory-field">*</span></label>
-                                <input type="text" class="pie-input">
-                            </div>
-                            <div class="pie-form__col pie-form__col--6">
-                                <label class="pie-label">Телефон <span class="c-obligatory-field">*</span></label>
-                                <input type="text" class="pie-input">
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="pie-form__item">
-                        <div class="pie-form__radio">
-                            <input type="radio" id="pie-delivery-1" value="delivery-1" name="pie-radio-delivery" class="pie-radio" checked>
-                            <label for="pie-delivery-1" class="pie-radio-label">Доставка курьером</label>
-                        </div>
-                        <div class="pie-form__radio">
-                            <input type="radio" id="pie-delivery-2" value="delivery-2" name="pie-radio-delivery" class="pie-radio">
-                            <label for="pie-delivery-2" class="pie-radio-label">Самовывоз</label>
-                        </div>
-                    </div>
-                    <div class="pie-form__item">
-                        <div class="pie-form__grid">
-
-                            <div class="pie-form__col pie-form__col--6">
-                                <label class="pie-label">Выберите дату доставки: <span class="c-obligatory-field">*</span></label>
-
-                                <div class="datepicker-layout">
-                                    <input type='text' class='datepicker-custom' />
+                                    <div class="pie-form__col pie-form__col--6">
+                                        <label class="pie-label">Ф.И.О <span class="c-obligatory-field">*</span></label>
+                                        <input type="text" class="pie-input">
+                                    </div>
+                                    <div class="pie-form__col pie-form__col--6">
+                                        <label class="pie-label">Телефон <span class="c-obligatory-field">*</span></label>
+                                        <input type="text" class="pie-input js-input-phone">
+                                    </div>
                                 </div>
-                                                           </div>
-                            <div class="pie-form__col pie-form__col--6">
-                                <label class="pie-label" style="position:relative;top:-8px;">Выберите время доставки: <span class="c-obligatory-field">*</span></label>
-                                <select class="c-select" >
-                                    <option value="9-11">с 9 до 11</option>
-                                    <option value="9-11">с 11 до 13</option>
-                                    <option value="9-11">с 13 до 15</option>
-                                </select>
-                            </div>
-                        </div>
 
-                    </div>
-                    <div class="pie-form__item">
-                        <div class="popup-pie-address">
-                            <label  class="pie-label">Адрес доставки <span class="c-obligatory-field">*</span></label>
-                            <input type="text" class="pie-input">
-                        </div>
-                    </div>
-                    <div class="pie-form__item">
-                        <div class="popup-pie-pickup">
-                            <div class="c-popup__title">Пункты самовывоза: </div>
-                            <div class="pie-form__radio">
-                                <input type="radio" id="pie-delivery-pickup-1" name="pie-delivery-pickup" class="pie-radio" checked>
-                                <label for="pie-delivery-pickup-1" class="pie-radio-label">Архангельск, Суворова ул, д.7, оф. 2</label>
                             </div>
-                            <div class="pie-form__radio">
-                                <input type="radio" id="pie-delivery-pickup-2" name="pie-delivery-pickup" class="pie-radio">
-                                <label for="pie-delivery-pickup-2" class="pie-radio-label">Архангельск, Вологодская, 14, оф. 281</label>
+                            <div class="pie-form__item">
+                                <div class="pie-form__radio">
+                                    <input type="radio" id="pie-delivery-1" value="delivery-1" name="pie-radio-delivery" class="pie-radio" checked>
+                                    <label for="pie-delivery-1" class="pie-radio-label">Доставка курьером</label>
+                                </div>
+                                <div class="pie-form__radio">
+                                    <input type="radio" id="pie-delivery-2" value="delivery-2" name="pie-radio-delivery" class="pie-radio">
+                                    <label for="pie-delivery-2" class="pie-radio-label">Самовывоз</label>
+                                </div>
                             </div>
-                            <div class="pie-form__radio">
-                                <input type="radio" id="pie-delivery-pickup-3" name="pie-delivery-pickup" class="pie-radio">
-                                <label for="pie-delivery-pickup-3" class="pie-radio-label">Архангельск, пр. Троицкий, 18</label>
+                            <div class="pie-form__item">
+                                <div class="pie-form__grid">
+
+                                    <div class="pie-form__col pie-form__col--6">
+                                        <label class="pie-label">Выберите дату доставки: <span class="c-obligatory-field">*</span></label>
+
+                                        <div class="datepicker-layout">
+                                            <div class="datepicker-layout__icon"></div>
+                                            <input type='text' class='datepicker-custom' />
+                                        </div>
+                                    </div>
+                                    <div class="pie-form__col pie-form__col--6">
+                                        <label class="pie-label" style="position:relative;top:-8px;">Выберите время доставки: <span class="c-obligatory-field">*</span></label>
+                                        <select class="c-select" >
+                                            <option value="9-11">с 9 до 11</option>
+                                            <option value="9-11">с 11 до 13</option>
+                                            <option value="9-11">с 13 до 15</option>
+                                        </select>
+                                    </div>
+                                </div>
+
                             </div>
-                            <div class="pie-form__radio">
-                                <input type="radio" id="pie-delivery-pickup-4" name="pie-delivery-pickup" class="pie-radio">
-                                <label for="pie-delivery-pickup-4" class="pie-radio-label">Архангельск, Суворова ул, д.7, оф. 2</label>
+                            <div class="pie-form__item">
+                                <div class="popup-pie-address">
+                                    <label  class="pie-label">Адрес доставки <span class="c-obligatory-field">*</span></label>
+                                    <input type="text" class="pie-input">
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="pie-form__item">
-                        <div class="popup-pie-order__left">
-                            <div class="enter__remember">
-                                <label for="popup-remch">
-                                    <input type="checkbox" name="USER_REMEMBER" value="Y" id="popup-remch" class="checkbox">
-                                    <span class="checkbox"></span><span>
+                            <div class="pie-form__item">
+                                <div class="popup-pie-pickup">
+                                    <div class="c-popup__title">Пункты самовывоза: </div>
+                                    <div class="pie-form__radio">
+                                        <input type="radio" id="pie-delivery-pickup-1" name="pie-delivery-pickup" class="pie-radio" checked>
+                                        <label for="pie-delivery-pickup-1" class="pie-radio-label">Архангельск, Суворова ул, д.7, оф. 2</label>
+                                    </div>
+                                    <div class="pie-form__radio">
+                                        <input type="radio" id="pie-delivery-pickup-2" name="pie-delivery-pickup" class="pie-radio">
+                                        <label for="pie-delivery-pickup-2" class="pie-radio-label">Архангельск, Вологодская, 14, оф. 281</label>
+                                    </div>
+                                    <div class="pie-form__radio">
+                                        <input type="radio" id="pie-delivery-pickup-3" name="pie-delivery-pickup" class="pie-radio">
+                                        <label for="pie-delivery-pickup-3" class="pie-radio-label">Архангельск, пр. Троицкий, 18</label>
+                                    </div>
+                                    <div class="pie-form__radio">
+                                        <input type="radio" id="pie-delivery-pickup-4" name="pie-delivery-pickup" class="pie-radio">
+                                        <label for="pie-delivery-pickup-4" class="pie-radio-label">Архангельск, Суворова ул, д.7, оф. 2</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pie-form__item">
+                                <div class="popup-pie-order__left">
+                                    <div class="enter__remember">
+                                        <label for="popup-remch">
+                                            <input type="checkbox" name="USER_REMEMBER" value="Y" id="popup-remch" class="checkbox">
+                                            <span class="checkbox"></span><span>
                                     Нажимая на кнопку «Заказать», Вы соглашаетесь с политикой обработки
         персональных данных. После отправки заказа на сайте наш оператор
         обязательно свяжется с Вами для подтверждения заказа.
                                 </span>
-                                </label>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="popup-pie-order__right">
+                                    <a href="#" class="btn goods__in_cart"><i></i> Заказать</a>
+                                </div>
+
+
                             </div>
-                        </div>
-                        <div class="popup-pie-order__right">
-                            <a href="#" class="btn goods__in_cart"><i></i> Заказать</a>
+
                         </div>
 
-
-                    </div>
-
+                    </form>
                 </div>
 
-            </form>
+            </div>
         </div>
-
     </div>
 </div>
+
+
+<div class="mfp-bg mfp-ready"></div>
+<!--задний фон модального окна-->
+
 
 
 <!-- SVG SOURSE -->
@@ -1584,6 +1595,7 @@
 
 <script src="bitrix/templates/petromost_oneway_2014/js/sumoselect/jquery.sumoselect.min.js"></script>
 <script src="bitrix/templates/petromost_oneway_2014/js/datepicker/datepicker.min.js"></script>
+<script src="bitrix/templates/petromost_oneway_2014/js/jquery.mask.js"></script>
 <script src="product-card.js"></script>
 
 </body>
