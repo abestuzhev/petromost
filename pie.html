@@ -125,6 +125,65 @@
 <div class="site_container">
     <!-- begin site_block  -->
     <div class="site_block">
+        <div class="header__deliv_time mobile">
+            <div class="header__deliv_time__close">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header__deliv_time_row">
+                Доступное время доставки:
+                <span class="header__deliv_time_item active">сегодня</span>
+                <span class="header__deliv_time_item">завтра</span>
+            </div>
+            <div class="header__deliv_time_table">
+
+                <table class="active">
+                    <tr>
+                        <td>
+                            <span>10:00 – 12:30</span>
+                        </td>
+                        <td>
+                            <span>12:30 – 15:00</span>
+                        </td>
+                        <td>
+                            <span>15:00 – 18:00</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>18:30 – 20:30</span>
+                        </td>
+                        <td>
+                            <span>20:30 –  23:00</span>
+                        </td>
+                        <td><span></span></td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td class="active">
+                            <span>10:00 – 12:30</span>
+                        </td>
+                        <td class="active">
+                            <span>12:30 – 15:00</span>
+                        </td>
+                        <td class="active">
+                            <span>15:00 – 18:00</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="active">
+                            <span>18:30 – 20:30</span>
+                        </td>
+                        <td class="active">
+                            <span>20:30 –  23:00</span>
+                        </td>
+                        <td><span></span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
         <header class="header cf">
             <div class="header__left">
                 <a href="#" class="header-mobile-hamburger page">
@@ -134,6 +193,11 @@
                         <span></span>
                     </div>
                 </a>
+                <div class="header-mobile-operation">
+                    <a href="#" class="header-mobile-search"></a>
+                    <a href="#" class="header-mobile-user"></a>
+                </div>
+
                 <a href="index.html" class="header__logo"><img src="bitrix\templates\petromost_oneway_2014\img\logo.png"
                                                                alt="Петромост"></a>
                 <a href="#" class="header__contact">наши контакты</a>
@@ -147,61 +211,6 @@
                 </div>
 
 
-                <div class="header__deliv_time">
-                    <div class="header__deliv_time_row">
-                        Доступное время доставки:
-                        <span class="header__deliv_time_item active">сегодня</span>
-                        <span class="header__deliv_time_item">завтра</span>
-                    </div>
-                    <div class="header__deliv_time_table">
-
-                        <table class="active">
-                            <tr>
-                                <td>
-                                    <span>10:00 – 12:30</span>
-                                </td>
-                                <td>
-                                    <span>12:30 – 15:00</span>
-                                </td>
-                                <td>
-                                    <span>15:00 – 18:00</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <span>18:30 – 20:30</span>
-                                </td>
-                                <td>
-                                    <span>20:30 –  23:00</span>
-                                </td>
-                                <td><span></span></td>
-                            </tr>
-                        </table>
-
-                        <table>
-                            <tr>
-                                <td class="active">
-                                    <span>10:00 – 12:30</span>
-                                </td>
-                                <td class="active">
-                                    <span>12:30 – 15:00</span>
-                                </td>
-                                <td class="active">
-                                    <span>15:00 – 18:00</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="active">
-                                    <span>18:30 – 20:30</span>
-                                </td>
-                                <td class="active">
-                                    <span>20:30 –  23:00</span>
-                                </td>
-                                <td><span></span></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
 
 
                 <!-- begin header__menu -->
@@ -466,6 +475,10 @@
 
                 <!--mobile header__deliv_time-->
                 <div class="header__deliv_time">
+                    <!--<div class="header__deliv_time__close">-->
+                        <!--<span></span>-->
+                        <!--<span></span>-->
+                    <!--</div>-->
                     <div class="header__deliv_time_row">
                         Доступное время доставки:
                         <span class="header__deliv_time_item active">сегодня</span>

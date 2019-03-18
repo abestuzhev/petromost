@@ -1755,6 +1755,7 @@
 
 .is-lock {
     overflow: hidden;
+    padding-right: 17px;
 }
 
 .header-mobile {
@@ -1823,6 +1824,10 @@
     transition: all .2s ease;
 }
 
+body {
+    /*overflow-y: scroll;*/
+}
+
 .is-lock .header-mobile-bg-layout {
     z-index: 99;
     opacity: 1;
@@ -1856,6 +1861,34 @@
 
 .header-mobile-hamburger__icon span:last-child {
     margin-bottom: 0;
+}
+
+.header-mobile-operation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: nowrap;
+    flex-flow: nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    display: none;
+}
+
+.header-mobile-search {
+    padding: 30px 20px;
+    background: url(../../../../templates/petromost_oneway_2014/img/pie/icon-search.png) 50% 50% no-repeat;
+}
+
+.header-mobile-user {
+    padding: 30px 24px;
+    background: url(../../../../templates/petromost_oneway_2014/img/pie/icon-user.png) 50% 50% no-repeat;
 }
 
 .header-mobile-city {
@@ -2139,6 +2172,18 @@
     display: none;
 }
 
+
+.header__deliv_time__close {
+    display: none;
+}
+
+.header__deliv_time.is-hide {
+    display: none;
+}
+
+.header__deliv_time.mobile {
+    display: none;
+}
 @media (max-width: 720px){
     .header__logo {
         left: 45px;
@@ -2203,8 +2248,108 @@
     }
 
 
+    .aside__cart,
+    .aside__user,
     .mobile-menu,
     .header__tel--mobile {
+        display: none !important;
+    }
+
+    .header__deliv_time_table td.active span {
+        border: 1px solid #cbcfd2;
+        color: #757575;
+        background-color: #e2e6e9;
+        display: block;
+    }
+
+    .header__deliv_time_table span {
+        border-radius: 4px;
+    }
+
+    .site_container {
+        min-width: 330px;
+    }
+
+    /*body .content__center .header__deliv_time {*/
+        /*position: fixed;*/
+        /*top: 0;*/
+        /*left: 0;*/
+        /*width: 100%;*/
+        /*margin-bottom: 0;*/
+    /*}*/
+
+    .header__deliv_time.mobile .header__deliv_time_row {
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+
+    .header__deliv_time_item {
+        margin-left: 7px;
+    }
+
+    .header__deliv_time__close {
+        display: block;
+        position: absolute;
+        right: 16px;
+        top: 4px;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+
+    .header__deliv_time__close span {
+        position: absolute;
+        width: 16px;
+        height: 2px;
+        border-radius: 50px;
+        background-color: #000;
+        top: 7px;
+        left: 0;
+    }
+
+    .header__deliv_time__close span:nth-child(1) {
+        webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .header__deliv_time__close span:nth-child(2) {
+        webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .header-mobile-operation {
+        display: flex;
+    }
+
+    .content__center .header__deliv_time_table span {
+        padding: 2px 4px;
+    }
+
+    .header__deliv_time.mobile .header__deliv_time_table td {
+        padding: 2px;
+        display: inline-block;
+    }
+
+    .header__deliv_time.mobile {
+        display: block;
+        position: static;
+        background-color: #f0f2f4;
+        width: auto;
+        margin-left: -10px;
+        margin-right: -10px;
+        padding: 8px 10px;
+    }
+
+    .header__deliv_time.mobile .header__deliv_time_table td {
+        width: auto;
+    }
+
+    .content__center .header__deliv_time {
         display: none !important;
     }
 }

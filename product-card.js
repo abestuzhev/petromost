@@ -25,6 +25,36 @@ $(function(){
         $('.header-mobile').removeClass('active');
         $('body').removeClass('is-lock');
     });
+    
+
+
+    // addPopupTop();
+    //
+    // function addPopupTop(){
+    //     var delivHeight = $('.header__deliv_time').height();
+    //
+    //     if($(window).width() < 720 && !$('.header__deliv_time').hasClass('is-hide')){
+    //         $('.site_container').css({
+    //             'padding-top': delivHeight + 20
+    //         });
+    //     }else {
+    //         $('.site_container').css({
+    //             'padding-top': 0
+    //         });
+    //     }
+    //
+    // }
+    //
+    // $(window).resize(function() {
+    //     addPopupTop();
+    // });
+
+    $(document).on('click', '.header__deliv_time__close', function(e){
+        e.preventDefault();
+        $('.header__deliv_time').addClass('is-hide');
+        
+    });
+
 
 
 
