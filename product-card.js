@@ -1,4 +1,33 @@
 $(function(){
+
+    $(document).on('click', '.header-mobile-arrow', function(e){
+        e.preventDefault();
+        // $(this).parents('li').find('.header-mobile-sublist').slideToggle();
+        $(this).parents('a').siblings('.header-mobile-sublist').slideToggle(200);
+        $(this).parents('a').toggleClass('is-show');
+    });
+
+    $(document).on('click', '.header-mobile-hamburger', function(e){
+        e.preventDefault();
+        // $(this).parents('li').find('.header-mobile-sublist').slideToggle();
+        $('.header-mobile').toggleClass('active');
+        $('body').toggleClass('is-lock');
+    });
+
+
+    $(document).on('click', '.header-mobile-close__icon', function(e){
+        e.preventDefault();
+        $('.header-mobile').removeClass('active');
+        $('body').removeClass('is-lock');
+    });
+    $(document).on('click', '.header-mobile-bg-layout', function(e){
+        e.preventDefault();
+        $('.header-mobile').removeClass('active');
+        $('body').removeClass('is-lock');
+    });
+
+
+
     /*простые табы*/
     $(".product-card .tabs-menu a").click(function(event) {
         event.preventDefault();
