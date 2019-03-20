@@ -1900,14 +1900,15 @@ body {
 }
 
 .header-mobile-city__select {
-
+    position: relative;
 }
 
 .header-mobile-city__name {
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     padding-right: 20px;
     position: relative;
+    cursor: pointer;
 }
 
 .header-mobile-city__name::after {
@@ -1920,7 +1921,42 @@ body {
 }
 
 .header-mobile-dropdown {
+    position: absolute;
+    z-index: 999;
+    top: 130%;
+    left: 0;
+    background-color: #fff;
     display: none;
+    padding: 4px 0;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,.16);
+}
+
+.header-mobile-dropdown.is-show {
+    display: block;
+}
+
+.header-mobile-dropdown .header-mobile-dropdown__item {
+    display: block;
+    padding: 10px 14px;
+    border-bottom: 1px solid #eee;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+.header-mobile-dropdown .header-mobile-dropdown__item:hover {
+    background-color: #e30016;
+    color: #ffffff;
+
+}
+
+.header-mobile-dropdown .header-mobile-dropdown__item:last-child {
+    border: none;
 }
 
 .header-mobile-close {
@@ -2184,6 +2220,11 @@ body {
 .header__deliv_time.mobile {
     display: none;
 }
+
+.header__search .header__search__close {
+    display: none;
+}
+
 @media (max-width: 720px){
     .header__logo {
         left: 45px;
@@ -2208,7 +2249,80 @@ body {
         background-color: #575e66;
     }
 
-    .header__search,
+    .header .header__search {
+        opacity: 0;
+        visibility: hidden;
+        z-index: -1;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
+    }
+
+    .header .header__search.is-show {
+        opacity: 1;
+        visibility: visible;
+        z-index: 99;
+    }
+
+    .header__search .header__input {
+        background-color: #fff;
+        float: none;
+        border-radius: 0;
+        border: none;
+        padding: 16px 43px 16px 58px;
+        height: auto;
+    }
+
+    .header__search .header__search_button {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 19px;
+        top: 16px;
+        float: none;
+        margin: 0;
+        background: url(../../../../templates/petromost_oneway_2014/img/pie/icon-search.png) 50% 50% no-repeat;
+    }
+
+
+
+    .header__search .header__search__close {
+        display: block;
+        position: absolute;
+        right: 13px;
+        top: 15px;
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+    }
+
+    .header__search .header__search__close span {
+        position: absolute;
+        z-index: 9999;
+        width: 16px;
+        height: 2px;
+        border-radius: 50px;
+        background-color: #000;
+        top: 7px;
+        left: 0;
+    }
+
+    .header__search .header__search__close span:nth-child(1) {
+        webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    .header__search .header__search__close span:nth-child(2) {
+        webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    
     .header__contact,
     .header__soc {
         display: none !important;
@@ -2290,7 +2404,7 @@ body {
     .header__deliv_time__close {
         display: block;
         position: absolute;
-        right: 16px;
+        right: 10px;
         top: 4px;
         width: 16px;
         height: 16px;

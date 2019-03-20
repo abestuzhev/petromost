@@ -193,6 +193,8 @@
                         <span></span>
                     </div>
                 </a>
+
+
                 <div class="header-mobile-operation">
                     <a href="#" class="header-mobile-search"></a>
                     <a href="#" class="header-mobile-user"></a>
@@ -246,8 +248,9 @@
                             <div class="header-mobile-city__select">
                                 <div class="header-mobile-city__name">Архангельск</div>
                                 <div class="header-mobile-dropdown">
-                                    <div class="header-mobile-dropdown__item">Архангельск</div>
-                                    <div class="header-mobile-dropdown__item">Москва</div>
+                                    <a href="#" class="header-mobile-dropdown__item">Архангельск</a>
+                                    <a href="#" class="header-mobile-dropdown__item">Москва</a>
+                                    <a href="#" class="header-mobile-dropdown__item">Санкт-Петербург</a>
                                 </div>
 
                             </div>
@@ -406,9 +409,13 @@
                 <div style="right:0; width:250px" class="header__search cf">
                     <form action="/catalog/index.php">
                         <input id="title-search-input" type="text" name="q" maxlength="50" autocomplete="off"
-                               class="inp header__input">
+                               class="inp header__input" placeholder="Поиск...">
                         <button type="submit" name="s" class="header__search_button"></button>
                     </form>
+                </div>
+                <div class="header__search__close">
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
             <script type="text/javascript">

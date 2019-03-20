@@ -20,12 +20,35 @@ $(function(){
         $('.header-mobile').removeClass('active');
         $('body').removeClass('is-lock');
     });
+
+
     $(document).on('click', '.header-mobile-bg-layout', function(e){
         e.preventDefault();
         $('.header-mobile').removeClass('active');
         $('body').removeClass('is-lock');
     });
     
+
+    $(document).on('click', '.header-mobile-search', function(e){
+        e.preventDefault();
+        $('.header__search').toggleClass('is-show');
+        $('.header__search .header__input').focus();
+
+    });
+
+    $(document).on('click', '.header__search__close', function(e){
+        e.preventDefault();
+        $('.header__search').removeClass('is-show');
+
+    });
+
+
+    $(document).on('click', '.header-mobile-city__name', function(e){
+        e.preventDefault();
+        $('.header-mobile-dropdown').toggleClass('is-show');
+
+    });
+
 
 
     // addPopupTop();
