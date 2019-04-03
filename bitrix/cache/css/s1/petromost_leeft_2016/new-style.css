@@ -784,7 +784,7 @@
 @media screen and (max-width: 490px){
     .goods__list .goods__item,
     .aside__news_text .aside__news_item {
-        display: none;
+        /*display: none;*/
     }
     .goods__list .goods__item:first-child,
     .aside__news_text .aside__news_item:first-child {
@@ -2224,6 +2224,47 @@ body {
 .header__search .header__search__close {
     display: none;
 }
+
+
+.banner-mini {
+    background-color: #e30016;
+    padding: 8px 40px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-mini a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.banner-mini__text {
+    font-size: 17px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner-mini-decor-1,
+.banner-mini-decor-2 {
+    position: absolute;
+}
+
+.banner-mini-decor-1 {
+    bottom: -16px;
+    left: 10px;
+}
+.banner-mini-decor-2 {
+    right: 10px;
+    bottom: -10px;
+}
+
+/*--------------------------------*/
+/*--------------------------------*/
+/*--------------------------------*/
+
 
 @media (max-width: 720px){
     .header__logo {
