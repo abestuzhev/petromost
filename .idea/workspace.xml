@@ -7,7 +7,7 @@
     <list default="true" id="b4290d0f-d003-4012-8858-235b5510587e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-page-new.html" afterPath="$PROJECT_DIR$/product-page-new.html" />
     </list>
     <ignored path="petromost.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +40,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="419">
+                <state relative-caret-position="1513">
                   <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
                   <folding />
                 </state>
@@ -50,12 +50,11 @@
           <file leaf-file-name="product-page-new.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/product-page-new.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="446">
-                  <caret line="566" column="28" selection-start-line="566" selection-start-column="28" selection-end-line="566" selection-end-column="28" />
+                <state relative-caret-position="293">
+                  <caret line="601" column="63" selection-start-line="601" selection-start-column="49" selection-end-line="601" selection-end-column="63" />
                   <folding>
-                    <element signature="n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#0;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#1;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#2;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -92,7 +91,7 @@
           <file leaf-file-name="pie.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pie.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="259">
+                <state relative-caret-position="6885">
                   <caret line="405" column="0" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
                   <folding />
                 </state>
@@ -102,7 +101,7 @@
           <file leaf-file-name="catalog.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/catalog.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="239">
+                <state relative-caret-position="5610">
                   <caret line="384" column="16" selection-start-line="384" selection-start-column="16" selection-end-line="930" selection-end-column="40" />
                   <folding>
                     <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -148,8 +147,8 @@
           <file leaf-file-name="new-style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="438">
-                  <caret line="2239" column="19" selection-start-line="2239" selection-start-column="19" selection-end-line="2239" selection-end-column="19" />
+                <state relative-caret-position="349">
+                  <caret line="2234" column="16" selection-start-line="2234" selection-start-column="16" selection-end-line="2234" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -158,7 +157,7 @@
           <file leaf-file-name="product-card.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/product-card.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-196">
+                <state relative-caret-position="1887">
                   <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
                   <folding />
                 </state>
@@ -168,7 +167,7 @@
           <file leaf-file-name="template_25865d978b333d3ec4ea244f33f681fd_dcb39915b43a90ea2dac713934a1527f.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/cache/js/s1/petromost_oneway_2014/template_25865d978b333d3ec4ea244f33f681fd/template_25865d978b333d3ec4ea244f33f681fd_dcb39915b43a90ea2dac713934a1527f.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="362">
+                <state relative-caret-position="6630">
                   <caret line="390" column="39" selection-start-line="390" selection-start-column="39" selection-end-line="390" selection-end-column="39" />
                   <folding />
                 </state>
@@ -178,7 +177,7 @@
           <file leaf-file-name="readmore.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bitrix/cache/js/s1/petromost_leeft_2016/readmore.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="416">
+                <state relative-caret-position="5287">
                   <caret line="320" column="45" selection-start-line="320" selection-start-column="37" selection-end-line="320" selection-end-column="45" />
                   <folding />
                 </state>
@@ -770,17 +769,18 @@
       <workItem from="1552901066202" duration="4017000" />
       <workItem from="1553058892523" duration="3185000" />
       <workItem from="1554270001414" duration="4664000" />
+      <workItem from="1554356970468" duration="3824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179156000" />
+    <option name="totallyTimeSpent" value="182980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15325248" sideWeight="0.49585062" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15490629" sideWeight="0.49585062" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1178,7 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1445">
           <caret line="85" column="28" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,7 +1218,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="6885">
           <caret line="405" column="0" selection-start-line="405" selection-start-column="0" selection-end-line="405" selection-end-column="0" />
           <folding />
         </state>
@@ -1227,7 +1226,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
+        <state relative-caret-position="1513">
           <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
           <folding />
         </state>
@@ -1235,7 +1234,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="5610">
           <caret line="384" column="16" selection-start-line="384" selection-start-column="16" selection-end-line="930" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#span#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1265,7 +1264,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/cache/js/s1/petromost_oneway_2014/template_25865d978b333d3ec4ea244f33f681fd/template_25865d978b333d3ec4ea244f33f681fd_dcb39915b43a90ea2dac713934a1527f.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="6630">
           <caret line="390" column="39" selection-start-line="390" selection-start-column="39" selection-end-line="390" selection-end-column="39" />
           <folding />
         </state>
@@ -1273,7 +1272,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/cache/js/s1/petromost_leeft_2016/readmore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="5287">
           <caret line="320" column="45" selection-start-line="320" selection-start-column="37" selection-end-line="320" selection-end-column="45" />
           <folding />
         </state>
@@ -1281,7 +1280,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product-card.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
+        <state relative-caret-position="1887">
           <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding />
         </state>
@@ -1289,12 +1288,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product-page-new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="566" column="28" selection-start-line="566" selection-start-column="28" selection-end-line="566" selection-end-column="28" />
+        <state relative-caret-position="293">
+          <caret line="601" column="63" selection-start-line="601" selection-start-column="49" selection-end-line="601" selection-end-column="63" />
           <folding>
-            <element signature="n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#0;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#1;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1315,8 +1313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="2239" column="19" selection-start-line="2239" selection-start-column="19" selection-end-line="2239" selection-end-column="19" />
+        <state relative-caret-position="349">
+          <caret line="2234" column="16" selection-start-line="2234" selection-start-column="16" selection-end-line="2234" selection-end-column="16" />
           <folding />
         </state>
       </provider>
