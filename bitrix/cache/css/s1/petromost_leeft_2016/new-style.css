@@ -2227,6 +2227,7 @@ body {
 
 
 .banner-mini {
+    display: none;
     background-color: #e30016;
     padding: 8px 40px;
     border-radius: 4px;
@@ -2278,6 +2279,13 @@ body {
 
     .goods__list .goods__item {
         width: 48%;
+    }
+
+}
+
+@media (max-width:720px){
+    .banner-mini {
+        display: block;
     }
 
 }

@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4290d0f-d003-4012-8858-235b5510587e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css" afterPath="$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-page-new.html" afterPath="$PROJECT_DIR$/product-page-new.html" />
     </list>
     <ignored path="petromost.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +48,8 @@
           <file leaf-file-name="product-page-new.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/product-page-new.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="293">
-                  <caret line="601" column="63" selection-start-line="601" selection-start-column="49" selection-end-line="601" selection-end-column="63" />
+                <state relative-caret-position="480">
+                  <caret line="600" column="38" selection-start-line="600" selection-start-column="38" selection-end-line="600" selection-end-column="38" />
                   <folding>
                     <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#0;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -147,8 +145,8 @@
           <file leaf-file-name="new-style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="349">
-                  <caret line="2234" column="16" selection-start-line="2234" selection-start-column="16" selection-end-line="2234" selection-end-column="16" />
+                <state relative-caret-position="473">
+                  <caret line="2287" column="23" selection-start-line="2287" selection-start-column="23" selection-end-line="2287" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -769,12 +767,12 @@
       <workItem from="1552901066202" duration="4017000" />
       <workItem from="1553058892523" duration="3185000" />
       <workItem from="1554270001414" duration="4664000" />
-      <workItem from="1554356970468" duration="3824000" />
+      <workItem from="1554356970468" duration="4615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182980000" />
+    <option name="totallyTimeSpent" value="183771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -1288,8 +1286,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product-page-new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="601" column="63" selection-start-line="601" selection-start-column="49" selection-end-line="601" selection-end-column="63" />
+        <state relative-caret-position="480">
+          <caret line="600" column="38" selection-start-line="600" selection-start-column="38" selection-end-line="600" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#span#1;n#div#3;n#div#1;n#div#0;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#2;n#section#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1313,8 +1311,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/cache/css/s1/petromost_leeft_2016/new-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="2234" column="16" selection-start-line="2234" selection-start-column="16" selection-end-line="2234" selection-end-column="16" />
+        <state relative-caret-position="473">
+          <caret line="2287" column="23" selection-start-line="2287" selection-start-column="23" selection-end-line="2287" selection-end-column="23" />
           <folding />
         </state>
       </provider>
