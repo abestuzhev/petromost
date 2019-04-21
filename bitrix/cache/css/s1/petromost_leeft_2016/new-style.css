@@ -2519,3 +2519,144 @@ body {
 
     }
 }
+
+
+
+/*цена по карте*/
+
+.goods__price.v2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: nowrap;
+    flex-flow: nowrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: -17px;
+    margin-bottom: -17px;
+}
+
+.goods__price.v2 .goods__price-col {
+    position: relative;
+}
+
+.goods__price.v2 .goods__price-old {
+    position: absolute;
+    right: 0;
+    top: -15px;
+}
+
+.goods__price.v2 .goods__price-new {
+    font-size: 20px;
+    letter-spacing:-.8px;
+}
+
+.goods__price-for-card {
+    padding: 15px 10px;
+    border-radius: 23px 0 0 0;
+    background-color: #fac624;
+    text-align: center;
+    font-size: 16px;
+    color: #e30016;
+    line-height: 1;
+    display: inline-block;
+}
+
+.goods__price-for-card span {
+    font-family: 'Arial', sans-serif;
+    color: #000000;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 3px;
+    line-height: 1;
+}
+
+.c-box__price-for-cart {
+    display: inline-block;
+    padding: 7px 9px 8px;
+    background-color: #fac624;
+    line-height: 1;
+    font-size: 12px;
+    white-space: nowrap;
+    border-radius: 4px;
+    color: #000;
+
+}
+
+.c-box__price-for-cart span {
+    color: #e30016;
+
+}
+
+
+.row-basket-card {
+    box-sizing: border-box;
+}
+
+.row-basket-card * {
+    box-sizing: border-box;
+}
+
+.row-basket-card {
+    padding: 16px;
+    background-color: #fac624;
+    margin-bottom: 12px;
+}
+
+.row-basket-card__title {
+    font-size: 15px;
+    color: #e30016;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.row-basket-card__input {
+    padding: 4px 10px;
+    margin: 0;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #E2E2E2;
+    font-size: 14px;
+}
+
+.row-basket-card__form {
+    color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: nowrap;
+    flex-flow: nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.row-basket-card__item {
+    margin-right: 10px;
+}
+.row-basket-card__item:last-child {
+    margin-right: 0;
+}
+
+
+@media (max-width: 450px){
+    .row-basket-card__form {
+        display: block;
+    }
+
+    .row-basket-card__item {
+        margin: 0 0 10px 0;
+    }
+
+    .row-basket-card__input {
+        width: 100%;
+    }
+}
