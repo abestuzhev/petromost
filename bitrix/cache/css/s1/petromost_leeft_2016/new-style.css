@@ -2868,3 +2868,45 @@ body {
         width: 100%;
     }
 }
+
+/*new pagination style*/
+.c-pagination {
+    font-family: 'Tahoma', sans-serif;
+}
+
+.c-pagination-btns {
+    text-align: center;
+}
+
+.c-pagination-btn {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #d80001;
+    padding: 16px 80px;
+    color: #ffffff;
+    font-style: 15px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.c-pagination-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.c-pagination-list__item {
+
+}
+
+.c-pagination-list__item a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-style: 13px;
+
+}
