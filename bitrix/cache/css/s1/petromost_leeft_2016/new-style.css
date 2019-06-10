@@ -2933,3 +2933,59 @@ body {
         width: 100%;
     }
 }
+
+
+/*цена по карте в карточке товара*/
+.product-card__price-layout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+
+.product-card__now-price {
+    padding-right: 14px;
+}
+
+.product-card__price-card {
+    /* float: left; */
+    background: url(../../../../../images/gift-bg.png) no-repeat;
+    background-size: cover;
+    color:#000000;
+    font-size: 12px;
+    width: 123px;
+    height: 60px;
+    position: relative;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.product-card__price-card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.product-card__price-card span {
+    display: block;
+    font-size: 22px;
+    color: #e30016;
+    padding-top: 4px;
+}
+
+@media (max-width:580px){
+    .product-card__price-layout {
+        margin-bottom: 18px;
+    }
+}
